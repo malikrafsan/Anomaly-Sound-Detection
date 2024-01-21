@@ -1,0 +1,7 @@
+numpy
+soundfile
+scipy
+librosa
+scikit-learn
+pyloudnorm
+six
