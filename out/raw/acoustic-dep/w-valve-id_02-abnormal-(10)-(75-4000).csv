@@ -1,0 +1,11 @@
+meanF0,stdevF0,hnr,localJitter,localabsoluteJitter,rapJitter,ppq5Jitter,ddpJitter,localShimmer,localdbShimmer,apq3Shimmer,aqpq5Shimmer,apq11Shimmer,ddaShimmer,filename,id_machine,machine_type,label
+2242.856175528257,342.910376063631,-2.169577331292564,0.10225060593131463,5.0461630173353e-05,0.05467961620553236,0.07261427035698965,0.1640388486165971,0.2434803021893418,1.9216085654187787,0.09262196710109753,0.22500334821092555,,0.2778659013032926,../../../dataset/mimii/valve/id_02/abnormal/00000071.wav,id_02,valve,abnormal
+,,-1.983979220917507,,,,,,,,,,,,../../../dataset/mimii/valve/id_02/abnormal/00000104.wav,id_02,valve,abnormal
+,,-0.5126951182673215,,,,,,,,,,,,../../../dataset/mimii/valve/id_02/abnormal/00000109.wav,id_02,valve,abnormal
+,,-0.3849306198340218,,,,,,,,,,,,../../../dataset/mimii/valve/id_02/abnormal/00000087.wav,id_02,valve,abnormal
+,,-0.5191286859565636,,,,,,,,,,,,../../../dataset/mimii/valve/id_02/abnormal/00000015.wav,id_02,valve,abnormal
+,,-0.7693415199796931,,,,,,,,,,,,../../../dataset/mimii/valve/id_02/abnormal/00000011.wav,id_02,valve,abnormal
+,,-1.825006763532036,,,,,,,,,,,,../../../dataset/mimii/valve/id_02/abnormal/00000008.wav,id_02,valve,abnormal
+,,-2.2868761961591844,,,,,,,,,,,,../../../dataset/mimii/valve/id_02/abnormal/00000016.wav,id_02,valve,abnormal
+,,0.9005633057816959,,,,,,,,,,,,../../../dataset/mimii/valve/id_02/abnormal/00000101.wav,id_02,valve,abnormal
+,,-2.2302629717174716,,,,,,,,,,,,../../../dataset/mimii/valve/id_02/abnormal/00000083.wav,id_02,valve,abnormal

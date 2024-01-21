@@ -1,0 +1,11 @@
+meanF0,stdevF0,hnr,localJitter,localabsoluteJitter,rapJitter,ppq5Jitter,ddpJitter,localShimmer,localdbShimmer,apq3Shimmer,aqpq5Shimmer,apq11Shimmer,ddaShimmer,filename,id_machine,machine_type,label
+,,-3.8253113523337823,,,,,,,,,,,,../../../dataset/mimii/fan/id_02/normal/00000275.wav,id_02,fan,normal
+,,-3.7113767740586883,,,,,,,,,,,,../../../dataset/mimii/fan/id_02/normal/00000879.wav,id_02,fan,normal
+,,-3.9238749003527693,,,,,,,,,,,,../../../dataset/mimii/fan/id_02/normal/00000123.wav,id_02,fan,normal
+,,-3.788441072689969,,,,,,,,,,,,../../../dataset/mimii/fan/id_02/normal/00000260.wav,id_02,fan,normal
+,,-3.951131825082392,,,,,,,,,,,,../../../dataset/mimii/fan/id_02/normal/00000863.wav,id_02,fan,normal
+,,-3.888711736392281,,,,,,,,,,,,../../../dataset/mimii/fan/id_02/normal/00000250.wav,id_02,fan,normal
+,,-3.820998696764297,,,,,,,,,,,,../../../dataset/mimii/fan/id_02/normal/00000071.wav,id_02,fan,normal
+,,-3.7348401955439687,,,,,,,,,,,,../../../dataset/mimii/fan/id_02/normal/00000648.wav,id_02,fan,normal
+,,-3.879964287605955,,,,,,,,,,,,../../../dataset/mimii/fan/id_02/normal/00000104.wav,id_02,fan,normal
+,,-3.8445567307711683,,,,,,,,,,,,../../../dataset/mimii/fan/id_02/normal/00000533.wav,id_02,fan,normal
