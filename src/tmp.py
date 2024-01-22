@@ -83,12 +83,50 @@ def check_nan():
       total_nan_count = df.isna().sum().sum()
       print(f, "       ", f"row-nan:({nan_count_rows}/{len(df)})", f"column-nan:({nan_count_columns}/{len(df.columns)})", total_nan_count)
 
+def sort_csv():
+   dirpath = "../out/processed/timbral"
+   files = os.listdir(dirpath)
+   files = [f for f in files if f.endswith('.csv')]
+
+   # creaye processed/sorted dir
+   sorted_dirpath = "../out/processed/sorted"
+   if not os.path.exists(sorted_dirpath):
+      os.mkdir(sorted_dirpath)
+
+   for f in files:
+      filepath = os.path.join(dirpath, f)
+      df = pd.read_csv(filepath)
+      df.sort_values(by=['filename'], inplace=True)
+      df.to_csv(f"{sorted_dirpath}/{f}", index=False)
+
+def remove_dirpath():
+   dirpath = "../out/processed/sorted"
+   files = os.listdir(dirpath)
+   files = [f for f in files if f.endswith('.csv')]
+
+   remove_dirpath = "../out/processed/remove"
+   if not os.path.exists(remove_dirpath):
+      os.mkdir(remove_dirpath)
+
+   for f in files:
+      filepath = os.path.join(dirpath, f)
+      df = pd.read_csv(filepath)
+
+      # change column filename values from "../../../dataset/mimii/valve/id_04/normal/00000000.wav" to "00000000.wav"
+      df['filename'] = df['filename'].apply(lambda x: x.split('/')[-1])
+
+      # save to remove dir
+      df.to_csv(f"{remove_dirpath}/{f}", index=False)      
+
+
 
 def main():
    # check_csv_len()
    # check_dataset_len()
    # check_freq_range()
-   check_nan()
+   # check_nan()
+   # sort_csv()
+   remove_dirpath()
 
 if __name__ == '__main__':
   main()

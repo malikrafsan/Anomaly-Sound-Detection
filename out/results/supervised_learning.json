@@ -1,0 +1,146 @@
+[
+    {
+        "name": "SVM",
+        "accuracy": 0.8127208480565371,
+        "precision_score": 1.0,
+        "recall_score": 0.345679012345679,
+        "f1_score": 0.5137614678899083,
+        "machine_type": "fan",
+        "machine_id": "id_00"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.9090909090909091,
+        "precision_score": 0.9433962264150944,
+        "recall_score": 0.6944444444444444,
+        "f1_score": 0.8,
+        "machine_type": "fan",
+        "machine_id": "id_02"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.9783393501805054,
+        "precision_score": 0.9444444444444444,
+        "recall_score": 0.9714285714285714,
+        "f1_score": 0.9577464788732395,
+        "machine_type": "fan",
+        "machine_id": "id_04"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.8690909090909091,
+        "precision_score": 0.8333333333333334,
+        "recall_score": 0.625,
+        "f1_score": 0.7142857142857143,
+        "machine_type": "fan",
+        "machine_id": "id_06"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.9739130434782609,
+        "precision_score": 1.0,
+        "recall_score": 0.7931034482758621,
+        "f1_score": 0.8846153846153846,
+        "machine_type": "pump",
+        "machine_id": "id_00"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.9641255605381166,
+        "precision_score": 1.0,
+        "recall_score": 0.6363636363636364,
+        "f1_score": 0.7777777777777778,
+        "machine_type": "pump",
+        "machine_id": "id_02"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.94375,
+        "precision_score": 1.0,
+        "recall_score": 0.55,
+        "f1_score": 0.7096774193548387,
+        "machine_type": "pump",
+        "machine_id": "id_04"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 1.0,
+        "precision_score": 1.0,
+        "recall_score": 1.0,
+        "f1_score": 1.0,
+        "machine_type": "pump",
+        "machine_id": "id_06"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.9859649122807017,
+        "precision_score": 0.971830985915493,
+        "recall_score": 0.971830985915493,
+        "f1_score": 0.971830985915493,
+        "machine_type": "slider",
+        "machine_id": "id_00"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.9588014981273408,
+        "precision_score": 0.92,
+        "recall_score": 0.8679245283018868,
+        "f1_score": 0.8932038834951457,
+        "machine_type": "slider",
+        "machine_id": "id_02"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.9020979020979021,
+        "precision_score": 0.8235294117647058,
+        "recall_score": 0.7777777777777778,
+        "f1_score": 0.7999999999999999,
+        "machine_type": "slider",
+        "machine_id": "id_04"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.92,
+        "precision_score": 0.7857142857142857,
+        "recall_score": 0.6111111111111112,
+        "f1_score": 0.6875000000000001,
+        "machine_type": "slider",
+        "machine_id": "id_06"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.9954954954954955,
+        "precision_score": 1.0,
+        "recall_score": 0.9583333333333334,
+        "f1_score": 0.9787234042553191,
+        "machine_type": "valve",
+        "machine_id": "id_00"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.9879518072289156,
+        "precision_score": 1.0,
+        "recall_score": 0.9166666666666666,
+        "f1_score": 0.9565217391304348,
+        "machine_type": "valve",
+        "machine_id": "id_02"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.9910714285714286,
+        "precision_score": 0.9583333333333334,
+        "recall_score": 0.9583333333333334,
+        "f1_score": 0.9583333333333334,
+        "machine_type": "valve",
+        "machine_id": "id_04"
+    },
+    {
+        "name": "SVM",
+        "accuracy": 0.8918918918918919,
+        "precision_score": 0.0,
+        "recall_score": 0.0,
+        "f1_score": 0.0,
+        "machine_type": "valve",
+        "machine_id": "id_06"
+    }
+]

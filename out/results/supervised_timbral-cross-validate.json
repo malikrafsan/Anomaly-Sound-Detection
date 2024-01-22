@@ -1,0 +1,962 @@
+[
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.8193832599118943,
+                "precision_score": 1.0,
+                "recall_score": 0.36923076923076925,
+                "f1_score": 0.5393258426966292
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.7929515418502202,
+                "precision_score": 0.8461538461538461,
+                "recall_score": 0.3384615384615385,
+                "f1_score": 0.48351648351648346
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.8149779735682819,
+                "precision_score": 0.9259259259259259,
+                "recall_score": 0.38461538461538464,
+                "f1_score": 0.5434782608695653
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.7841409691629956,
+                "precision_score": 0.9444444444444444,
+                "recall_score": 0.26153846153846155,
+                "f1_score": 0.4096385542168675
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.8230088495575221,
+                "precision_score": 1.0,
+                "recall_score": 0.38461538461538464,
+                "f1_score": 0.5555555555555556
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.8133802816901409,
+            "precision_score": 1.0,
+            "recall_score": 0.35365853658536583,
+            "f1_score": 0.5225225225225225
+        },
+        "mean": {
+            "accuracy": 0.8068925188101828,
+            "precision_score": 0.9433048433048434,
+            "recall_score": 0.3476923076923077,
+            "f1_score": 0.5063029393710202
+        },
+        "std": {
+            "accuracy": 0.015447415049900869,
+            "precision_score": 0.056868837323846205,
+            "recall_score": 0.04625629654883972,
+            "f1_score": 0.05433518712811246
+        },
+        "machine_type": "fan",
+        "machine_id": "id_00"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.9545454545454546,
+                "precision_score": 0.9795918367346939,
+                "recall_score": 0.8421052631578947,
+                "f1_score": 0.9056603773584905
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.9045454545454545,
+                "precision_score": 0.9285714285714286,
+                "recall_score": 0.6842105263157895,
+                "f1_score": 0.7878787878787878
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9181818181818182,
+                "precision_score": 0.9148936170212766,
+                "recall_score": 0.7543859649122807,
+                "f1_score": 0.8269230769230769
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.9227272727272727,
+                "precision_score": 0.9555555555555556,
+                "recall_score": 0.7413793103448276,
+                "f1_score": 0.8349514563106797
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9136363636363637,
+                "precision_score": 0.9534883720930233,
+                "recall_score": 0.7068965517241379,
+                "f1_score": 0.8118811881188119
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9236363636363636,
+            "precision_score": 0.9636363636363636,
+            "recall_score": 0.7361111111111112,
+            "f1_score": 0.8346456692913387
+        },
+        "mean": {
+            "accuracy": 0.9227272727272728,
+            "precision_score": 0.9464201619951955,
+            "recall_score": 0.7457955232909861,
+            "f1_score": 0.8334589773179694
+        },
+        "std": {
+            "accuracy": 0.017007533576245196,
+            "precision_score": 0.022566680470720555,
+            "recall_score": 0.0541750984469059,
+            "f1_score": 0.03949972736959573
+        },
+        "machine_type": "fan",
+        "machine_id": "id_02"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.9683257918552036,
+                "precision_score": 0.9615384615384616,
+                "recall_score": 0.9090909090909091,
+                "f1_score": 0.9345794392523366
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.9909502262443439,
+                "precision_score": 0.9821428571428571,
+                "recall_score": 0.9821428571428571,
+                "f1_score": 0.9821428571428571
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9819004524886877,
+                "precision_score": 0.9482758620689655,
+                "recall_score": 0.9821428571428571,
+                "f1_score": 0.9649122807017544
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.9547511312217195,
+                "precision_score": 0.9107142857142857,
+                "recall_score": 0.9107142857142857,
+                "f1_score": 0.9107142857142857
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9772727272727273,
+                "precision_score": 0.9464285714285714,
+                "recall_score": 0.9636363636363636,
+                "f1_score": 0.9549549549549549
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9711191335740073,
+            "precision_score": 0.9428571428571428,
+            "recall_score": 0.9428571428571428,
+            "f1_score": 0.9428571428571428
+        },
+        "mean": {
+            "accuracy": 0.9746400658165365,
+            "precision_score": 0.9498200075786283,
+            "recall_score": 0.9495454545454545,
+            "f1_score": 0.9494607635532377
+        },
+        "std": {
+            "accuracy": 0.012337789341114182,
+            "precision_score": 0.02334623084871194,
+            "recall_score": 0.03307012232191221,
+            "f1_score": 0.02473781769123234
+        },
+        "machine_type": "fan",
+        "machine_id": "id_04"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.85,
+                "precision_score": 0.7727272727272727,
+                "recall_score": 0.5964912280701754,
+                "f1_score": 0.6732673267326733
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.8772727272727273,
+                "precision_score": 0.918918918918919,
+                "recall_score": 0.5862068965517241,
+                "f1_score": 0.7157894736842105
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.8954545454545455,
+                "precision_score": 0.972972972972973,
+                "recall_score": 0.6206896551724138,
+                "f1_score": 0.7578947368421053
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.8954545454545455,
+                "precision_score": 0.9069767441860465,
+                "recall_score": 0.6724137931034483,
+                "f1_score": 0.7722772277227723
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.8409090909090909,
+                "precision_score": 0.7948717948717948,
+                "recall_score": 0.5344827586206896,
+                "f1_score": 0.6391752577319587
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.8731884057971014,
+            "precision_score": 0.9111111111111111,
+            "recall_score": 0.5694444444444444,
+            "f1_score": 0.7008547008547008
+        },
+        "mean": {
+            "accuracy": 0.8718181818181818,
+            "precision_score": 0.8732935407354011,
+            "recall_score": 0.6020568663036903,
+            "f1_score": 0.7116808045427441
+        },
+        "std": {
+            "accuracy": 0.02270908363053965,
+            "precision_score": 0.07670171709377835,
+            "recall_score": 0.045046056140291155,
+            "f1_score": 0.05011423909168497
+        },
+        "machine_type": "fan",
+        "machine_id": "id_06"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.9728260869565217,
+                "precision_score": 0.95,
+                "recall_score": 0.8260869565217391,
+                "f1_score": 0.8837209302325583
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.967391304347826,
+                "precision_score": 0.9473684210526315,
+                "recall_score": 0.782608695652174,
+                "f1_score": 0.8571428571428571
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9891304347826086,
+                "precision_score": 1.0,
+                "recall_score": 0.9130434782608695,
+                "f1_score": 0.9545454545454545
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.9565217391304348,
+                "precision_score": 1.0,
+                "recall_score": 0.6521739130434783,
+                "f1_score": 0.7894736842105263
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9781420765027322,
+                "precision_score": 0.95,
+                "recall_score": 0.8636363636363636,
+                "f1_score": 0.9047619047619048
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9565217391304348,
+            "precision_score": 0.9523809523809523,
+            "recall_score": 0.6896551724137931,
+            "f1_score": 0.7999999999999999
+        },
+        "mean": {
+            "accuracy": 0.9728023283440246,
+            "precision_score": 0.9694736842105263,
+            "recall_score": 0.8075098814229248,
+            "f1_score": 0.8779289661786602
+        },
+        "std": {
+            "accuracy": 0.010857783388601116,
+            "precision_score": 0.0249431486548901,
+            "recall_score": 0.08874904158536719,
+            "f1_score": 0.05455279821820932
+        },
+        "machine_type": "pump",
+        "machine_id": "id_00"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.9441340782122905,
+                "precision_score": 1.0,
+                "recall_score": 0.4444444444444444,
+                "f1_score": 0.6153846153846153
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.9329608938547486,
+                "precision_score": 0.875,
+                "recall_score": 0.3888888888888889,
+                "f1_score": 0.5384615384615385
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9606741573033708,
+                "precision_score": 0.9166666666666666,
+                "recall_score": 0.6470588235294118,
+                "f1_score": 0.7586206896551724
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.9662921348314607,
+                "precision_score": 1.0,
+                "recall_score": 0.6666666666666666,
+                "f1_score": 0.8
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9438202247191011,
+                "precision_score": 1.0,
+                "recall_score": 0.4444444444444444,
+                "f1_score": 0.6153846153846153
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9464285714285714,
+            "precision_score": 1.0,
+            "recall_score": 0.45454545454545453,
+            "f1_score": 0.625
+        },
+        "mean": {
+            "accuracy": 0.9495762977841944,
+            "precision_score": 0.9583333333333333,
+            "recall_score": 0.5183006535947712,
+            "f1_score": 0.6655702917771883
+        },
+        "std": {
+            "accuracy": 0.012177056071450818,
+            "precision_score": 0.052704627669472995,
+            "recall_score": 0.1151069279098108,
+            "f1_score": 0.09790154482697426
+        },
+        "machine_type": "pump",
+        "machine_id": "id_02"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.9457364341085271,
+                "precision_score": 1.0,
+                "recall_score": 0.5625,
+                "f1_score": 0.72
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.9609375,
+                "precision_score": 1.0,
+                "recall_score": 0.6875,
+                "f1_score": 0.8148148148148148
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9765625,
+                "precision_score": 1.0,
+                "recall_score": 0.8125,
+                "f1_score": 0.896551724137931
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.9609375,
+                "precision_score": 1.0,
+                "recall_score": 0.6875,
+                "f1_score": 0.8148148148148148
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9609375,
+                "precision_score": 1.0,
+                "recall_score": 0.6875,
+                "f1_score": 0.8148148148148148
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9503105590062112,
+            "precision_score": 1.0,
+            "recall_score": 0.6,
+            "f1_score": 0.7499999999999999
+        },
+        "mean": {
+            "accuracy": 0.9610222868217054,
+            "precision_score": 1.0,
+            "recall_score": 0.6875,
+            "f1_score": 0.812199233716475
+        },
+        "std": {
+            "accuracy": 0.009748611031436476,
+            "precision_score": 0.0,
+            "recall_score": 0.07905694150420949,
+            "f1_score": 0.055922383947133364
+        },
+        "machine_type": "pump",
+        "machine_id": "id_04"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.9945054945054945,
+                "precision_score": 1.0,
+                "recall_score": 0.9375,
+                "f1_score": 0.967741935483871
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.9835164835164835,
+                "precision_score": 0.8823529411764706,
+                "recall_score": 0.9375,
+                "f1_score": 0.9090909090909091
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 1.0,
+                "precision_score": 1.0,
+                "recall_score": 1.0,
+                "f1_score": 1.0
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.9945054945054945,
+                "precision_score": 1.0,
+                "recall_score": 0.9411764705882353,
+                "f1_score": 0.9696969696969697
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9945054945054945,
+                "precision_score": 1.0,
+                "recall_score": 0.9411764705882353,
+                "f1_score": 0.9696969696969697
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9868421052631579,
+            "precision_score": 0.9473684210526315,
+            "recall_score": 0.9,
+            "f1_score": 0.9230769230769231
+        },
+        "mean": {
+            "accuracy": 0.9934065934065934,
+            "precision_score": 0.9764705882352942,
+            "recall_score": 0.9514705882352942,
+            "f1_score": 0.9632453567937439
+        },
+        "std": {
+            "accuracy": 0.0053834939401828305,
+            "precision_score": 0.04705882352941178,
+            "recall_score": 0.02432034618903122,
+            "f1_score": 0.029621187826422174
+        },
+        "machine_type": "pump",
+        "machine_id": "id_06"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.9824561403508771,
+                "precision_score": 0.9491525423728814,
+                "recall_score": 0.9824561403508771,
+                "f1_score": 0.9655172413793103
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 1.0,
+                "precision_score": 1.0,
+                "recall_score": 1.0,
+                "f1_score": 1.0
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9692982456140351,
+                "precision_score": 0.9032258064516129,
+                "recall_score": 0.9824561403508771,
+                "f1_score": 0.9411764705882352
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.9736842105263158,
+                "precision_score": 0.9473684210526315,
+                "recall_score": 0.9473684210526315,
+                "f1_score": 0.9473684210526315
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9779735682819384,
+                "precision_score": 0.9482758620689655,
+                "recall_score": 0.9649122807017544,
+                "f1_score": 0.9565217391304347
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9824561403508771,
+            "precision_score": 0.9583333333333334,
+            "recall_score": 0.971830985915493,
+            "f1_score": 0.965034965034965
+        },
+        "mean": {
+            "accuracy": 0.9806824329546334,
+            "precision_score": 0.9496045263892183,
+            "recall_score": 0.9754385964912281,
+            "f1_score": 0.9621167744301223
+        },
+        "std": {
+            "accuracy": 0.010604029619505448,
+            "precision_score": 0.03065178372952896,
+            "recall_score": 0.01789129653892206,
+            "f1_score": 0.02065921889807745
+        },
+        "machine_type": "slider",
+        "machine_id": "id_00"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.9532710280373832,
+                "precision_score": 0.9024390243902439,
+                "recall_score": 0.8604651162790697,
+                "f1_score": 0.8809523809523809
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.9532710280373832,
+                "precision_score": 0.9459459459459459,
+                "recall_score": 0.813953488372093,
+                "f1_score": 0.875
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9626168224299065,
+                "precision_score": 0.9069767441860465,
+                "recall_score": 0.9069767441860465,
+                "f1_score": 0.9069767441860465
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.9624413145539906,
+                "precision_score": 0.8863636363636364,
+                "recall_score": 0.9285714285714286,
+                "f1_score": 0.9069767441860465
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9342723004694836,
+                "precision_score": 0.8536585365853658,
+                "recall_score": 0.813953488372093,
+                "f1_score": 0.8333333333333333
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9850187265917603,
+            "precision_score": 0.9622641509433962,
+            "recall_score": 0.9622641509433962,
+            "f1_score": 0.9622641509433962
+        },
+        "mean": {
+            "accuracy": 0.9531744987056294,
+            "precision_score": 0.8990767774942476,
+            "recall_score": 0.864784053156146,
+            "f1_score": 0.8806478405315614
+        },
+        "std": {
+            "accuracy": 0.010318363118865472,
+            "precision_score": 0.029982907443871765,
+            "recall_score": 0.04697914066262733,
+            "f1_score": 0.027044688107809106
+        },
+        "machine_type": "slider",
+        "machine_id": "id_02"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.9298245614035088,
+                "precision_score": 0.8571428571428571,
+                "recall_score": 0.8571428571428571,
+                "f1_score": 0.8571428571428571
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.8771929824561403,
+                "precision_score": 0.7692307692307693,
+                "recall_score": 0.7142857142857143,
+                "f1_score": 0.7407407407407408
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9649122807017544,
+                "precision_score": 0.9629629629629629,
+                "recall_score": 0.896551724137931,
+                "f1_score": 0.9285714285714286
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.9035087719298246,
+                "precision_score": 0.8214285714285714,
+                "recall_score": 0.7931034482758621,
+                "f1_score": 0.8070175438596492
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9026548672566371,
+                "precision_score": 0.8695652173913043,
+                "recall_score": 0.7142857142857143,
+                "f1_score": 0.7843137254901961
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9300699300699301,
+            "precision_score": 0.825,
+            "recall_score": 0.9166666666666666,
+            "f1_score": 0.8684210526315789
+        },
+        "mean": {
+            "accuracy": 0.915618692749573,
+            "precision_score": 0.8560660756312931,
+            "recall_score": 0.7950738916256158,
+            "f1_score": 0.8235572591609743
+        },
+        "std": {
+            "accuracy": 0.029741925568594268,
+            "precision_score": 0.06379726944461911,
+            "recall_score": 0.07376672530969412,
+            "f1_score": 0.06454170900934605
+        },
+        "machine_type": "slider",
+        "machine_id": "id_04"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.93,
+                "precision_score": 0.9,
+                "recall_score": 0.6,
+                "f1_score": 0.7200000000000001
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.88,
+                "precision_score": 0.5714285714285714,
+                "recall_score": 0.5714285714285714,
+                "f1_score": 0.5714285714285714
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.89,
+                "precision_score": 0.7142857142857143,
+                "recall_score": 0.35714285714285715,
+                "f1_score": 0.4761904761904762
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.9393939393939394,
+                "precision_score": 0.9,
+                "recall_score": 0.6428571428571429,
+                "f1_score": 0.75
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.8888888888888888,
+                "precision_score": 0.7142857142857143,
+                "recall_score": 0.35714285714285715,
+                "f1_score": 0.4761904761904762
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.92,
+            "precision_score": 0.8333333333333334,
+            "recall_score": 0.5555555555555556,
+            "f1_score": 0.6666666666666667
+        },
+        "mean": {
+            "accuracy": 0.9056565656565656,
+            "precision_score": 0.76,
+            "recall_score": 0.5057142857142857,
+            "f1_score": 0.5987619047619048
+        },
+        "std": {
+            "accuracy": 0.024146865535558205,
+            "precision_score": 0.125649333870263,
+            "recall_score": 0.12342063466545816,
+            "f1_score": 0.11693268020823037
+        },
+        "machine_type": "slider",
+        "machine_id": "id_06"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 1.0,
+                "precision_score": 1.0,
+                "recall_score": 1.0,
+                "f1_score": 1.0
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 1.0,
+                "precision_score": 1.0,
+                "recall_score": 1.0,
+                "f1_score": 1.0
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9943820224719101,
+                "precision_score": 1.0,
+                "recall_score": 0.9473684210526315,
+                "f1_score": 0.972972972972973
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 1.0,
+                "precision_score": 1.0,
+                "recall_score": 1.0,
+                "f1_score": 1.0
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 1.0,
+                "precision_score": 1.0,
+                "recall_score": 1.0,
+                "f1_score": 1.0
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9954954954954955,
+            "precision_score": 1.0,
+            "recall_score": 0.9583333333333334,
+            "f1_score": 0.9787234042553191
+        },
+        "mean": {
+            "accuracy": 0.9988764044943821,
+            "precision_score": 1.0,
+            "recall_score": 0.9894736842105264,
+            "f1_score": 0.9945945945945945
+        },
+        "std": {
+            "accuracy": 0.0022471910112359605,
+            "precision_score": 0.0,
+            "recall_score": 0.02105263157894739,
+            "f1_score": 0.010810810810810789
+        },
+        "machine_type": "valve",
+        "machine_id": "id_00"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.9924812030075187,
+                "precision_score": 0.95,
+                "recall_score": 1.0,
+                "f1_score": 0.9743589743589743
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.9924812030075187,
+                "precision_score": 1.0,
+                "recall_score": 0.95,
+                "f1_score": 0.9743589743589743
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9848484848484849,
+                "precision_score": 0.9047619047619048,
+                "recall_score": 1.0,
+                "f1_score": 0.9500000000000001
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 1.0,
+                "precision_score": 1.0,
+                "recall_score": 1.0,
+                "f1_score": 1.0
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9848484848484849,
+                "precision_score": 1.0,
+                "recall_score": 0.8947368421052632,
+                "f1_score": 0.9444444444444444
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9759036144578314,
+            "precision_score": 1.0,
+            "recall_score": 0.8333333333333334,
+            "f1_score": 0.9090909090909091
+        },
+        "mean": {
+            "accuracy": 0.9909318751424013,
+            "precision_score": 0.9709523809523809,
+            "recall_score": 0.9689473684210526,
+            "f1_score": 0.9686324786324786
+        },
+        "std": {
+            "accuracy": 0.005675332537155715,
+            "precision_score": 0.03834442312228075,
+            "recall_score": 0.04185451653067588,
+            "f1_score": 0.019908476391850477
+        },
+        "machine_type": "valve",
+        "machine_id": "id_02"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.9777777777777777,
+                "precision_score": 1.0,
+                "recall_score": 0.8,
+                "f1_score": 0.888888888888889
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.9776536312849162,
+                "precision_score": 1.0,
+                "recall_score": 0.7894736842105263,
+                "f1_score": 0.8823529411764706
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9720670391061452,
+                "precision_score": 1.0,
+                "recall_score": 0.7368421052631579,
+                "f1_score": 0.8484848484848484
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.9776536312849162,
+                "precision_score": 0.9411764705882353,
+                "recall_score": 0.8421052631578947,
+                "f1_score": 0.8888888888888888
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9888268156424581,
+                "precision_score": 1.0,
+                "recall_score": 0.8947368421052632,
+                "f1_score": 0.9444444444444444
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.9821428571428571,
+            "precision_score": 0.9545454545454546,
+            "recall_score": 0.875,
+            "f1_score": 0.9130434782608695
+        },
+        "mean": {
+            "accuracy": 0.9787957790192425,
+            "precision_score": 0.9882352941176471,
+            "recall_score": 0.8126315789473685,
+            "f1_score": 0.8906120023767082
+        },
+        "std": {
+            "accuracy": 0.00546887494784948,
+            "precision_score": 0.02352941176470589,
+            "recall_score": 0.05300917184005968,
+            "f1_score": 0.030811618737410392
+        },
+        "machine_type": "valve",
+        "machine_id": "id_04"
+    },
+    {
+        "cross_validate": [
+            {
+                "name": "cross_validate-0",
+                "accuracy": 0.8932584269662921,
+                "precision_score": 0.0,
+                "recall_score": 0.0,
+                "f1_score": 0.0
+            },
+            {
+                "name": "cross_validate-1",
+                "accuracy": 0.898876404494382,
+                "precision_score": 0.6666666666666666,
+                "recall_score": 0.10526315789473684,
+                "f1_score": 0.18181818181818182
+            },
+            {
+                "name": "cross_validate-2",
+                "accuracy": 0.9101123595505618,
+                "precision_score": 0.8,
+                "recall_score": 0.21052631578947367,
+                "f1_score": 0.3333333333333333
+            },
+            {
+                "name": "cross_validate-3",
+                "accuracy": 0.8876404494382022,
+                "precision_score": 0.0,
+                "recall_score": 0.0,
+                "f1_score": 0.0
+            },
+            {
+                "name": "cross_validate-4",
+                "accuracy": 0.9096045197740112,
+                "precision_score": 0.8,
+                "recall_score": 0.21052631578947367,
+                "f1_score": 0.3333333333333333
+            }
+        ],
+        "no_cross_validate": {
+            "name": "SVM-no-cross-validate",
+            "accuracy": 0.8923766816143498,
+            "precision_score": 0.5,
+            "recall_score": 0.08333333333333333,
+            "f1_score": 0.14285714285714285
+        },
+        "mean": {
+            "accuracy": 0.8998984320446899,
+            "precision_score": 0.4533333333333333,
+            "recall_score": 0.10526315789473684,
+            "f1_score": 0.16969696969696968
+        },
+        "std": {
+            "accuracy": 0.008876089222627058,
+            "precision_score": 0.37333333333333335,
+            "recall_score": 0.09415023063157009,
+            "f1_score": 0.14919434697080208
+        },
+        "machine_type": "valve",
+        "machine_id": "id_06"
+    }
+]
