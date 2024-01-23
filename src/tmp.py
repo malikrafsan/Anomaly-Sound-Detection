@@ -122,11 +122,11 @@ def remove_dirpath():
 
 def main():
    # check_csv_len()
-   # check_dataset_len()
+   check_dataset_len()
    # check_freq_range()
    # check_nan()
    # sort_csv()
-   remove_dirpath()
+   # remove_dirpath()
 
 if __name__ == '__main__':
   main()

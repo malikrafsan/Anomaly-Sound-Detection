@@ -9,9 +9,20 @@ from sklearn.model_selection import StratifiedKFold, train_test_split
 ROOT_CSV_PATH = "../out/processed/final-timbral"
 MACHINE_TYPES = ["fan", "pump", "slider", "valve"]
 MACHINE_IDS = ["id_00", "id_02", "id_04", "id_06"]
-columns = [
-    "hardness",	"depth", "brightness", "roughness",	"warmth",	"sharpness",	"boominess",	"reverb"
-]
+MAPPING_FEATURES = {
+    "fan": [
+        "boominess","brightness","depth","roughness","sharpness",
+    ],
+    "slider": [
+        "brightness","depth","roughness","sharpness",
+    ],
+    "valve": [
+        "boominess","brightness","depth","roughness","sharpness",
+    ],
+    "pump": [
+        "boominess","brightness","roughness","sharpness",
+    ]
+}
 
 
 def scoring(y_true, y_pred, name):
@@ -35,7 +46,7 @@ def scoring(y_true, y_pred, name):
         "f1_score": f1s,
     }
 
-def process(pathnormal:str, pathabnormal: str):
+def process(pathnormal:str, pathabnormal: str, machine_type: str):
     df_normal = pd.read_csv(pathnormal)
     df_abnormal = pd.read_csv(pathabnormal)
 
@@ -43,6 +54,8 @@ def process(pathnormal:str, pathabnormal: str):
     df_abnormal['label'] = True
 
     df = pd.concat([df_normal, df_abnormal], ignore_index=True)
+
+    columns = MAPPING_FEATURES[machine_type]
 
     # split into train and test
     X_train, X_test, y_train, y_test = train_test_split(df[columns], df['label'], test_size=0.2, random_state=42, stratify=df['label'])
@@ -135,7 +148,7 @@ def main():
             filepath_normal = f"{ROOT_CSV_PATH}/{machine_type}-{machine_id}-normal-timbral.csv"
             filepath_abnormal = f"{ROOT_CSV_PATH}/{machine_type}-{machine_id}-abnormal-timbral.csv"
 
-            result = process(filepath_normal, filepath_abnormal)
+            result = process(filepath_normal, filepath_abnormal, machine_type)
             result["machine_type"] = machine_type
             result["machine_id"] = machine_id
 
