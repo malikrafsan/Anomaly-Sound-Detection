@@ -4,12 +4,12 @@ import pandas as pd
 from sklearn.svm import SVC
 
 ROOT_DATASET_PATH = "../../../dataset/mimii"
-ROOT_CSV_PATH = "../out/raw/acoustic"
+ROOT_CSV_PATH = "../out/raw/surfboard"
 MACHINE_TYPES = ["fan", "pump", "slider", "valve"]
 MACHINE_IDS = ["id_00", "id_02", "id_04", "id_06"]
 LABELS = ["abnormal", "normal"]
 DROPPED_FEATURES = [
-    "filename","id_machine","machine_type","label","apq11Shimmer"
+    "filename","id_machine","machine_type","label"
 ]
 
 def score(y_true, y_pred):
@@ -45,13 +45,8 @@ def main():
     mt = sys.argv[1]
     mi = sys.argv[2]
 
-    files = os.listdir(f"{ROOT_CSV_PATH}")
-    files = [f for f in files if f.endswith(".csv")]
-    files = [f for f in files if mt in f]
-    files = [f for f in files if mi in f]
-
-    abnormal = [f for f in files if "abnormal" in f][0]
-    normal = [f for f in files if "normal" in f][0]
+    abnormal = f"w-{mt}-{mi}-abnormal-(-1).csv"
+    normal = f"w-{mt}-{mi}-normal-(-1).csv"
 
     abnormal = os.path.join(ROOT_CSV_PATH, abnormal)
     normal = os.path.join(ROOT_CSV_PATH, normal)
@@ -82,9 +77,6 @@ def main():
 
     y_pred = clf.predict(df_test.drop(columns=DROPPED_FEATURES))
     y_true = y_test
-
-    print(y_pred)
-    print(y_true)
 
     print(score(y_true, y_pred))
 

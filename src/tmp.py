@@ -70,7 +70,7 @@ def check_nan():
    import numpy as np
    import pandas as pd
 
-   dirpath = "../out/raw/acoustic"
+   dirpath = "../out/raw/surfboard"
    files = os.listdir(dirpath)
    files = [f for f in files if f.endswith('.csv')]
    files.sort()

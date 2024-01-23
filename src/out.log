@@ -1,5 +1,32 @@
-shimmers {'localShimmer': 0.05121844960300388, 'localdbShimmer': 0.5073351413011551, 'apq3Shimmer': 0.0341456330686692, 'apq5Shimmer': None, 'apq11Shimmer': None}
-jitters {'localJitter': 0.002003162732263463, 'localabsoluteJitter': 1.1921195870072572e-05, 'rapJitter': 0.0002685352821841379, 'ppq5Jitter': None, 'ddpJitter': 0.000805605846552851}
-formants {'f1': 1632.831584813689, 'f2': 2934.388802996287, 'f3': 4010.820049953462, 'f4': 5260.586867541199}
-f0_statistics {'f0_mean': 193.84990734280652, 'f0_std': 48.29629816869424}
-{'localShimmer': 0.05121844960300388, 'localdbShimmer': 0.5073351413011551, 'apq3Shimmer': 0.0341456330686692, 'apq5Shimmer': None, 'apq11Shimmer': None, 'localJitter': 0.002003162732263463, 'localabsoluteJitter': 1.1921195870072572e-05, 'rapJitter': 0.0002685352821841379, 'ppq5Jitter': None, 'ddpJitter': 0.000805605846552851, 'f1': 1632.831584813689, 'f2': 2934.388802996287, 'f3': 4010.820049953462, 'f4': 5260.586867541199, 'f0_mean': 193.84990734280652, 'f0_std': 48.29629816869424}
+fan id_00 abnormal 407
+fan id_00 normal 1011
+fan id_02 abnormal 359
+fan id_02 normal 1016
+fan id_04 abnormal 348
+fan id_04 normal 1033
+fan id_06 abnormal 361
+fan id_06 normal 1015
+pump id_00 abnormal 143
+pump id_00 normal 1006
+pump id_02 abnormal 111
+pump id_02 normal 1005
+pump id_04 abnormal 100
+pump id_04 normal 702
+pump id_06 abnormal 102
+pump id_06 normal 1036
+slider id_00 abnormal 356
+slider id_00 normal 1068
+slider id_02 abnormal 267
+slider id_02 normal 1068
+slider id_04 abnormal 178
+slider id_04 normal 534
+slider id_06 abnormal 89
+slider id_06 normal 534
+valve id_00 abnormal 119
+valve id_00 normal 991
+valve id_02 abnormal 120
+valve id_02 normal 708
+valve id_04 abnormal 120
+valve id_04 normal 1000
+valve id_06 abnormal 120
+valve id_06 normal 992
