@@ -1,0 +1,130 @@
+[
+    {
+        "isolation_forest": 0.5465249227625466,
+        "one_class_svm": 0.5702556742160703,
+        "local_outlier_factor": 0.637014377113387,
+        "gaussian_mixture": 0.5386552168730386,
+        "machine_type": "fan",
+        "machine_id": "id_00"
+    },
+    {
+        "isolation_forest": 0.9944015258586385,
+        "one_class_svm": 0.9999039477475746,
+        "local_outlier_factor": 0.9995746257392593,
+        "gaussian_mixture": 1.0,
+        "machine_type": "fan",
+        "machine_id": "id_02"
+    },
+    {
+        "isolation_forest": 0.6939446943195069,
+        "one_class_svm": 0.7452593147870509,
+        "local_outlier_factor": 0.7897301349325335,
+        "gaussian_mixture": 0.5935920928424676,
+        "machine_type": "fan",
+        "machine_id": "id_04"
+    },
+    {
+        "isolation_forest": 0.9327265532251681,
+        "one_class_svm": 0.9762018476317835,
+        "local_outlier_factor": 0.9501316812903402,
+        "gaussian_mixture": 0.9998362512451728,
+        "machine_type": "fan",
+        "machine_id": "id_06"
+    },
+    {
+        "isolation_forest": 0.8258706467661692,
+        "one_class_svm": 0.6829488919041158,
+        "local_outlier_factor": 0.5542566885850467,
+        "gaussian_mixture": 0.6202205754444561,
+        "machine_type": "pump",
+        "machine_id": "id_00"
+    },
+    {
+        "isolation_forest": 0.5795795795795795,
+        "one_class_svm": 0.6189323652010219,
+        "local_outlier_factor": 0.8694366007798844,
+        "gaussian_mixture": 0.6759894222580789,
+        "machine_type": "pump",
+        "machine_id": "id_02"
+    },
+    {
+        "isolation_forest": 0.6090714285714285,
+        "one_class_svm": 0.9387857142857143,
+        "local_outlier_factor": 0.9339285714285714,
+        "gaussian_mixture": 0.6077142857142857,
+        "machine_type": "pump",
+        "machine_id": "id_04"
+    },
+    {
+        "isolation_forest": 0.5844937008619873,
+        "one_class_svm": 0.8324334564743773,
+        "local_outlier_factor": 0.9339774557165862,
+        "gaussian_mixture": 0.6760443307757886,
+        "machine_type": "pump",
+        "machine_id": "id_06"
+    },
+    {
+        "isolation_forest": 0.8755906752073926,
+        "one_class_svm": 0.7414811508978264,
+        "local_outlier_factor": 0.5972251391368266,
+        "gaussian_mixture": 0.8899768980363332,
+        "machine_type": "slider",
+        "machine_id": "id_00"
+    },
+    {
+        "isolation_forest": 0.8403164268962862,
+        "one_class_svm": 0.7837428681437922,
+        "local_outlier_factor": 0.88274878364661,
+        "gaussian_mixture": 0.8581679442752634,
+        "machine_type": "slider",
+        "machine_id": "id_02"
+    },
+    {
+        "isolation_forest": 0.9049669221883859,
+        "one_class_svm": 0.5631891210752914,
+        "local_outlier_factor": 0.6578284154153103,
+        "gaussian_mixture": 0.8488396513703665,
+        "machine_type": "slider",
+        "machine_id": "id_04"
+    },
+    {
+        "isolation_forest": 0.5869998949910741,
+        "one_class_svm": 0.5433161818754594,
+        "local_outlier_factor": 0.613147117504988,
+        "gaussian_mixture": 0.6097868318807098,
+        "machine_type": "slider",
+        "machine_id": "id_06"
+    },
+    {
+        "isolation_forest": 0.7980646804176216,
+        "one_class_svm": 0.8807613954672778,
+        "local_outlier_factor": 0.7551778287072405,
+        "gaussian_mixture": 0.843731431966726,
+        "machine_type": "valve",
+        "machine_id": "id_00"
+    },
+    {
+        "isolation_forest": 0.6196009389671362,
+        "one_class_svm": 0.779518779342723,
+        "local_outlier_factor": 0.9294014084507043,
+        "gaussian_mixture": 0.8009389671361502,
+        "machine_type": "valve",
+        "machine_id": "id_02"
+    },
+    {
+        "isolation_forest": 0.7539166666666666,
+        "one_class_svm": 0.6757916666666666,
+        "local_outlier_factor": 0.7787083333333333,
+        "gaussian_mixture": 0.7473333333333334,
+        "machine_type": "valve",
+        "machine_id": "id_04"
+    },
+    {
+        "isolation_forest": 0.522138047138047,
+        "one_class_svm": 0.563594276094276,
+        "local_outlier_factor": 0.5739057239057239,
+        "gaussian_mixture": 0.510563973063973,
+        "machine_type": "valve",
+        "machine_id": "id_06"
+    }
+]

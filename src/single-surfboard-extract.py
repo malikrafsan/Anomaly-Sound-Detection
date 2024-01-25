@@ -120,8 +120,8 @@ def process(
     mapped = mapping(lstmp, keys)
 
     df = pd.DataFrame(data=mapped, columns=keys)
-    outname = f"../out/raw/surfboard/w-{mt}-{id}-{label}-({maxdata}).csv"
-    df.to_csv(outname, index=False)
+    # outname = f"../out/raw/surfboard/w-{mt}-{id}-{label}-({maxdata}).csv"
+    # df.to_csv(outname, index=False)
 
     return outname
 
@@ -130,15 +130,9 @@ def main():
   # id = MACHINE_IDS[0]
   # label = LABELS[0]
 
-  mt = sys.argv[1]
-  id = sys.argv[2]
-  maxdata = int(sys.argv[len(sys.argv)-1])
-  # label = sys.argv[3]
-  # maxdata = int(sys.argv[4]) if len(sys.argv) >= 5 else -1
-
-  for label in LABELS:
-    res = process(ROOT_DATASET_PATH, mt, id, label, maxdata)
-    print(res)
+  filepath = sys.argv[1]
+  result = extract(filepath)
+  print("result",result)
 
 if __name__ == '__main__':
   main()
