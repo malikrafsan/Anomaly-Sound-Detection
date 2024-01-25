@@ -186,11 +186,21 @@ def process(
 def main():
   mt = sys.argv[1]
   id = sys.argv[2]
+  label = sys.argv[3]
   maxdata = int(sys.argv[len(sys.argv)-1])
 
-  for label in LABELS:
+  # for label in LABELS:
+  #   res = process(ROOT_DATASET_PATH, mt, id, label, maxdata)
+  #   print("res",res)
+
+  try:
     res = process(ROOT_DATASET_PATH, mt, id, label, maxdata)
     print("res",res)
+  except Exception as e:
+    with open("error.log", "a") as f:
+      f.write(f"{mt} {id} {label} {maxdata}\n")
+      f.write(str(e))
+      f.write("\n")
 
   # for mt in MACHINE_TYPES:
   #   for id in MACHINE_IDS:

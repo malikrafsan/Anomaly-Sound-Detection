@@ -118,15 +118,58 @@ def remove_dirpath():
       # save to remove dir
       df.to_csv(f"{remove_dirpath}/{f}", index=False)      
 
+def calculate_nan():
+   import pandas as pd
+   import sys
 
+   dirpath = sys.argv[1]
+   files = os.listdir(dirpath)
+
+   results = []
+   for file in files:
+      filepath = os.path.join(dirpath, file)
+      df = pd.read_csv(filepath)
+
+      rows_with_nan = df[df.isnull().any(axis=1)].shape[0]
+      columns_with_nan = df.columns[df.isnull().any()].size
+      total_nan_cells = df.isnull().sum().sum()
+
+      total_rows = df.shape[0]
+      total_columns = df.shape[1]
+      total_cells = df.size
+
+      res = {
+         "filename": file,
+         "(rows_with_nan / total_rows)": f"{rows_with_nan} / {total_rows}",
+         "(columns_with_nan / total_columns)": f"{columns_with_nan} / {total_columns}",
+         "(total_nan_cells / total_cells)": f"{total_nan_cells} / {total_cells}",
+      }
+      results.append(res)
+
+   results.sort(key=lambda x: x["filename"])
+   df = pd.DataFrame(results)
+   df.to_csv(dirpath.split("/")[-1]+".csv", index=False)
+
+   # print(f"Rows with NaN values: {rows_with_nan}")
+   # print(f"Columns with NaN values: {columns_with_nan}")
+   # print(f"Total cells with NaN values: {total_nan_cells}")
+
+   # print(f"Total rows: {total_rows}")
+   # print(f"Total columns: {total_columns}")
+   # print(f"Total cells: {total_cells}")
+
+   return {
+
+   }
 
 def main():
    # check_csv_len()
-   check_dataset_len()
+   # check_dataset_len()
    # check_freq_range()
    # check_nan()
    # sort_csv()
    # remove_dirpath()
+   calculate_nan()
 
 if __name__ == '__main__':
   main()
