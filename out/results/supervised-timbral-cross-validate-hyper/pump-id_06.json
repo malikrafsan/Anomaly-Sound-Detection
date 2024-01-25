@@ -1,0 +1,66 @@
+{
+    "cross_validate": [
+        {
+            "name": "cross_validate-0",
+            "accuracy": 0.9429824561403509,
+            "precision_score": 0.7058823529411765,
+            "recall_score": 0.6,
+            "f1_score": 0.6486486486486486
+        },
+        {
+            "name": "cross_validate-1",
+            "accuracy": 0.956140350877193,
+            "precision_score": 0.7894736842105263,
+            "recall_score": 0.7142857142857143,
+            "f1_score": 0.7500000000000001
+        },
+        {
+            "name": "cross_validate-2",
+            "accuracy": 0.9649122807017544,
+            "precision_score": 0.8095238095238095,
+            "recall_score": 0.8095238095238095,
+            "f1_score": 0.8095238095238095
+        },
+        {
+            "name": "cross_validate-3",
+            "accuracy": 0.9647577092511013,
+            "precision_score": 0.8,
+            "recall_score": 0.8,
+            "f1_score": 0.8000000000000002
+        },
+        {
+            "name": "cross_validate-4",
+            "accuracy": 0.973568281938326,
+            "precision_score": 0.9375,
+            "recall_score": 0.75,
+            "f1_score": 0.8333333333333334
+        }
+    ],
+    "no_cross_validate": {
+        "name": "SVM-no-cross-validate",
+        "accuracy": 0.9692982456140351,
+        "precision_score": 0.8095238095238095,
+        "recall_score": 0.85,
+        "f1_score": 0.8292682926829269
+    },
+    "mean": {
+        "accuracy": 0.9604722157817452,
+        "precision_score": 0.8084759693351025,
+        "recall_score": 0.7347619047619048,
+        "f1_score": 0.7683011583011584
+    },
+    "std": {
+        "accuracy": 0.010336762795114982,
+        "precision_score": 0.0743056895250785,
+        "recall_score": 0.0757067980724084,
+        "f1_score": 0.06570382453038183
+    },
+    "best_params": {
+        "C": 1000,
+        "gamma": 0.001,
+        "kernel": "rbf"
+    },
+    "best_score": 0.8579724401642548,
+    "machine_type": "pump",
+    "machine_id": "id_06"
+}

@@ -1,0 +1,35 @@
+2024-01-25 11:04:33,366 - INFO - machine_type: slider, machine_id: id_00
+2024-01-25 11:04:33,784 - INFO - cross_validate-0
+2024-01-25 11:04:33,785 - INFO - accuracy: 0.96
+2024-01-25 11:04:33,877 - INFO - precision_score: 0.88
+2024-01-25 11:04:33,879 - INFO - recall_score: 0.97
+2024-01-25 11:04:33,951 - INFO - f1_score: 0.93
+2024-01-25 11:04:34,203 - INFO - cross_validate-1
+2024-01-25 11:04:34,204 - INFO - accuracy: 0.96
+2024-01-25 11:04:34,206 - INFO - precision_score: 0.92
+2024-01-25 11:04:34,292 - INFO - recall_score: 0.92
+2024-01-25 11:04:34,294 - INFO - f1_score: 0.92
+2024-01-25 11:04:34,475 - INFO - cross_validate-2
+2024-01-25 11:04:34,476 - INFO - accuracy: 0.96
+2024-01-25 11:04:34,648 - INFO - precision_score: 0.92
+2024-01-25 11:04:34,651 - INFO - recall_score: 0.94
+2024-01-25 11:04:34,653 - INFO - f1_score: 0.93
+2024-01-25 11:04:35,120 - INFO - cross_validate-3
+2024-01-25 11:04:35,121 - INFO - accuracy: 0.97
+2024-01-25 11:04:35,123 - INFO - precision_score: 0.93
+2024-01-25 11:04:35,190 - INFO - recall_score: 0.94
+2024-01-25 11:04:35,192 - INFO - f1_score: 0.94
+2024-01-25 11:04:35,442 - INFO - cross_validate-4
+2024-01-25 11:04:35,519 - INFO - accuracy: 0.98
+2024-01-25 11:04:35,522 - INFO - precision_score: 0.92
+2024-01-25 11:04:35,524 - INFO - recall_score: 0.99
+2024-01-25 11:04:35,664 - INFO - f1_score: 0.95
+2024-01-25 11:04:35,867 - INFO - Fitting 5 folds for each of 75 candidates, totalling 375 fits
+2024-01-25 11:06:22,597 - INFO - grid_search.best_params_
+2024-01-25 11:06:22,600 - INFO - {'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}
+2024-01-25 11:06:22,602 - INFO - grid_search.best_score_
+2024-01-25 11:06:22,603 - INFO - 0.9581824122903584
+2024-01-25 11:06:22,654 - INFO - accuracy: 0.98
+2024-01-25 11:06:22,722 - INFO - precision_score: 0.96
+2024-01-25 11:06:22,773 - INFO - recall_score: 0.97
+2024-01-25 11:06:22,775 - INFO - f1_score: 0.97

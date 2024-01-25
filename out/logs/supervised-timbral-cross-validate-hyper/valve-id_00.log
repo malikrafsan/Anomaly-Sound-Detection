@@ -1,0 +1,35 @@
+2024-01-25 11:04:32,443 - INFO - machine_type: valve, machine_id: id_00
+2024-01-25 11:04:32,670 - INFO - cross_validate-0
+2024-01-25 11:04:32,671 - INFO - accuracy: 1.00
+2024-01-25 11:04:32,811 - INFO - precision_score: 1.00
+2024-01-25 11:04:32,813 - INFO - recall_score: 1.00
+2024-01-25 11:04:32,916 - INFO - f1_score: 1.00
+2024-01-25 11:04:33,012 - INFO - cross_validate-1
+2024-01-25 11:04:33,013 - INFO - accuracy: 1.00
+2024-01-25 11:04:33,015 - INFO - precision_score: 1.00
+2024-01-25 11:04:33,017 - INFO - recall_score: 1.00
+2024-01-25 11:04:33,148 - INFO - f1_score: 1.00
+2024-01-25 11:04:33,220 - INFO - cross_validate-2
+2024-01-25 11:04:33,221 - INFO - accuracy: 1.00
+2024-01-25 11:04:33,223 - INFO - precision_score: 1.00
+2024-01-25 11:04:33,347 - INFO - recall_score: 1.00
+2024-01-25 11:04:33,349 - INFO - f1_score: 1.00
+2024-01-25 11:04:33,433 - INFO - cross_validate-3
+2024-01-25 11:04:33,434 - INFO - accuracy: 1.00
+2024-01-25 11:04:33,436 - INFO - precision_score: 1.00
+2024-01-25 11:04:33,568 - INFO - recall_score: 0.96
+2024-01-25 11:04:33,570 - INFO - f1_score: 0.98
+2024-01-25 11:04:33,574 - INFO - cross_validate-4
+2024-01-25 11:04:33,694 - INFO - accuracy: 1.00
+2024-01-25 11:04:33,696 - INFO - precision_score: 1.00
+2024-01-25 11:04:33,770 - INFO - recall_score: 1.00
+2024-01-25 11:04:33,772 - INFO - f1_score: 1.00
+2024-01-25 11:04:34,124 - INFO - Fitting 5 folds for each of 75 candidates, totalling 375 fits
+2024-01-25 11:05:18,512 - INFO - grid_search.best_params_
+2024-01-25 11:05:18,512 - INFO - {'C': 0.1, 'gamma': 0.1, 'kernel': 'linear'}
+2024-01-25 11:05:18,512 - INFO - grid_search.best_score_
+2024-01-25 11:05:18,512 - INFO - 1.0
+2024-01-25 11:05:18,514 - INFO - accuracy: 1.00
+2024-01-25 11:05:18,517 - INFO - precision_score: 1.00
+2024-01-25 11:05:18,519 - INFO - recall_score: 0.96
+2024-01-25 11:05:18,530 - INFO - f1_score: 0.98

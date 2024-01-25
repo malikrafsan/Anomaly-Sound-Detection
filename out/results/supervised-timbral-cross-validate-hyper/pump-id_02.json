@@ -1,0 +1,66 @@
+{
+    "cross_validate": [
+        {
+            "name": "cross_validate-0",
+            "accuracy": 0.9553571428571429,
+            "precision_score": 1.0,
+            "recall_score": 0.5652173913043478,
+            "f1_score": 0.7222222222222222
+        },
+        {
+            "name": "cross_validate-1",
+            "accuracy": 0.9641255605381166,
+            "precision_score": 1.0,
+            "recall_score": 0.6363636363636364,
+            "f1_score": 0.7777777777777778
+        },
+        {
+            "name": "cross_validate-2",
+            "accuracy": 0.9327354260089686,
+            "precision_score": 0.8888888888888888,
+            "recall_score": 0.36363636363636365,
+            "f1_score": 0.5161290322580644
+        },
+        {
+            "name": "cross_validate-3",
+            "accuracy": 0.9506726457399103,
+            "precision_score": 1.0,
+            "recall_score": 0.5,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "name": "cross_validate-4",
+            "accuracy": 0.9461883408071748,
+            "precision_score": 0.9166666666666666,
+            "recall_score": 0.5,
+            "f1_score": 0.6470588235294118
+        }
+    ],
+    "no_cross_validate": {
+        "name": "SVM-no-cross-validate",
+        "accuracy": 0.9910714285714286,
+        "precision_score": 0.9545454545454546,
+        "recall_score": 0.9545454545454546,
+        "f1_score": 0.9545454545454546
+    },
+    "mean": {
+        "accuracy": 0.9498158231902627,
+        "precision_score": 0.961111111111111,
+        "recall_score": 0.5130434782608695,
+        "f1_score": 0.6659709044908285
+    },
+    "std": {
+        "accuracy": 0.010402956770140628,
+        "precision_score": 0.04843221048378528,
+        "recall_score": 0.09010297347753139,
+        "f1_score": 0.08772197583985286
+    },
+    "best_params": {
+        "C": 1000,
+        "gamma": 0.01,
+        "kernel": "rbf"
+    },
+    "best_score": 0.9018858327681858,
+    "machine_type": "pump",
+    "machine_id": "id_02"
+}

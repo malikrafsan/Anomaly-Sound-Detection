@@ -1,0 +1,66 @@
+{
+    "cross_validate": [
+        {
+            "name": "cross_validate-0",
+            "accuracy": 0.9598214285714286,
+            "precision_score": 1.0,
+            "recall_score": 0.625,
+            "f1_score": 0.7692307692307693
+        },
+        {
+            "name": "cross_validate-1",
+            "accuracy": 0.9464285714285714,
+            "precision_score": 0.875,
+            "recall_score": 0.5833333333333334,
+            "f1_score": 0.7000000000000001
+        },
+        {
+            "name": "cross_validate-2",
+            "accuracy": 0.9375,
+            "precision_score": 0.8571428571428571,
+            "recall_score": 0.5,
+            "f1_score": 0.631578947368421
+        },
+        {
+            "name": "cross_validate-3",
+            "accuracy": 0.9285714285714286,
+            "precision_score": 0.75,
+            "recall_score": 0.5,
+            "f1_score": 0.6
+        },
+        {
+            "name": "cross_validate-4",
+            "accuracy": 0.9464285714285714,
+            "precision_score": 0.9285714285714286,
+            "recall_score": 0.5416666666666666,
+            "f1_score": 0.6842105263157894
+        }
+    ],
+    "no_cross_validate": {
+        "name": "SVM-no-cross-validate",
+        "accuracy": 0.9464285714285714,
+        "precision_score": 0.8,
+        "recall_score": 0.6666666666666666,
+        "f1_score": 0.7272727272727272
+    },
+    "mean": {
+        "accuracy": 0.94375,
+        "precision_score": 0.8821428571428571,
+        "recall_score": 0.55,
+        "f1_score": 0.677004048582996
+    },
+    "std": {
+        "accuracy": 0.010412414097938033,
+        "precision_score": 0.08268454930564448,
+        "recall_score": 0.04859126579037751,
+        "f1_score": 0.0584458354767141
+    },
+    "best_params": {
+        "C": 100,
+        "gamma": 0.01,
+        "kernel": "rbf"
+    },
+    "best_score": 0.8422404720017823,
+    "machine_type": "valve",
+    "machine_id": "id_04"
+}

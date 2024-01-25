@@ -1,0 +1,66 @@
+{
+    "cross_validate": [
+        {
+            "name": "cross_validate-0",
+            "accuracy": 0.9614035087719298,
+            "precision_score": 0.8846153846153846,
+            "recall_score": 0.971830985915493,
+            "f1_score": 0.9261744966442953
+        },
+        {
+            "name": "cross_validate-1",
+            "accuracy": 0.9578947368421052,
+            "precision_score": 0.9154929577464789,
+            "recall_score": 0.9154929577464789,
+            "f1_score": 0.9154929577464789
+        },
+        {
+            "name": "cross_validate-2",
+            "accuracy": 0.9649122807017544,
+            "precision_score": 0.9178082191780822,
+            "recall_score": 0.9436619718309859,
+            "f1_score": 0.9305555555555556
+        },
+        {
+            "name": "cross_validate-3",
+            "accuracy": 0.968421052631579,
+            "precision_score": 0.9315068493150684,
+            "recall_score": 0.9444444444444444,
+            "f1_score": 0.9379310344827586
+        },
+        {
+            "name": "cross_validate-4",
+            "accuracy": 0.9753521126760564,
+            "precision_score": 0.9210526315789473,
+            "recall_score": 0.9859154929577465,
+            "f1_score": 0.9523809523809524
+        }
+    ],
+    "no_cross_validate": {
+        "name": "SVM-no-cross-validate",
+        "accuracy": 0.9824561403508771,
+        "precision_score": 0.9583333333333334,
+        "recall_score": 0.971830985915493,
+        "f1_score": 0.965034965034965
+    },
+    "mean": {
+        "accuracy": 0.965596738324685,
+        "precision_score": 0.9140952084867923,
+        "recall_score": 0.9522691705790297,
+        "f1_score": 0.9325069993620081
+    },
+    "std": {
+        "accuracy": 0.006008603218666853,
+        "precision_score": 0.015724955575720734,
+        "recall_score": 0.024505263387872796,
+        "f1_score": 0.012310812331319847
+    },
+    "best_params": {
+        "C": 100,
+        "gamma": 0.01,
+        "kernel": "rbf"
+    },
+    "best_score": 0.9581824122903584,
+    "machine_type": "slider",
+    "machine_id": "id_00"
+}

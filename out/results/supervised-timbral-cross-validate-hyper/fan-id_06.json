@@ -1,0 +1,66 @@
+{
+    "cross_validate": [
+        {
+            "name": "cross_validate-0",
+            "accuracy": 0.8840579710144928,
+            "precision_score": 0.9183673469387755,
+            "recall_score": 0.6164383561643836,
+            "f1_score": 0.7377049180327868
+        },
+        {
+            "name": "cross_validate-1",
+            "accuracy": 0.9054545454545454,
+            "precision_score": 0.9791666666666666,
+            "recall_score": 0.6527777777777778,
+            "f1_score": 0.7833333333333333
+        },
+        {
+            "name": "cross_validate-2",
+            "accuracy": 0.8690909090909091,
+            "precision_score": 0.95,
+            "recall_score": 0.5277777777777778,
+            "f1_score": 0.6785714285714285
+        },
+        {
+            "name": "cross_validate-3",
+            "accuracy": 0.9018181818181819,
+            "precision_score": 1.0,
+            "recall_score": 0.625,
+            "f1_score": 0.7692307692307693
+        },
+        {
+            "name": "cross_validate-4",
+            "accuracy": 0.9127272727272727,
+            "precision_score": 0.98,
+            "recall_score": 0.6805555555555556,
+            "f1_score": 0.8032786885245902
+        }
+    ],
+    "no_cross_validate": {
+        "name": "SVM-no-cross-validate",
+        "accuracy": 0.9963768115942029,
+        "precision_score": 1.0,
+        "recall_score": 0.9861111111111112,
+        "f1_score": 0.993006993006993
+    },
+    "mean": {
+        "accuracy": 0.8946297760210804,
+        "precision_score": 0.9655068027210885,
+        "recall_score": 0.6205098934550989,
+        "f1_score": 0.7544238275385815
+    },
+    "std": {
+        "accuracy": 0.015876806879196004,
+        "precision_score": 0.028457036145679186,
+        "recall_score": 0.05154159804746127,
+        "f1_score": 0.043531392933537
+    },
+    "best_params": {
+        "C": 1000,
+        "gamma": 0.01,
+        "kernel": "rbf"
+    },
+    "best_score": 0.9808948128841148,
+    "machine_type": "fan",
+    "machine_id": "id_06"
+}

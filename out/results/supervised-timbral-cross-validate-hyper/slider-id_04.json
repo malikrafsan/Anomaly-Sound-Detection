@@ -1,0 +1,66 @@
+{
+    "cross_validate": [
+        {
+            "name": "cross_validate-0",
+            "accuracy": 0.916083916083916,
+            "precision_score": 0.875,
+            "recall_score": 0.7777777777777778,
+            "f1_score": 0.823529411764706
+        },
+        {
+            "name": "cross_validate-1",
+            "accuracy": 0.8881118881118881,
+            "precision_score": 0.7777777777777778,
+            "recall_score": 0.7777777777777778,
+            "f1_score": 0.7777777777777778
+        },
+        {
+            "name": "cross_validate-2",
+            "accuracy": 0.8802816901408451,
+            "precision_score": 0.8,
+            "recall_score": 0.6857142857142857,
+            "f1_score": 0.7384615384615385
+        },
+        {
+            "name": "cross_validate-3",
+            "accuracy": 0.8873239436619719,
+            "precision_score": 0.8064516129032258,
+            "recall_score": 0.7142857142857143,
+            "f1_score": 0.7575757575757576
+        },
+        {
+            "name": "cross_validate-4",
+            "accuracy": 0.852112676056338,
+            "precision_score": 0.7777777777777778,
+            "recall_score": 0.5833333333333334,
+            "f1_score": 0.6666666666666666
+        }
+    ],
+    "no_cross_validate": {
+        "name": "SVM-no-cross-validate",
+        "accuracy": 0.9440559440559441,
+        "precision_score": 0.9375,
+        "recall_score": 0.8333333333333334,
+        "f1_score": 0.8823529411764706
+    },
+    "mean": {
+        "accuracy": 0.8847828228109919,
+        "precision_score": 0.8074014336917562,
+        "recall_score": 0.7077777777777778,
+        "f1_score": 0.7528022304492892
+    },
+    "std": {
+        "accuracy": 0.020420073924068437,
+        "precision_score": 0.035722182258572606,
+        "recall_score": 0.07185481288363853,
+        "f1_score": 0.05152453686787746
+    },
+    "best_params": {
+        "C": 1000,
+        "gamma": "scale",
+        "kernel": "rbf"
+    },
+    "best_score": 0.7946592715460641,
+    "machine_type": "slider",
+    "machine_id": "id_04"
+}

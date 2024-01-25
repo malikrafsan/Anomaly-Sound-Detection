@@ -95,11 +95,6 @@ def process(pathnormal:str, pathabnormal: str, machine_type: str):
     mean_f1 = np.mean(f1s)
     std_f1 = np.std(f1s)
 
-    # df_result = pd.DataFrame(lst_result)
-    # mean_result = df_result.mean().to_dict()
-    # std_result = df_result.std().to_dict()
-
-
     # use SVM classifier to predict test data
     clf = svm.SVC(kernel='linear')  # Linear Kernel
     clf.fit(X_train, y_train)

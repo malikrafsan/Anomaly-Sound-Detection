@@ -1,0 +1,66 @@
+{
+    "cross_validate": [
+        {
+            "name": "cross_validate-0",
+            "accuracy": 0.9090909090909091,
+            "precision_score": 0.9791666666666666,
+            "recall_score": 0.6619718309859155,
+            "f1_score": 0.7899159663865546
+        },
+        {
+            "name": "cross_validate-1",
+            "accuracy": 0.9163636363636364,
+            "precision_score": 0.9622641509433962,
+            "recall_score": 0.7083333333333334,
+            "f1_score": 0.816
+        },
+        {
+            "name": "cross_validate-2",
+            "accuracy": 0.9418181818181818,
+            "precision_score": 0.9666666666666667,
+            "recall_score": 0.8055555555555556,
+            "f1_score": 0.8787878787878789
+        },
+        {
+            "name": "cross_validate-3",
+            "accuracy": 0.9345454545454546,
+            "precision_score": 0.9655172413793104,
+            "recall_score": 0.7777777777777778,
+            "f1_score": 0.8615384615384615
+        },
+        {
+            "name": "cross_validate-4",
+            "accuracy": 0.9309090909090909,
+            "precision_score": 0.9206349206349206,
+            "recall_score": 0.8055555555555556,
+            "f1_score": 0.8592592592592592
+        }
+    ],
+    "no_cross_validate": {
+        "name": "SVM-no-cross-validate",
+        "accuracy": 0.9672727272727273,
+        "precision_score": 0.9846153846153847,
+        "recall_score": 0.8888888888888888,
+        "f1_score": 0.9343065693430657
+    },
+    "mean": {
+        "accuracy": 0.9265454545454546,
+        "precision_score": 0.9588499292581922,
+        "recall_score": 0.7518388106416275,
+        "f1_score": 0.8411003131944309
+    },
+    "std": {
+        "accuracy": 0.012038505714361344,
+        "precision_score": 0.019951782112637456,
+        "recall_score": 0.05729329449883114,
+        "f1_score": 0.032917110781129834
+    },
+    "best_params": {
+        "C": 1000,
+        "gamma": 0.01,
+        "kernel": "rbf"
+    },
+    "best_score": 0.9392593194317331,
+    "machine_type": "fan",
+    "machine_id": "id_02"
+}

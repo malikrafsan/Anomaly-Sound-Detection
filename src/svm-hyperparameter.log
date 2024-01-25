@@ -1,0 +1,106 @@
+machine_type: fan, machine_id: id_00
+accuracy: 0.85
+precision_score: 1.00
+recall_score: 0.46
+f1_score: 0.63
+accuracy: 0.80
+precision_score: 1.00
+recall_score: 0.30
+f1_score: 0.47
+accuracy: 0.82
+precision_score: 1.00
+recall_score: 0.38
+f1_score: 0.55
+accuracy: 0.80
+precision_score: 0.88
+recall_score: 0.35
+f1_score: 0.50
+accuracy: 0.80
+precision_score: 1.00
+recall_score: 0.30
+f1_score: 0.46
+Fitting 5 folds for each of 120 candidates, totalling 600 fits
+[CV] END ......................C=0.1, gamma=1, kernel=linear; total time=   0.2s
+[CV] END ........................C=0.1, gamma=1, kernel=poly; total time=  37.2s
+[CV] END .....................C=0.1, gamma=0.01, kernel=poly; total time=   5.1s
+[CV] END .................C=0.1, gamma=0.001, kernel=sigmoid; total time=   0.1s
+[CV] END .....................C=0.1, gamma=scale, kernel=rbf; total time=   0.1s
+[CV] END .....................C=0.1, gamma=scale, kernel=rbf; total time=   0.1s
+[CV] END ....................C=0.1, gamma=scale, kernel=poly; total time=   0.1s
+[CV] END .................C=0.1, gamma=scale, kernel=sigmoid; total time=   0.1s
+[CV] END ...................C=0.1, gamma=auto, kernel=linear; total time=   0.1s
+[CV] END ...................C=0.1, gamma=auto, kernel=linear; total time=   0.1s
+[CV] END ......................C=0.1, gamma=auto, kernel=rbf; total time=   0.1s
+[CV] END .....................C=0.1, gamma=auto, kernel=poly; total time=  24.2s
+[CV] END ......................C=0.1, gamma=1, kernel=linear; total time=   0.1s
+[CV] END ........................C=0.1, gamma=1, kernel=poly; total time=  31.4s
+[CV] END ......................C=0.1, gamma=0.1, kernel=poly; total time=  36.7s
+[CV] END .........................C=0.1, gamma=1, kernel=rbf; total time=   0.1s
+[CV] END .....................C=0.1, gamma=1, kernel=sigmoid; total time=   0.0s
+[CV] END .....................C=0.1, gamma=1, kernel=sigmoid; total time=   0.0s
+[CV] END .....................C=0.1, gamma=1, kernel=sigmoid; total time=   0.0s
+[CV] END ....................C=0.1, gamma=0.1, kernel=linear; total time=   0.1s
+[CV] END .......................C=0.1, gamma=0.1, kernel=rbf; total time=   0.1s
+[CV] END .......................C=0.1, gamma=0.1, kernel=rbf; total time=   0.1s
+[CV] END ......................C=0.1, gamma=0.1, kernel=poly; total time=  31.1s
+[CV] END ...................C=0.1, gamma=0.1, kernel=sigmoid; total time=   0.1s
+[CV] END ...................C=0.1, gamma=0.1, kernel=sigmoid; total time=   0.1s
+[CV] END ...................C=0.1, gamma=0.1, kernel=sigmoid; total time=   0.0s
+[CV] END ...................C=0.1, gamma=0.1, kernel=sigmoid; total time=   0.1s
+[CV] END ...................C=0.1, gamma=0.1, kernel=sigmoid; total time=   0.0s
+[CV] END ...................C=0.1, gamma=0.01, kernel=linear; total time=   0.1s
+[CV] END ...................C=0.1, gamma=0.01, kernel=linear; total time=   0.1s
+[CV] END ...................C=0.1, gamma=0.01, kernel=linear; total time=   0.1s
+[CV] END ...................C=0.1, gamma=0.01, kernel=linear; total time=   0.1s
+[CV] END ...................C=0.1, gamma=0.01, kernel=linear; total time=   0.1s
+[CV] END ......................C=0.1, gamma=0.01, kernel=rbf; total time=   0.0s
+[CV] END ......................C=0.1, gamma=0.01, kernel=rbf; total time=   0.1s
+[CV] END ......................C=0.1, gamma=0.01, kernel=rbf; total time=   0.1s
+[CV] END ......................C=0.1, gamma=0.01, kernel=rbf; total time=   0.1s
+[CV] END ......................C=0.1, gamma=0.01, kernel=rbf; total time=   0.0s
+[CV] END .....................C=0.1, gamma=0.01, kernel=poly; total time=   4.5s
+[CV] END .....................C=0.1, gamma=0.01, kernel=poly; total time=   4.0s
+[CV] END ..................C=0.1, gamma=0.001, kernel=linear; total time=   0.1s
+[CV] END ..................C=0.1, gamma=0.001, kernel=linear; total time=   0.1s
+[CV] END .....................C=0.1, gamma=0.001, kernel=rbf; total time=   0.0s
+[CV] END .....................C=0.1, gamma=0.001, kernel=rbf; total time=   0.1s
+[CV] END ....................C=0.1, gamma=0.001, kernel=poly; total time=   0.1s
+[CV] END ....................C=0.1, gamma=0.001, kernel=poly; total time=   0.1s
+[CV] END .................C=0.1, gamma=0.001, kernel=sigmoid; total time=   0.1s
+[CV] END ..................C=0.1, gamma=scale, kernel=linear; total time=   0.1s
+[CV] END ..................C=0.1, gamma=scale, kernel=linear; total time=   0.1s
+[CV] END .....................C=0.1, gamma=scale, kernel=rbf; total time=   0.1s
+[CV] END ....................C=0.1, gamma=scale, kernel=poly; total time=   0.1s
+[CV] END .................C=0.1, gamma=scale, kernel=sigmoid; total time=   0.1s
+[CV] END .................C=0.1, gamma=scale, kernel=sigmoid; total time=   0.1s
+[CV] END ......................C=0.1, gamma=auto, kernel=rbf; total time=   0.1s
+[CV] END ......................C=0.1, gamma=auto, kernel=rbf; total time=   0.1s
+[CV] END .....................C=0.1, gamma=auto, kernel=poly; total time=  40.1s
+[CV] END .......................C=1, gamma=1, kernel=sigmoid; total time=   0.0s
+[CV] END .......................C=1, gamma=1, kernel=sigmoid; total time=   0.0s
+[CV] END .......................C=1, gamma=1, kernel=sigmoid; total time=   0.0s
+[CV] END .......................C=1, gamma=1, kernel=sigmoid; total time=   0.0s
+[CV] END .......................C=1, gamma=1, kernel=sigmoid; total time=   0.0s
+[CV] END ......................C=1, gamma=0.1, kernel=linear; total time=   0.4s
+[CV] END ......................C=1, gamma=0.1, kernel=linear; total time=   0.5s
+[CV] END ......................C=1, gamma=0.1, kernel=linear; total time=   0.2s
+[CV] END ......................C=1, gamma=0.1, kernel=linear; total time=   0.4s
+[CV] END ......................C=1, gamma=0.1, kernel=linear; total time=   0.4s
+[CV] END .........................C=1, gamma=0.1, kernel=rbf; total time=   0.0s
+[CV] END .........................C=1, gamma=0.1, kernel=rbf; total time=   0.0s
+[CV] END .........................C=1, gamma=0.1, kernel=rbf; total time=   0.1s
+[CV] END .........................C=1, gamma=0.1, kernel=rbf; total time=   0.0s
+[CV] END .........................C=1, gamma=0.1, kernel=rbf; total time=   0.0s
+[CV] END .........................C=0.1, gamma=1, kernel=rbf; total time=   0.1s
+[CV] END .....................C=0.1, gamma=1, kernel=sigmoid; total time=   0.0s
+[CV] END .....................C=0.1, gamma=1, kernel=sigmoid; total time=   0.0s
+[CV] END ....................C=0.1, gamma=0.1, kernel=linear; total time=   0.1s
+[CV] END ....................C=0.1, gamma=0.1, kernel=linear; total time=   0.1s
+[CV] END .......................C=0.1, gamma=0.1, kernel=rbf; total time=   0.1s
+[CV] END .......................C=0.1, gamma=0.1, kernel=rbf; total time=   0.0s
+[CV] END ......................C=0.1, gamma=0.1, kernel=poly; total time=  37.5s
+[CV] END .....................C=0.1, gamma=0.01, kernel=poly; total time=   5.3s
+[CV] END .....................C=0.1, gamma=auto, kernel=poly; total time=  26.0s
+[CV] END ......................C=0.1, gamma=1, kernel=linear; total time=   0.1s
+[CV] END .........................C=0.1, gamma=1, kernel=rbf; total time=   0.1s
+[CV] END ........................C=0.1, gamma=1, kernel=poly; total time= 1.5min

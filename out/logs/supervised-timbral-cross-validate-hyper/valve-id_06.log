@@ -1,0 +1,45 @@
+2024-01-25 11:04:33,086 - INFO - machine_type: valve, machine_id: id_06
+2024-01-25 11:04:45,185 - INFO - cross_validate-0
+2024-01-25 11:04:45,348 - INFO - accuracy: 0.89
+2024-01-25 11:04:45,458 - ERROR - /home/s2316079/anaconda3/envs/asd/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2024-01-25 11:04:45,458 - INFO - precision_score: 0.00
+2024-01-25 11:04:45,461 - INFO - recall_score: 0.00
+2024-01-25 11:04:45,463 - INFO - f1_score: 0.00
+2024-01-25 11:04:58,377 - INFO - cross_validate-1
+2024-01-25 11:04:58,396 - INFO - accuracy: 0.89
+2024-01-25 11:04:58,398 - ERROR - /home/s2316079/anaconda3/envs/asd/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2024-01-25 11:04:58,399 - INFO - precision_score: 0.00
+2024-01-25 11:04:58,493 - INFO - recall_score: 0.00
+2024-01-25 11:04:58,496 - INFO - f1_score: 0.00
+2024-01-25 11:05:08,041 - INFO - cross_validate-2
+2024-01-25 11:05:08,162 - INFO - accuracy: 0.89
+2024-01-25 11:05:08,164 - ERROR - /home/s2316079/anaconda3/envs/asd/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2024-01-25 11:05:08,164 - INFO - precision_score: 0.00
+2024-01-25 11:05:08,275 - INFO - recall_score: 0.00
+2024-01-25 11:05:08,277 - INFO - f1_score: 0.00
+2024-01-25 11:05:21,067 - INFO - cross_validate-3
+2024-01-25 11:05:21,087 - INFO - accuracy: 0.89
+2024-01-25 11:05:21,089 - ERROR - /home/s2316079/anaconda3/envs/asd/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2024-01-25 11:05:21,089 - INFO - precision_score: 0.00
+2024-01-25 11:05:21,185 - INFO - recall_score: 0.00
+2024-01-25 11:05:21,275 - INFO - f1_score: 0.00
+2024-01-25 11:05:34,329 - INFO - cross_validate-4
+2024-01-25 11:05:34,474 - INFO - accuracy: 0.89
+2024-01-25 11:05:34,476 - ERROR - /home/s2316079/anaconda3/envs/asd/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2024-01-25 11:05:34,477 - INFO - precision_score: 0.00
+2024-01-25 11:05:34,479 - INFO - recall_score: 0.00
+2024-01-25 11:05:34,481 - INFO - f1_score: 0.00
+2024-01-25 11:05:35,018 - INFO - Fitting 5 folds for each of 75 candidates, totalling 375 fits
+2024-01-25 11:07:59,865 - INFO - grid_search.best_params_
+2024-01-25 11:07:59,873 - INFO - {'C': 1000, 'gamma': 0.1, 'kernel': 'rbf'}
+2024-01-25 11:07:59,873 - INFO - grid_search.best_score_
+2024-01-25 11:07:59,873 - INFO - 0.4876702245123298
+2024-01-25 11:07:59,882 - INFO - accuracy: 0.87
+2024-01-25 11:07:59,907 - INFO - precision_score: 0.40
+2024-01-25 11:07:59,922 - INFO - recall_score: 0.42
+2024-01-25 11:07:59,936 - INFO - f1_score: 0.41

@@ -3,38 +3,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.8193832599118943,
+                "accuracy": 0.8450704225352113,
                 "precision_score": 1.0,
-                "recall_score": 0.36923076923076925,
-                "f1_score": 0.5393258426966292
+                "recall_score": 0.4567901234567901,
+                "f1_score": 0.6271186440677966
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.8061674008810573,
-                "precision_score": 0.92,
-                "recall_score": 0.35384615384615387,
-                "f1_score": 0.5111111111111112
+                "accuracy": 0.7992957746478874,
+                "precision_score": 1.0,
+                "recall_score": 0.3048780487804878,
+                "f1_score": 0.4672897196261682
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.8149779735682819,
-                "precision_score": 0.9259259259259259,
-                "recall_score": 0.38461538461538464,
-                "f1_score": 0.5434782608695653
+                "accuracy": 0.8204225352112676,
+                "precision_score": 1.0,
+                "recall_score": 0.3780487804878049,
+                "f1_score": 0.5486725663716815
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.7841409691629956,
-                "precision_score": 0.9444444444444444,
-                "recall_score": 0.26153846153846155,
-                "f1_score": 0.4096385542168675
+                "accuracy": 0.7985865724381626,
+                "precision_score": 0.875,
+                "recall_score": 0.345679012345679,
+                "f1_score": 0.4955752212389381
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.827433628318584,
+                "accuracy": 0.7985865724381626,
                 "precision_score": 1.0,
-                "recall_score": 0.4,
-                "f1_score": 0.5714285714285715
+                "recall_score": 0.2962962962962963,
+                "f1_score": 0.45714285714285713
             }
         ],
         "no_cross_validate": {
@@ -45,16 +45,16 @@
             "f1_score": 0.5391304347826088
         },
         "mean": {
-            "accuracy": 0.8104206463685626,
-            "precision_score": 0.9580740740740741,
-            "recall_score": 0.3538461538461538,
-            "f1_score": 0.514996468064549
+            "accuracy": 0.8123923754541382,
+            "precision_score": 0.975,
+            "recall_score": 0.3563384522734116,
+            "f1_score": 0.5191598016894883
         },
         "std": {
-            "accuracy": 0.01482734473039561,
-            "precision_score": 0.035169509178510555,
-            "recall_score": 0.04865042554105199,
-            "f1_score": 0.05604123355254559
+            "accuracy": 0.018357884264086546,
+            "precision_score": 0.049999999999999996,
+            "recall_score": 0.058187170194670894,
+            "f1_score": 0.06264016951770626
         },
         "machine_type": "fan",
         "machine_id": "id_00"
@@ -63,38 +63,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.9545454545454546,
-                "precision_score": 0.9795918367346939,
-                "recall_score": 0.8421052631578947,
-                "f1_score": 0.9056603773584905
+                "accuracy": 0.9090909090909091,
+                "precision_score": 0.9791666666666666,
+                "recall_score": 0.6619718309859155,
+                "f1_score": 0.7899159663865546
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.9045454545454545,
-                "precision_score": 0.9285714285714286,
-                "recall_score": 0.6842105263157895,
-                "f1_score": 0.7878787878787878
+                "accuracy": 0.9163636363636364,
+                "precision_score": 0.9622641509433962,
+                "recall_score": 0.7083333333333334,
+                "f1_score": 0.816
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.9181818181818182,
-                "precision_score": 0.9148936170212766,
-                "recall_score": 0.7543859649122807,
-                "f1_score": 0.8269230769230769
+                "accuracy": 0.9418181818181818,
+                "precision_score": 0.9666666666666667,
+                "recall_score": 0.8055555555555556,
+                "f1_score": 0.8787878787878789
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.9227272727272727,
-                "precision_score": 0.9555555555555556,
-                "recall_score": 0.7413793103448276,
-                "f1_score": 0.8349514563106797
+                "accuracy": 0.9345454545454546,
+                "precision_score": 0.9655172413793104,
+                "recall_score": 0.7777777777777778,
+                "f1_score": 0.8615384615384615
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.9272727272727272,
-                "precision_score": 0.9565217391304348,
-                "recall_score": 0.7586206896551724,
-                "f1_score": 0.8461538461538461
+                "accuracy": 0.9309090909090909,
+                "precision_score": 0.9206349206349206,
+                "recall_score": 0.8055555555555556,
+                "f1_score": 0.8592592592592592
             }
         ],
         "no_cross_validate": {
@@ -105,16 +105,16 @@
             "f1_score": 0.8346456692913387
         },
         "mean": {
-            "accuracy": 0.9254545454545454,
-            "precision_score": 0.9470268354026778,
-            "recall_score": 0.756140350877193,
-            "f1_score": 0.8403135089249762
+            "accuracy": 0.9265454545454546,
+            "precision_score": 0.9588499292581922,
+            "recall_score": 0.7518388106416275,
+            "f1_score": 0.8411003131944309
         },
         "std": {
-            "accuracy": 0.01641406371387982,
-            "precision_score": 0.02278823091358092,
-            "recall_score": 0.05057862013346862,
-            "f1_score": 0.03810978352507794
+            "accuracy": 0.012038505714361344,
+            "precision_score": 0.019951782112637456,
+            "recall_score": 0.05729329449883114,
+            "f1_score": 0.032917110781129834
         },
         "machine_type": "fan",
         "machine_id": "id_02"
@@ -123,38 +123,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.9321266968325792,
-                "precision_score": 0.8846153846153846,
-                "recall_score": 0.8363636363636363,
-                "f1_score": 0.8598130841121494
+                "accuracy": 0.9061371841155235,
+                "precision_score": 0.8928571428571429,
+                "recall_score": 0.7142857142857143,
+                "f1_score": 0.7936507936507937
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.9140271493212669,
-                "precision_score": 0.9302325581395349,
-                "recall_score": 0.7142857142857143,
-                "f1_score": 0.8080808080808081
+                "accuracy": 0.9202898550724637,
+                "precision_score": 0.9795918367346939,
+                "recall_score": 0.6956521739130435,
+                "f1_score": 0.8135593220338982
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.9140271493212669,
-                "precision_score": 0.8936170212765957,
-                "recall_score": 0.75,
-                "f1_score": 0.8155339805825244
+                "accuracy": 0.927536231884058,
+                "precision_score": 0.9454545454545454,
+                "recall_score": 0.7536231884057971,
+                "f1_score": 0.8387096774193549
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.9049773755656109,
-                "precision_score": 0.9487179487179487,
-                "recall_score": 0.6607142857142857,
-                "f1_score": 0.7789473684210526
+                "accuracy": 0.8804347826086957,
+                "precision_score": 0.8490566037735849,
+                "recall_score": 0.6428571428571429,
+                "f1_score": 0.7317073170731708
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.9045454545454545,
-                "precision_score": 0.8695652173913043,
-                "recall_score": 0.7272727272727273,
-                "f1_score": 0.792079207920792
+                "accuracy": 0.9021739130434783,
+                "precision_score": 0.8909090909090909,
+                "recall_score": 0.7,
+                "f1_score": 0.7839999999999999
             }
         ],
         "no_cross_validate": {
@@ -165,16 +165,16 @@
             "f1_score": 0.7777777777777777
         },
         "mean": {
-            "accuracy": 0.9139407651172358,
-            "precision_score": 0.9053496260281537,
-            "recall_score": 0.7377272727272727,
-            "f1_score": 0.8108908898234652
+            "accuracy": 0.9073143933448439,
+            "precision_score": 0.9115738439458116,
+            "recall_score": 0.7012836438923395,
+            "f1_score": 0.7923254220354435
         },
         "std": {
-            "accuracy": 0.009993570431141704,
-            "precision_score": 0.02948917905298173,
-            "recall_score": 0.057392606523154796,
-            "f1_score": 0.02755759017334714
+            "accuracy": 0.01629484086191793,
+            "precision_score": 0.04573860844891427,
+            "recall_score": 0.03565248651462158,
+            "f1_score": 0.035631451185345844
         },
         "machine_type": "fan",
         "machine_id": "id_04"
@@ -183,38 +183,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.8909090909090909,
-                "precision_score": 0.9230769230769231,
-                "recall_score": 0.631578947368421,
-                "f1_score": 0.7499999999999999
+                "accuracy": 0.8840579710144928,
+                "precision_score": 0.9183673469387755,
+                "recall_score": 0.6164383561643836,
+                "f1_score": 0.7377049180327868
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.8727272727272727,
-                "precision_score": 0.9411764705882353,
-                "recall_score": 0.5517241379310345,
-                "f1_score": 0.6956521739130435
+                "accuracy": 0.9054545454545454,
+                "precision_score": 0.9791666666666666,
+                "recall_score": 0.6527777777777778,
+                "f1_score": 0.7833333333333333
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.9090909090909091,
-                "precision_score": 1.0,
-                "recall_score": 0.6551724137931034,
-                "f1_score": 0.7916666666666666
+                "accuracy": 0.8690909090909091,
+                "precision_score": 0.95,
+                "recall_score": 0.5277777777777778,
+                "f1_score": 0.6785714285714285
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.8954545454545455,
-                "precision_score": 0.9487179487179487,
-                "recall_score": 0.6379310344827587,
-                "f1_score": 0.7628865979381444
+                "accuracy": 0.9018181818181819,
+                "precision_score": 1.0,
+                "recall_score": 0.625,
+                "f1_score": 0.7692307692307693
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.8818181818181818,
-                "precision_score": 0.9705882352941176,
-                "recall_score": 0.5689655172413793,
-                "f1_score": 0.717391304347826
+                "accuracy": 0.9127272727272727,
+                "precision_score": 0.98,
+                "recall_score": 0.6805555555555556,
+                "f1_score": 0.8032786885245902
             }
         ],
         "no_cross_validate": {
@@ -225,16 +225,16 @@
             "f1_score": 0.7457627118644068
         },
         "mean": {
-            "accuracy": 0.89,
-            "precision_score": 0.9567119155354449,
-            "recall_score": 0.6090744101633394,
-            "f1_score": 0.7435193485731361
+            "accuracy": 0.8946297760210804,
+            "precision_score": 0.9655068027210885,
+            "recall_score": 0.6205098934550989,
+            "f1_score": 0.7544238275385815
         },
         "std": {
-            "accuracy": 0.012331509060227765,
-            "precision_score": 0.02646876188841184,
-            "recall_score": 0.04089489434421242,
-            "f1_score": 0.03379110692315986
+            "accuracy": 0.015876806879196004,
+            "precision_score": 0.028457036145679186,
+            "recall_score": 0.05154159804746127,
+            "f1_score": 0.043531392933537
         },
         "machine_type": "fan",
         "machine_id": "id_06"
@@ -243,38 +243,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.967391304347826,
+                "accuracy": 0.9739130434782609,
                 "precision_score": 1.0,
-                "recall_score": 0.7391304347826086,
-                "f1_score": 0.85
+                "recall_score": 0.7857142857142857,
+                "f1_score": 0.88
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.9728260869565217,
+                "accuracy": 0.9739130434782609,
                 "precision_score": 1.0,
-                "recall_score": 0.782608695652174,
-                "f1_score": 0.878048780487805
+                "recall_score": 0.7931034482758621,
+                "f1_score": 0.8846153846153846
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.9782608695652174,
+                "accuracy": 0.9652173913043478,
                 "precision_score": 1.0,
-                "recall_score": 0.8260869565217391,
-                "f1_score": 0.9047619047619047
+                "recall_score": 0.7241379310344828,
+                "f1_score": 0.8400000000000001
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.9565217391304348,
+                "accuracy": 0.9739130434782609,
                 "precision_score": 1.0,
-                "recall_score": 0.6521739130434783,
-                "f1_score": 0.7894736842105263
+                "recall_score": 0.7931034482758621,
+                "f1_score": 0.8846153846153846
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.9836065573770492,
+                "accuracy": 0.9650655021834061,
                 "precision_score": 1.0,
-                "recall_score": 0.8636363636363636,
-                "f1_score": 0.9268292682926829
+                "recall_score": 0.7142857142857143,
+                "f1_score": 0.8333333333333333
             }
         ],
         "no_cross_validate": {
@@ -285,16 +285,16 @@
             "f1_score": 0.7916666666666666
         },
         "mean": {
-            "accuracy": 0.9717213114754099,
+            "accuracy": 0.9704044047845073,
             "precision_score": 1.0,
-            "recall_score": 0.7727272727272727,
-            "f1_score": 0.8698227275505838
+            "recall_score": 0.7620689655172413,
+            "f1_score": 0.8645128205128205
         },
         "std": {
-            "accuracy": 0.009327608270195784,
+            "accuracy": 0.0042974556723092815,
             "precision_score": 0.0,
-            "recall_score": 0.07330923711854312,
-            "f1_score": 0.04772225692843488
+            "recall_score": 0.03523459062511856,
+            "f1_score": 0.022895928396695638
         },
         "machine_type": "pump",
         "machine_id": "id_00"
@@ -303,38 +303,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.9441340782122905,
+                "accuracy": 0.9553571428571429,
                 "precision_score": 1.0,
-                "recall_score": 0.4444444444444444,
-                "f1_score": 0.6153846153846153
+                "recall_score": 0.5652173913043478,
+                "f1_score": 0.7222222222222222
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.9385474860335196,
-                "precision_score": 0.8888888888888888,
-                "recall_score": 0.4444444444444444,
-                "f1_score": 0.5925925925925926
+                "accuracy": 0.9641255605381166,
+                "precision_score": 1.0,
+                "recall_score": 0.6363636363636364,
+                "f1_score": 0.7777777777777778
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.9550561797752809,
-                "precision_score": 0.9090909090909091,
-                "recall_score": 0.5882352941176471,
-                "f1_score": 0.7142857142857143
+                "accuracy": 0.9327354260089686,
+                "precision_score": 0.8888888888888888,
+                "recall_score": 0.36363636363636365,
+                "f1_score": 0.5161290322580644
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.9662921348314607,
+                "accuracy": 0.9506726457399103,
                 "precision_score": 1.0,
-                "recall_score": 0.6666666666666666,
-                "f1_score": 0.8
+                "recall_score": 0.5,
+                "f1_score": 0.6666666666666666
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.9382022471910112,
-                "precision_score": 1.0,
-                "recall_score": 0.3888888888888889,
-                "f1_score": 0.56
+                "accuracy": 0.9461883408071748,
+                "precision_score": 0.9166666666666666,
+                "recall_score": 0.5,
+                "f1_score": 0.6470588235294118
             }
         ],
         "no_cross_validate": {
@@ -345,16 +345,16 @@
             "f1_score": 0.6666666666666666
         },
         "mean": {
-            "accuracy": 0.9484464252087126,
-            "precision_score": 0.9595959595959596,
-            "recall_score": 0.5065359477124183,
-            "f1_score": 0.6564525844525846
+            "accuracy": 0.9498158231902627,
+            "precision_score": 0.961111111111111,
+            "recall_score": 0.5130434782608695,
+            "f1_score": 0.6659709044908285
         },
         "std": {
-            "accuracy": 0.010804505764168892,
-            "precision_score": 0.049895309233246365,
-            "recall_score": 0.10379611780970101,
-            "f1_score": 0.0883383372131793
+            "accuracy": 0.010402956770140628,
+            "precision_score": 0.04843221048378528,
+            "recall_score": 0.09010297347753139,
+            "f1_score": 0.08772197583985286
         },
         "machine_type": "pump",
         "machine_id": "id_02"
@@ -363,38 +363,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.9457364341085271,
+                "accuracy": 0.9627329192546584,
                 "precision_score": 1.0,
-                "recall_score": 0.5625,
-                "f1_score": 0.72
+                "recall_score": 0.7,
+                "f1_score": 0.8235294117647058
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.9609375,
+                "accuracy": 0.9565217391304348,
                 "precision_score": 1.0,
-                "recall_score": 0.6875,
-                "f1_score": 0.8148148148148148
+                "recall_score": 0.65,
+                "f1_score": 0.787878787878788
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.9765625,
+                "accuracy": 0.975,
                 "precision_score": 1.0,
-                "recall_score": 0.8125,
-                "f1_score": 0.896551724137931
+                "recall_score": 0.8,
+                "f1_score": 0.888888888888889
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.9609375,
+                "accuracy": 0.94375,
                 "precision_score": 1.0,
-                "recall_score": 0.6875,
-                "f1_score": 0.8148148148148148
+                "recall_score": 0.55,
+                "f1_score": 0.7096774193548387
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.9609375,
+                "accuracy": 0.95625,
                 "precision_score": 1.0,
-                "recall_score": 0.6875,
-                "f1_score": 0.8148148148148148
+                "recall_score": 0.65,
+                "f1_score": 0.787878787878788
             }
         ],
         "no_cross_validate": {
@@ -405,16 +405,16 @@
             "f1_score": 0.7499999999999999
         },
         "mean": {
-            "accuracy": 0.9610222868217054,
+            "accuracy": 0.9588509316770187,
             "precision_score": 1.0,
-            "recall_score": 0.6875,
-            "f1_score": 0.812199233716475
+            "recall_score": 0.67,
+            "f1_score": 0.7995706591532018
         },
         "std": {
-            "accuracy": 0.009748611031436476,
+            "accuracy": 0.010159629484138042,
             "precision_score": 0.0,
-            "recall_score": 0.07905694150420949,
-            "f1_score": 0.055922383947133364
+            "recall_score": 0.0812403840463596,
+            "f1_score": 0.0581480219079844
         },
         "machine_type": "pump",
         "machine_id": "id_04"
@@ -423,38 +423,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.967032967032967,
-                "precision_score": 0.9166666666666666,
-                "recall_score": 0.6875,
-                "f1_score": 0.7857142857142857
+                "accuracy": 0.9429824561403509,
+                "precision_score": 0.7058823529411765,
+                "recall_score": 0.6,
+                "f1_score": 0.6486486486486486
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.945054945054945,
-                "precision_score": 0.7142857142857143,
-                "recall_score": 0.625,
-                "f1_score": 0.6666666666666666
+                "accuracy": 0.956140350877193,
+                "precision_score": 0.7894736842105263,
+                "recall_score": 0.7142857142857143,
+                "f1_score": 0.7500000000000001
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.967032967032967,
-                "precision_score": 0.9166666666666666,
-                "recall_score": 0.6875,
-                "f1_score": 0.7857142857142857
+                "accuracy": 0.9649122807017544,
+                "precision_score": 0.8095238095238095,
+                "recall_score": 0.8095238095238095,
+                "f1_score": 0.8095238095238095
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.9615384615384616,
-                "precision_score": 0.8571428571428571,
-                "recall_score": 0.7058823529411765,
-                "f1_score": 0.7741935483870968
+                "accuracy": 0.9647577092511013,
+                "precision_score": 0.8,
+                "recall_score": 0.8,
+                "f1_score": 0.8000000000000002
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.9835164835164835,
-                "precision_score": 0.8888888888888888,
-                "recall_score": 0.9411764705882353,
-                "f1_score": 0.9142857142857143
+                "accuracy": 0.973568281938326,
+                "precision_score": 0.9375,
+                "recall_score": 0.75,
+                "f1_score": 0.8333333333333334
             }
         ],
         "no_cross_validate": {
@@ -465,16 +465,16 @@
             "f1_score": 0.7142857142857143
         },
         "mean": {
-            "accuracy": 0.9648351648351647,
-            "precision_score": 0.8587301587301587,
-            "recall_score": 0.7294117647058824,
-            "f1_score": 0.7853149001536098
+            "accuracy": 0.9604722157817452,
+            "precision_score": 0.8084759693351025,
+            "recall_score": 0.7347619047619048,
+            "f1_score": 0.7683011583011584
         },
         "std": {
-            "accuracy": 0.012335134242111887,
-            "precision_score": 0.07548449372650574,
-            "recall_score": 0.10937360972917694,
-            "f1_score": 0.07853009320029704
+            "accuracy": 0.010336762795114982,
+            "precision_score": 0.0743056895250785,
+            "recall_score": 0.0757067980724084,
+            "f1_score": 0.06570382453038183
         },
         "machine_type": "pump",
         "machine_id": "id_06"
@@ -483,38 +483,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.9605263157894737,
-                "precision_score": 0.9285714285714286,
-                "recall_score": 0.9122807017543859,
-                "f1_score": 0.9203539823008849
+                "accuracy": 0.9614035087719298,
+                "precision_score": 0.8846153846153846,
+                "recall_score": 0.971830985915493,
+                "f1_score": 0.9261744966442953
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.9736842105263158,
-                "precision_score": 0.9180327868852459,
-                "recall_score": 0.9824561403508771,
-                "f1_score": 0.9491525423728813
+                "accuracy": 0.9578947368421052,
+                "precision_score": 0.9154929577464789,
+                "recall_score": 0.9154929577464789,
+                "f1_score": 0.9154929577464789
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.9692982456140351,
-                "precision_score": 0.9032258064516129,
-                "recall_score": 0.9824561403508771,
-                "f1_score": 0.9411764705882352
+                "accuracy": 0.9649122807017544,
+                "precision_score": 0.9178082191780822,
+                "recall_score": 0.9436619718309859,
+                "f1_score": 0.9305555555555556
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.956140350877193,
-                "precision_score": 0.9122807017543859,
-                "recall_score": 0.9122807017543859,
-                "f1_score": 0.9122807017543859
+                "accuracy": 0.968421052631579,
+                "precision_score": 0.9315068493150684,
+                "recall_score": 0.9444444444444444,
+                "f1_score": 0.9379310344827586
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.9691629955947136,
-                "precision_score": 0.9166666666666666,
-                "recall_score": 0.9649122807017544,
-                "f1_score": 0.9401709401709402
+                "accuracy": 0.9753521126760564,
+                "precision_score": 0.9210526315789473,
+                "recall_score": 0.9859154929577465,
+                "f1_score": 0.9523809523809524
             }
         ],
         "no_cross_validate": {
@@ -525,16 +525,16 @@
             "f1_score": 0.971830985915493
         },
         "mean": {
-            "accuracy": 0.9657624236803463,
-            "precision_score": 0.915755478065868,
-            "recall_score": 0.9508771929824562,
-            "f1_score": 0.9326269274374654
+            "accuracy": 0.965596738324685,
+            "precision_score": 0.9140952084867923,
+            "recall_score": 0.9522691705790297,
+            "f1_score": 0.9325069993620081
         },
         "std": {
-            "accuracy": 0.0064315121674230905,
-            "precision_score": 0.008238103284882128,
-            "recall_score": 0.03215842592951467,
-            "f1_score": 0.013911842775676132
+            "accuracy": 0.006008603218666853,
+            "precision_score": 0.015724955575720734,
+            "recall_score": 0.024505263387872796,
+            "f1_score": 0.012310812331319847
         },
         "machine_type": "slider",
         "machine_id": "id_00"
@@ -543,38 +543,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.9485981308411215,
-                "precision_score": 0.9210526315789473,
-                "recall_score": 0.813953488372093,
-                "f1_score": 0.8641975308641974
+                "accuracy": 0.9588014981273408,
+                "precision_score": 0.9565217391304348,
+                "recall_score": 0.8301886792452831,
+                "f1_score": 0.888888888888889
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.9439252336448598,
-                "precision_score": 0.9428571428571428,
-                "recall_score": 0.7674418604651163,
-                "f1_score": 0.8461538461538461
+                "accuracy": 0.9325842696629213,
+                "precision_score": 0.8571428571428571,
+                "recall_score": 0.7924528301886793,
+                "f1_score": 0.8235294117647058
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.9485981308411215,
-                "precision_score": 0.9,
-                "recall_score": 0.8372093023255814,
-                "f1_score": 0.8674698795180723
+                "accuracy": 0.9363295880149812,
+                "precision_score": 0.9090909090909091,
+                "recall_score": 0.7547169811320755,
+                "f1_score": 0.8247422680412373
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.9389671361502347,
-                "precision_score": 0.9142857142857143,
-                "recall_score": 0.7619047619047619,
-                "f1_score": 0.8311688311688312
+                "accuracy": 0.9550561797752809,
+                "precision_score": 0.9038461538461539,
+                "recall_score": 0.8703703703703703,
+                "f1_score": 0.8867924528301887
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.9389671361502347,
-                "precision_score": 0.9166666666666666,
-                "recall_score": 0.7674418604651163,
-                "f1_score": 0.8354430379746837
+                "accuracy": 0.951310861423221,
+                "precision_score": 0.9183673469387755,
+                "recall_score": 0.8333333333333334,
+                "f1_score": 0.8737864077669903
             }
         ],
         "no_cross_validate": {
@@ -585,16 +585,16 @@
             "f1_score": 0.9215686274509803
         },
         "mean": {
-            "accuracy": 0.9438111535255146,
-            "precision_score": 0.9189724310776942,
-            "recall_score": 0.7895902547065339,
-            "f1_score": 0.8488866251359262
+            "accuracy": 0.9468164794007491,
+            "precision_score": 0.908993801229826,
+            "recall_score": 0.8162124388539482,
+            "f1_score": 0.8595478858584024
         },
         "std": {
-            "accuracy": 0.004307489444628436,
-            "precision_score": 0.013871133304225652,
-            "recall_score": 0.03036027041187625,
-            "f1_score": 0.014709721393954477
+            "accuracy": 0.010433249645830827,
+            "precision_score": 0.03181759370686344,
+            "recall_score": 0.03941510419556808,
+            "f1_score": 0.029375697105360272
         },
         "machine_type": "slider",
         "machine_id": "id_02"
@@ -603,38 +603,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.8771929824561403,
-                "precision_score": 0.7058823529411765,
-                "recall_score": 0.8571428571428571,
-                "f1_score": 0.7741935483870968
+                "accuracy": 0.916083916083916,
+                "precision_score": 0.875,
+                "recall_score": 0.7777777777777778,
+                "f1_score": 0.823529411764706
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.8421052631578947,
-                "precision_score": 0.7083333333333334,
-                "recall_score": 0.6071428571428571,
-                "f1_score": 0.6538461538461539
+                "accuracy": 0.8881118881118881,
+                "precision_score": 0.7777777777777778,
+                "recall_score": 0.7777777777777778,
+                "f1_score": 0.7777777777777778
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.9122807017543859,
-                "precision_score": 0.9130434782608695,
-                "recall_score": 0.7241379310344828,
-                "f1_score": 0.8076923076923076
+                "accuracy": 0.8802816901408451,
+                "precision_score": 0.8,
+                "recall_score": 0.6857142857142857,
+                "f1_score": 0.7384615384615385
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.8333333333333334,
-                "precision_score": 0.7272727272727273,
-                "recall_score": 0.5517241379310345,
-                "f1_score": 0.6274509803921569
+                "accuracy": 0.8873239436619719,
+                "precision_score": 0.8064516129032258,
+                "recall_score": 0.7142857142857143,
+                "f1_score": 0.7575757575757576
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.8672566371681416,
-                "precision_score": 0.782608695652174,
-                "recall_score": 0.6428571428571429,
-                "f1_score": 0.7058823529411765
+                "accuracy": 0.852112676056338,
+                "precision_score": 0.7777777777777778,
+                "recall_score": 0.5833333333333334,
+                "f1_score": 0.6666666666666666
             }
         ],
         "no_cross_validate": {
@@ -645,16 +645,16 @@
             "f1_score": 0.7941176470588235
         },
         "mean": {
-            "accuracy": 0.8664337835739794,
-            "precision_score": 0.7674281174920561,
-            "recall_score": 0.6766009852216748,
-            "f1_score": 0.7138130686517783
+            "accuracy": 0.8847828228109919,
+            "precision_score": 0.8074014336917562,
+            "recall_score": 0.7077777777777778,
+            "f1_score": 0.7528022304492892
         },
         "std": {
-            "accuracy": 0.027949576265244313,
-            "precision_score": 0.0778804381827581,
-            "recall_score": 0.10621905118856989,
-            "f1_score": 0.06866797108906902
+            "accuracy": 0.020420073924068437,
+            "precision_score": 0.035722182258572606,
+            "recall_score": 0.07185481288363853,
+            "f1_score": 0.05152453686787746
         },
         "machine_type": "slider",
         "machine_id": "id_04"
@@ -663,38 +663,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.88,
-                "precision_score": 1.0,
-                "recall_score": 0.2,
-                "f1_score": 0.33333333333333337
+                "accuracy": 0.888,
+                "precision_score": 0.7,
+                "recall_score": 0.3888888888888889,
+                "f1_score": 0.5
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.86,
-                "precision_score": 0.5,
-                "recall_score": 0.42857142857142855,
-                "f1_score": 0.4615384615384615
+                "accuracy": 0.864,
+                "precision_score": 0.6,
+                "recall_score": 0.16666666666666666,
+                "f1_score": 0.2608695652173913
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.88,
-                "precision_score": 0.75,
-                "recall_score": 0.21428571428571427,
-                "f1_score": 0.3333333333333333
+                "accuracy": 0.904,
+                "precision_score": 0.875,
+                "recall_score": 0.3888888888888889,
+                "f1_score": 0.5384615384615385
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.9191919191919192,
-                "precision_score": 0.875,
-                "recall_score": 0.5,
-                "f1_score": 0.6363636363636364
+                "accuracy": 0.9112903225806451,
+                "precision_score": 0.7142857142857143,
+                "recall_score": 0.5882352941176471,
+                "f1_score": 0.6451612903225806
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.8787878787878788,
-                "precision_score": 0.75,
-                "recall_score": 0.21428571428571427,
-                "f1_score": 0.3333333333333333
+                "accuracy": 0.9112903225806451,
+                "precision_score": 0.8888888888888888,
+                "recall_score": 0.4444444444444444,
+                "f1_score": 0.5925925925925926
             }
         ],
         "no_cross_validate": {
@@ -705,16 +705,16 @@
             "f1_score": 0.6451612903225806
         },
         "mean": {
-            "accuracy": 0.8835959595959595,
-            "precision_score": 0.775,
-            "recall_score": 0.31142857142857144,
-            "f1_score": 0.4195804195804196
+            "accuracy": 0.8957161290322582,
+            "precision_score": 0.7556349206349207,
+            "recall_score": 0.3954248366013072,
+            "f1_score": 0.5074169973188206
         },
         "std": {
-            "accuracy": 0.01935366187934434,
-            "precision_score": 0.16583123951777,
-            "recall_score": 0.12694205652298893,
-            "f1_score": 0.11922342053654472
+            "accuracy": 0.017995471739350094,
+            "precision_score": 0.11048246196393569,
+            "recall_score": 0.1356425685525013,
+            "f1_score": 0.13268970114153192
         },
         "machine_type": "slider",
         "machine_id": "id_06"
@@ -744,10 +744,10 @@
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 1.0,
+                "accuracy": 0.9954954954954955,
                 "precision_score": 1.0,
-                "recall_score": 1.0,
-                "f1_score": 1.0
+                "recall_score": 0.9583333333333334,
+                "f1_score": 0.9787234042553191
             },
             {
                 "name": "cross_validate-4",
@@ -765,16 +765,16 @@
             "f1_score": 0.9787234042553191
         },
         "mean": {
-            "accuracy": 1.0,
+            "accuracy": 0.9990990990990991,
             "precision_score": 1.0,
-            "recall_score": 1.0,
-            "f1_score": 1.0
+            "recall_score": 0.9916666666666668,
+            "f1_score": 0.9957446808510639
         },
         "std": {
-            "accuracy": 0.0,
+            "accuracy": 0.0018018018018017836,
             "precision_score": 0.0,
-            "recall_score": 0.0,
-            "f1_score": 0.0
+            "recall_score": 0.016666666666666653,
+            "f1_score": 0.008510638297872353
         },
         "machine_type": "valve",
         "machine_id": "id_00"
@@ -783,38 +783,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.9924812030075187,
-                "precision_score": 0.95,
-                "recall_score": 1.0,
-                "f1_score": 0.9743589743589743
+                "accuracy": 0.9819277108433735,
+                "precision_score": 1.0,
+                "recall_score": 0.875,
+                "f1_score": 0.9333333333333333
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.9774436090225563,
-                "precision_score": 1.0,
-                "recall_score": 0.85,
-                "f1_score": 0.9189189189189189
+                "accuracy": 0.9759036144578314,
+                "precision_score": 0.9545454545454546,
+                "recall_score": 0.875,
+                "f1_score": 0.9130434782608695
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.9924242424242424,
-                "precision_score": 0.95,
+                "accuracy": 0.9939759036144579,
+                "precision_score": 0.96,
                 "recall_score": 1.0,
-                "f1_score": 0.9743589743589743
+                "f1_score": 0.9795918367346939
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 1.0,
+                "accuracy": 0.9818181818181818,
                 "precision_score": 1.0,
-                "recall_score": 1.0,
-                "f1_score": 1.0
+                "recall_score": 0.875,
+                "f1_score": 0.9333333333333333
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.9848484848484849,
+                "accuracy": 0.9939393939393939,
                 "precision_score": 1.0,
-                "recall_score": 0.8947368421052632,
-                "f1_score": 0.9444444444444444
+                "recall_score": 0.9583333333333334,
+                "f1_score": 0.9787234042553191
             }
         ],
         "no_cross_validate": {
@@ -825,16 +825,16 @@
             "f1_score": 0.8837209302325582
         },
         "mean": {
-            "accuracy": 0.9894395078605605,
-            "precision_score": 0.9800000000000001,
-            "recall_score": 0.9489473684210527,
-            "f1_score": 0.9624162624162624
+            "accuracy": 0.9855129609346477,
+            "precision_score": 0.9829090909090908,
+            "recall_score": 0.9166666666666666,
+            "f1_score": 0.94760507718351
         },
         "std": {
-            "accuracy": 0.007676765272416086,
-            "precision_score": 0.024494897427831803,
-            "recall_score": 0.06410690517298996,
-            "f1_score": 0.02797427103748905
+            "accuracy": 0.007231474574845512,
+            "precision_score": 0.02100295138646349,
+            "recall_score": 0.052704627669472995,
+            "f1_score": 0.02680810523506991
         },
         "machine_type": "valve",
         "machine_id": "id_02"
@@ -843,38 +843,38 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.9444444444444444,
-                "precision_score": 0.8571428571428571,
-                "recall_score": 0.6,
-                "f1_score": 0.7058823529411764
+                "accuracy": 0.9598214285714286,
+                "precision_score": 1.0,
+                "recall_score": 0.625,
+                "f1_score": 0.7692307692307693
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.9497206703910615,
-                "precision_score": 0.9166666666666666,
-                "recall_score": 0.5789473684210527,
-                "f1_score": 0.7096774193548387
+                "accuracy": 0.9464285714285714,
+                "precision_score": 0.875,
+                "recall_score": 0.5833333333333334,
+                "f1_score": 0.7000000000000001
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.9385474860335196,
-                "precision_score": 0.8333333333333334,
-                "recall_score": 0.5263157894736842,
-                "f1_score": 0.6451612903225806
+                "accuracy": 0.9375,
+                "precision_score": 0.8571428571428571,
+                "recall_score": 0.5,
+                "f1_score": 0.631578947368421
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.9441340782122905,
-                "precision_score": 0.9090909090909091,
-                "recall_score": 0.5263157894736842,
-                "f1_score": 0.6666666666666666
+                "accuracy": 0.9285714285714286,
+                "precision_score": 0.75,
+                "recall_score": 0.5,
+                "f1_score": 0.6
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.9553072625698324,
-                "precision_score": 0.9230769230769231,
-                "recall_score": 0.631578947368421,
-                "f1_score": 0.7499999999999999
+                "accuracy": 0.9464285714285714,
+                "precision_score": 0.9285714285714286,
+                "recall_score": 0.5416666666666666,
+                "f1_score": 0.6842105263157894
             }
         ],
         "no_cross_validate": {
@@ -885,16 +885,16 @@
             "f1_score": 0.5555555555555556
         },
         "mean": {
-            "accuracy": 0.9464307883302296,
-            "precision_score": 0.8878621378621379,
-            "recall_score": 0.5726315789473684,
-            "f1_score": 0.6954775458570525
+            "accuracy": 0.94375,
+            "precision_score": 0.8821428571428571,
+            "recall_score": 0.55,
+            "f1_score": 0.677004048582996
         },
         "std": {
-            "accuracy": 0.005674187402620223,
-            "precision_score": 0.03588177096105607,
-            "recall_score": 0.04136185832502842,
-            "f1_score": 0.03645377005006217
+            "accuracy": 0.010412414097938033,
+            "precision_score": 0.08268454930564448,
+            "recall_score": 0.04859126579037751,
+            "f1_score": 0.0584458354767141
         },
         "machine_type": "valve",
         "machine_id": "id_04"
@@ -903,35 +903,35 @@
         "cross_validate": [
             {
                 "name": "cross_validate-0",
-                "accuracy": 0.8932584269662921,
+                "accuracy": 0.8923766816143498,
                 "precision_score": 0.0,
                 "recall_score": 0.0,
                 "f1_score": 0.0
             },
             {
                 "name": "cross_validate-1",
-                "accuracy": 0.8932584269662921,
+                "accuracy": 0.8923766816143498,
                 "precision_score": 0.0,
                 "recall_score": 0.0,
                 "f1_score": 0.0
             },
             {
                 "name": "cross_validate-2",
-                "accuracy": 0.8932584269662921,
+                "accuracy": 0.8918918918918919,
                 "precision_score": 0.0,
                 "recall_score": 0.0,
                 "f1_score": 0.0
             },
             {
                 "name": "cross_validate-3",
-                "accuracy": 0.8876404494382022,
+                "accuracy": 0.8918918918918919,
                 "precision_score": 0.0,
                 "recall_score": 0.0,
                 "f1_score": 0.0
             },
             {
                 "name": "cross_validate-4",
-                "accuracy": 0.8926553672316384,
+                "accuracy": 0.8918918918918919,
                 "precision_score": 0.0,
                 "recall_score": 0.0,
                 "f1_score": 0.0
@@ -945,13 +945,13 @@
             "f1_score": 0.0
         },
         "mean": {
-            "accuracy": 0.8920142195137434,
+            "accuracy": 0.8920858077808751,
             "precision_score": 0.0,
             "recall_score": 0.0,
             "f1_score": 0.0
         },
         "std": {
-            "accuracy": 0.00219932224218257,
+            "accuracy": 0.000237497490513472,
             "precision_score": 0.0,
             "recall_score": 0.0,
             "f1_score": 0.0
