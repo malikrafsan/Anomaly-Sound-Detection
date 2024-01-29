@@ -1,0 +1,2098 @@
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1015, in get_Jitter
+    avg_period = sum_total / ( num_periods )
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1062, in get_Jitter
+    ppq5 = ( sum_total / num_periods ) / avg_period
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1062, in get_Jitter
+    ppq5 = ( sum_total / num_periods ) / avg_period
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1062, in get_Jitter
+    ppq5 = ( sum_total / num_periods ) / avg_period
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1062, in get_Jitter
+    ppq5 = ( sum_total / num_periods ) / avg_period
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1062, in get_Jitter
+    ppq5 = ( sum_total / num_periods ) / avg_period
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1062, in get_Jitter
+    ppq5 = ( sum_total / num_periods ) / avg_period
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1062, in get_Jitter
+    ppq5 = ( sum_total / num_periods ) / avg_period
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 991, in get_Jitter
+    absolute = sum_total / ( num_periods - 1 )
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1062, in get_Jitter
+    ppq5 = ( sum_total / num_periods ) / avg_period
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1062, in get_Jitter
+    ppq5 = ( sum_total / num_periods ) / avg_period
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1062, in get_Jitter
+    ppq5 = ( sum_total / num_periods ) / avg_period
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1000, in get_Jitter
+    periods = np.hstack( ( periods[ 0 ], periods, periods[ -1 ] ) )
+IndexError: index 0 is out of bounds for axis 0 with size 0
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 58, in process_wavfile
+    pulses=get_Pulses(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 772, in get_Pulses
+    periods_interp = np.interp( v_time, f_times, period )
+  File "<__array_function__ internals>", line 200, in interp
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/numpy/lib/function_base.py", line 1595, in interp
+    return interp_func(x, xp, fp, left, right)
+ValueError: array of sample points is empty
+EndError
+----------------------------------------
+10.0
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+<class 'numpy.float64'>
+Error
+Traceback (most recent call last):
+  File "unsafe-extract-speech-analysis.py", line 105, in main
+    features = extract(filepath)
+  File "unsafe-extract-speech-analysis.py", line 87, in extract
+    features = process_wavfile(filepath)
+  File "unsafe-extract-speech-analysis.py", line 61, in process_wavfile
+    jitter=get_Jitter(y,sr)
+  File "/home/s2316079/anaconda3/envs/speech-analysis/lib/python3.8/site-packages/Signal_Analysis/features/signal.py", line 1062, in get_Jitter
+    ppq5 = ( sum_total / num_periods ) / avg_period
+ZeroDivisionError: division by zero
+EndError
+----------------------------------------

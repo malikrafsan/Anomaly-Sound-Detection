@@ -4,9 +4,13 @@
         "machine_id": "id_00",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.5614241746368752,
+                "mean_pr_auc": 0.456950009167045,
+                "std_roc_auc": 0.008767312365246856,
+                "std_pr_auc": 0.010069211170038651,
                 "roc_auc": 0.5465249227625466,
                 "pr_auc": 0.4285701196850039,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.5125495376486129,
                     "precision_score": 0.34954954954954953,
@@ -45,9 +49,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.5980650042104463,
+                "mean_pr_auc": 0.4800569277149833,
+                "std_roc_auc": 0.02796181800865568,
+                "std_pr_auc": 0.020611480746963725,
                 "roc_auc": 0.5702556742160703,
                 "pr_auc": 0.4460087747807364,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.4981504315659679,
                     "precision_score": 0.33169129720853857,
@@ -86,9 +94,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.6358162184212032,
+                "mean_pr_auc": 0.4146746462662782,
+                "std_roc_auc": 0.014421446463794665,
+                "std_pr_auc": 0.016208965158463,
                 "roc_auc": 0.637014377113387,
                 "pr_auc": 0.40928249777269343,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.5622895622895623,
                     "precision_score": 0.4260204081632653,
@@ -127,9 +139,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.5465451870709637,
+                "mean_pr_auc": 0.3544392200207603,
+                "std_roc_auc": 0.01217168480258817,
+                "std_pr_auc": 0.008790322526595649,
                 "roc_auc": 0.5386552168730386,
                 "pr_auc": 0.34928865910684603,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.5116279069767441,
                     "precision_score": 0.34615384615384615,
@@ -174,9 +190,13 @@
         "machine_id": "id_02",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.9981206314049971,
+                "mean_pr_auc": 0.997240248342423,
+                "std_roc_auc": 0.001292540959213689,
+                "std_pr_auc": 0.0018391099112142555,
                 "roc_auc": 0.9944015258586385,
                 "pr_auc": 0.992183580155559,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.9704433497536946,
                     "precision_score": 0.9704433497536946,
@@ -215,9 +235,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.9993580373269276,
+                "mean_pr_auc": 0.9994354787767916,
+                "std_roc_auc": 0.0010334880640324397,
+                "std_pr_auc": 0.0007146920600996994,
                 "roc_auc": 0.9999039477475746,
                 "pr_auc": 0.9998354035559117,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.9975308641975309,
                     "precision_score": 1.0,
@@ -256,9 +280,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.998521467947471,
+                "mean_pr_auc": 0.9985829889933342,
+                "std_roc_auc": 0.001829775537439557,
+                "std_pr_auc": 0.001266607302789273,
                 "roc_auc": 0.9995746257392593,
                 "pr_auc": 0.9993459954611353,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.9975308641975309,
                     "precision_score": 1.0,
@@ -297,9 +325,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.9998435720460502,
+                "mean_pr_auc": 0.9997471474019137,
+                "std_roc_auc": 0.00023918392436024654,
+                "std_pr_auc": 0.00038213591903126133,
                 "roc_auc": 1.0,
                 "pr_auc": 1.0,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 1.0,
                     "precision_score": 1.0,
@@ -344,9 +376,13 @@
         "machine_id": "id_04",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.7119714818965921,
+                "mean_pr_auc": 0.6954745735590929,
+                "std_roc_auc": 0.028787743377921303,
+                "std_pr_auc": 0.029174301362198528,
                 "roc_auc": 0.6939446943195069,
                 "pr_auc": 0.6838116168548528,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.6236559139784946,
                     "precision_score": 0.703030303030303,
@@ -385,9 +421,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.7324387967828383,
+                "mean_pr_auc": 0.593373720117795,
+                "std_roc_auc": 0.022503499409297845,
+                "std_pr_auc": 0.059834242137481036,
                 "roc_auc": 0.7452593147870509,
                 "pr_auc": 0.644022799504562,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.6935779816513761,
                     "precision_score": 0.5591715976331361,
@@ -426,9 +466,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.76330710049506,
+                "mean_pr_auc": 0.6223414385757431,
+                "std_roc_auc": 0.016573206687424086,
+                "std_pr_auc": 0.02023064921275686,
                 "roc_auc": 0.7897301349325335,
                 "pr_auc": 0.6573666698175681,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.7045454545454546,
                     "precision_score": 0.5794392523364486,
@@ -467,9 +511,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.6117283860766488,
+                "mean_pr_auc": 0.5529845285821047,
+                "std_roc_auc": 0.027241194036652476,
+                "std_pr_auc": 0.024327318203643238,
                 "roc_auc": 0.5935920928424676,
                 "pr_auc": 0.5398299540856477,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.5563282336578582,
                     "precision_score": 0.390625,
@@ -514,9 +562,13 @@
         "machine_id": "id_06",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.9395630637392027,
+                "mean_pr_auc": 0.8988474524401371,
+                "std_roc_auc": 0.004118424963434866,
+                "std_pr_auc": 0.006368319881638517,
                 "roc_auc": 0.9327265532251681,
                 "pr_auc": 0.8903045050708306,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.8329718004338394,
                     "precision_score": 0.7441860465116279,
@@ -555,9 +607,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.9714394880122263,
+                "mean_pr_auc": 0.9579918370059396,
+                "std_roc_auc": 0.006533303993370988,
+                "std_pr_auc": 0.009056376340947407,
                 "roc_auc": 0.9762018476317835,
                 "pr_auc": 0.9652953114942546,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.9172932330827067,
                     "precision_score": 0.9336734693877551,
@@ -596,9 +652,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.9510486743173724,
+                "mean_pr_auc": 0.8776010556553404,
+                "std_roc_auc": 0.0018586445461536416,
+                "std_pr_auc": 0.007684894710821862,
                 "roc_auc": 0.9501316812903402,
                 "pr_auc": 0.8723339029807143,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.8898876404494382,
                     "precision_score": 0.8181818181818182,
@@ -637,9 +697,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.9989765702823302,
+                "mean_pr_auc": 0.9984453976936388,
+                "std_roc_auc": 0.0005504491785752796,
+                "std_pr_auc": 0.0007699368725307628,
                 "roc_auc": 0.9998362512451728,
                 "pr_auc": 0.999707281743657,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.9926650366748166,
                     "precision_score": 0.9854368932038835,
@@ -684,9 +748,13 @@
         "machine_id": "id_00",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.7993584318248128,
+                "mean_pr_auc": 0.8643930900508965,
+                "std_roc_auc": 0.019225865019629376,
+                "std_pr_auc": 0.016726575530626075,
                 "roc_auc": 0.8258706467661692,
                 "pr_auc": 0.879569015244773,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.8095238095238096,
                     "precision_score": 0.7164750957854407,
@@ -725,9 +793,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.5731675865634782,
+                "mean_pr_auc": 0.6813975327107162,
+                "std_roc_auc": 0.05582789343956864,
+                "std_pr_auc": 0.05000281700400921,
                 "roc_auc": 0.6829488919041158,
                 "pr_auc": 0.7809388321201307,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.7376146788990826,
                     "precision_score": 0.5843023255813954,
@@ -766,9 +838,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.5431474490732656,
+                "mean_pr_auc": 0.6158829511068974,
+                "std_roc_auc": 0.00905478501385851,
+                "std_pr_auc": 0.018926676918734696,
                 "roc_auc": 0.5542566885850467,
                 "pr_auc": 0.6319226363837536,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.7376146788990826,
                     "precision_score": 0.5843023255813954,
@@ -807,9 +883,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.6152728016774123,
+                "mean_pr_auc": 0.7029766117259115,
+                "std_roc_auc": 0.02057683395709238,
+                "std_pr_auc": 0.017284506437359574,
                 "roc_auc": 0.6202205754444561,
                 "pr_auc": 0.7003946661645379,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.7457627118644069,
                     "precision_score": 0.6,
@@ -854,9 +934,13 @@
         "machine_id": "id_02",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.6031016090717582,
+                "mean_pr_auc": 0.6927448938639553,
+                "std_roc_auc": 0.0152339617991775,
+                "std_pr_auc": 0.02222582224641161,
                 "roc_auc": 0.5795795795795795,
                 "pr_auc": 0.657209902488824,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.8085106382978724,
                     "precision_score": 0.7063197026022305,
@@ -895,9 +979,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.6334409035901574,
+                "mean_pr_auc": 0.7615341507747113,
+                "std_roc_auc": 0.026696578671145145,
+                "std_pr_auc": 0.023162048918644915,
                 "roc_auc": 0.6189323652010219,
                 "pr_auc": 0.739991700961284,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.7836257309941521,
                     "precision_score": 0.6442307692307693,
@@ -936,9 +1024,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.884621935368204,
+                "mean_pr_auc": 0.9400497397153386,
+                "std_roc_auc": 0.012845384360836098,
+                "std_pr_auc": 0.006468296731069623,
                 "roc_auc": 0.8694366007798844,
                 "pr_auc": 0.9316008531328652,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.8491879350348028,
                     "precision_score": 0.7956521739130434,
@@ -977,9 +1069,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.6578010846667561,
+                "mean_pr_auc": 0.7769335048213071,
+                "std_roc_auc": 0.010256668708013054,
+                "std_pr_auc": 0.00817159707027863,
                 "roc_auc": 0.6759894222580789,
                 "pr_auc": 0.7892843782429269,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.8091286307053942,
                     "precision_score": 0.693950177935943,
@@ -1024,9 +1120,13 @@
         "machine_id": "id_04",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.685276089159068,
+                "mean_pr_auc": 0.8377740446499242,
+                "std_roc_auc": 0.04251850587863009,
+                "std_pr_auc": 0.023492184538003343,
                 "roc_auc": 0.6090714285714285,
                 "pr_auc": 0.7984036890880094,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.7368421052631579,
                     "precision_score": 0.5833333333333334,
@@ -1065,9 +1165,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.9455961499493414,
+                "mean_pr_auc": 0.9709229138610753,
+                "std_roc_auc": 0.012014792256325511,
+                "std_pr_auc": 0.006241635912906621,
                 "roc_auc": 0.9387857142857143,
                 "pr_auc": 0.9676992338845394,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.920863309352518,
                     "precision_score": 0.927536231884058,
@@ -1106,9 +1210,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.9165756332320161,
+                "mean_pr_auc": 0.9116830528865292,
+                "std_roc_auc": 0.00930005658403519,
+                "std_pr_auc": 0.016411558299172763,
                 "roc_auc": 0.9339285714285714,
                 "pr_auc": 0.9308213606478952,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.9210526315789475,
                     "precision_score": 0.8536585365853658,
@@ -1147,9 +1255,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.623777811550152,
+                "mean_pr_auc": 0.7673715915943069,
+                "std_roc_auc": 0.021720881547339307,
+                "std_pr_auc": 0.015447391707913434,
                 "roc_auc": 0.6077142857142857,
                 "pr_auc": 0.7633464714691872,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.7387862796833773,
                     "precision_score": 0.5857740585774058,
@@ -1194,9 +1306,13 @@
         "machine_id": "id_06",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.6322192347767795,
+                "mean_pr_auc": 0.8195476377539771,
+                "std_roc_auc": 0.037098267694344315,
+                "std_pr_auc": 0.023369059947063953,
                 "roc_auc": 0.5844937008619873,
                 "pr_auc": 0.780072077141786,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.8055009823182712,
                     "precision_score": 0.6788079470198676,
@@ -1235,9 +1351,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.8180753655977441,
+                "mean_pr_auc": 0.9126452381428798,
+                "std_roc_auc": 0.012110138019218206,
+                "std_pr_auc": 0.007803211278553875,
                 "roc_auc": 0.8324334564743773,
                 "pr_auc": 0.917657077277831,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.8571428571428571,
                     "precision_score": 0.890625,
@@ -1276,9 +1396,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.926638085557523,
+                "mean_pr_auc": 0.9478594647874811,
+                "std_roc_auc": 0.004762298079544644,
+                "std_pr_auc": 0.005083523495556112,
                 "roc_auc": 0.9339774557165862,
                 "pr_auc": 0.9518856304002203,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.9414519906323184,
                     "precision_score": 0.9136363636363637,
@@ -1317,9 +1441,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.6589203936870177,
+                "mean_pr_auc": 0.8361505425076281,
+                "std_roc_auc": 0.01797324074396463,
+                "std_pr_auc": 0.01065424032789622,
                 "roc_auc": 0.6760443307757886,
                 "pr_auc": 0.8492382799116057,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.8142292490118578,
                     "precision_score": 0.6889632107023411,
@@ -1364,9 +1492,13 @@
         "machine_id": "id_00",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.9086423455148618,
+                "mean_pr_auc": 0.9008384206488186,
+                "std_roc_auc": 0.015367132955563054,
+                "std_pr_auc": 0.011254934211753305,
                 "roc_auc": 0.8755906752073926,
                 "pr_auc": 0.8711754780224935,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.7970660146699265,
                     "precision_score": 0.8358974358974359,
@@ -1405,9 +1537,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.7187858256684213,
+                "mean_pr_auc": 0.6271191908464208,
+                "std_roc_auc": 0.02095316659899098,
+                "std_pr_auc": 0.02590456033651542,
                 "roc_auc": 0.7414811508978264,
                 "pr_auc": 0.6675227816343912,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.6257928118393233,
                     "precision_score": 0.5714285714285714,
@@ -1446,9 +1582,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.5994715043736465,
+                "mean_pr_auc": 0.445914935775343,
+                "std_roc_auc": 0.015073568272128284,
+                "std_pr_auc": 0.027198833167315715,
                 "roc_auc": 0.5972251391368266,
                 "pr_auc": 0.42383031190034787,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.5774058577405857,
                     "precision_score": 0.4115308151093439,
@@ -1487,9 +1627,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.8936872257381314,
+                "mean_pr_auc": 0.8814835260440018,
+                "std_roc_auc": 0.0161240853721687,
+                "std_pr_auc": 0.013164092222631861,
                 "roc_auc": 0.8899768980363332,
                 "pr_auc": 0.8791279290312547,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.7897196261682243,
                     "precision_score": 0.7897196261682243,
@@ -1534,9 +1678,13 @@
         "machine_id": "id_02",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.8506841109663336,
+                "mean_pr_auc": 0.8375928962061796,
+                "std_roc_auc": 0.012515773162477335,
+                "std_pr_auc": 0.0098641991880054,
                 "roc_auc": 0.8403164268962862,
                 "pr_auc": 0.8271404866760561,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.7553648068669528,
                     "precision_score": 0.6984126984126984,
@@ -1575,9 +1723,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.7772682626380051,
+                "mean_pr_auc": 0.7570397012347615,
+                "std_roc_auc": 0.016041798108501742,
+                "std_pr_auc": 0.011703192590236108,
                 "roc_auc": 0.7837428681437922,
                 "pr_auc": 0.760577777634629,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.7336244541484715,
                     "precision_score": 0.6885245901639344,
@@ -1616,9 +1768,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.8674389259706793,
+                "mean_pr_auc": 0.8175952800121662,
+                "std_roc_auc": 0.008792152052031134,
+                "std_pr_auc": 0.00971764862238382,
                 "roc_auc": 0.88274878364661,
                 "pr_auc": 0.8300746886968814,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.8008565310492505,
                     "precision_score": 0.7391304347826086,
@@ -1657,9 +1813,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.8573722428378243,
+                "mean_pr_auc": 0.85690252777314,
+                "std_roc_auc": 0.005763371699803869,
+                "std_pr_auc": 0.007195079174517556,
                 "roc_auc": 0.8581679442752634,
                 "pr_auc": 0.8614640416381433,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.7711442786069652,
                     "precision_score": 0.824468085106383,
@@ -1704,9 +1864,13 @@
         "machine_id": "id_04",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.9275517664284483,
+                "mean_pr_auc": 0.8956555382687876,
+                "std_roc_auc": 0.006394586099044829,
+                "std_pr_auc": 0.010161071209022507,
                 "roc_auc": 0.9049669221883859,
                 "pr_auc": 0.8678945182127822,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.7966101694915255,
                     "precision_score": 0.7286821705426356,
@@ -1745,9 +1909,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.6029225668144057,
+                "mean_pr_auc": 0.46934737765735635,
+                "std_roc_auc": 0.020487205258761607,
+                "std_pr_auc": 0.02195628839534329,
                 "roc_auc": 0.5631891210752914,
                 "pr_auc": 0.43503978396604154,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.5459183673469388,
                     "precision_score": 0.37543859649122807,
@@ -1786,9 +1954,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.6597130284376059,
+                "mean_pr_auc": 0.5071464735835078,
+                "std_roc_auc": 0.013630749061407474,
+                "std_pr_auc": 0.020760256170922985,
                 "roc_auc": 0.6578284154153103,
                 "pr_auc": 0.5295911557778583,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.6018808777429467,
                     "precision_score": 0.4528301886792453,
@@ -1827,9 +1999,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.8533093662017874,
+                "mean_pr_auc": 0.840799575958455,
+                "std_roc_auc": 0.004792434579962402,
+                "std_pr_auc": 0.008094598440137548,
                 "roc_auc": 0.8488396513703665,
                 "pr_auc": 0.8376193852923115,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.7472527472527473,
                     "precision_score": 0.9066666666666666,
@@ -1874,9 +2050,13 @@
         "machine_id": "id_06",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.593630713327614,
+                "mean_pr_auc": 0.6453543042324478,
+                "std_roc_auc": 0.010048974332221466,
+                "std_pr_auc": 0.01794485832004078,
                 "roc_auc": 0.5869998949910741,
                 "pr_auc": 0.671560272863754,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.7066666666666666,
                     "precision_score": 0.5492227979274611,
@@ -1915,9 +2095,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.5550031799872801,
+                "mean_pr_auc": 0.6159463197951571,
+                "std_roc_auc": 0.022933547292103448,
+                "std_pr_auc": 0.030276966163354898,
                 "roc_auc": 0.5433161818754594,
                 "pr_auc": 0.5897405532857238,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.7062706270627063,
                     "precision_score": 0.5459183673469388,
@@ -1956,9 +2140,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.6233482393173231,
+                "mean_pr_auc": 0.6529687936700654,
+                "std_roc_auc": 0.021141337408156345,
+                "std_pr_auc": 0.024385692288969283,
                 "roc_auc": 0.613147117504988,
                 "pr_auc": 0.6571688882599391,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.723404255319149,
                     "precision_score": 0.5828571428571429,
@@ -1997,9 +2185,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.6144775607813456,
+                "mean_pr_auc": 0.6076982369722495,
+                "std_roc_auc": 0.017373297334242237,
+                "std_pr_auc": 0.01314925184410722,
                 "roc_auc": 0.6097868318807098,
                 "pr_auc": 0.6090124677034349,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.7142857142857144,
                     "precision_score": 0.5780346820809249,
@@ -2044,9 +2236,13 @@
         "machine_id": "id_00",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.8121485963046708,
+                "mean_pr_auc": 0.9037770481986053,
+                "std_roc_auc": 0.0442649866431517,
+                "std_pr_auc": 0.020583462315485593,
                 "roc_auc": 0.7980646804176216,
                 "pr_auc": 0.898667810105708,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.8033240997229917,
                     "precision_score": 0.8895705521472392,
@@ -2085,9 +2281,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.8821262325548462,
+                "mean_pr_auc": 0.9455882857100295,
+                "std_roc_auc": 0.004683558162445537,
+                "std_pr_auc": 0.001716028467523283,
                 "roc_auc": 0.8807613954672778,
                 "pr_auc": 0.9441055102250666,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.8616187989556137,
                     "precision_score": 0.8918918918918919,
@@ -2126,9 +2326,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.8050731332581762,
+                "mean_pr_auc": 0.8544699651066457,
+                "std_roc_auc": 0.033117071981989175,
+                "std_pr_auc": 0.032436944649691456,
                 "roc_auc": 0.7551778287072405,
                 "pr_auc": 0.8027532935235412,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.7969543147208122,
                     "precision_score": 0.8010204081632653,
@@ -2167,9 +2371,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.8394489636878049,
+                "mean_pr_auc": 0.9081253934845813,
+                "std_roc_auc": 0.01230931137035299,
+                "std_pr_auc": 0.008910514881277254,
                 "roc_auc": 0.843731431966726,
                 "pr_auc": 0.9121335389828242,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.8177570093457944,
                     "precision_score": 0.7608695652173914,
@@ -2214,9 +2422,13 @@
         "machine_id": "id_02",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.6185853061632205,
+                "mean_pr_auc": 0.7745512456128709,
+                "std_roc_auc": 0.03428580915226587,
+                "std_pr_auc": 0.02617281102647421,
                 "roc_auc": 0.6196009389671362,
                 "pr_auc": 0.7752505433509399,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.7029702970297029,
                     "precision_score": 0.5419847328244275,
@@ -2255,9 +2467,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.7605242566510173,
+                "mean_pr_auc": 0.8649116412559298,
+                "std_roc_auc": 0.03211652643629698,
+                "std_pr_auc": 0.015802506528929672,
                 "roc_auc": 0.779518779342723,
                 "pr_auc": 0.8782423791679239,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.8283582089552238,
                     "precision_score": 0.8809523809523809,
@@ -2296,9 +2512,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.9085848899543836,
+                "mean_pr_auc": 0.8988303540297544,
+                "std_roc_auc": 0.034769353618104536,
+                "std_pr_auc": 0.02501615144931906,
                 "roc_auc": 0.9294014084507043,
                 "pr_auc": 0.9233871275447321,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.9391891891891893,
                     "precision_score": 0.9025974025974026,
@@ -2337,9 +2557,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.7743942496587088,
+                "mean_pr_auc": 0.8756419650739111,
+                "std_roc_auc": 0.03048377018733486,
+                "std_pr_auc": 0.016708934443045134,
                 "roc_auc": 0.8009389671361502,
                 "pr_auc": 0.8901901202593402,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.8467741935483871,
                     "precision_score": 0.9905660377358491,
@@ -2384,9 +2608,13 @@
         "machine_id": "id_04",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.754225,
+                "mean_pr_auc": 0.8238352248362018,
+                "std_roc_auc": 0.020956678198395626,
+                "std_pr_auc": 0.018323683045209104,
                 "roc_auc": 0.7539166666666666,
                 "pr_auc": 0.8166552596520703,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.8101851851851851,
                     "precision_score": 0.7543103448275862,
@@ -2425,9 +2653,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.6753166666666666,
+                "mean_pr_auc": 0.7772462330063995,
+                "std_roc_auc": 0.008069010076280228,
+                "std_pr_auc": 0.006873122571467814,
                 "roc_auc": 0.6757916666666666,
                 "pr_auc": 0.786327296623935,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.7692307692307693,
                     "precision_score": 0.625,
@@ -2466,9 +2698,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.7664625,
+                "mean_pr_auc": 0.7952070675101843,
+                "std_roc_auc": 0.008287063211214602,
+                "std_pr_auc": 0.014010618478134841,
                 "roc_auc": 0.7787083333333333,
                 "pr_auc": 0.7970136526290124,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.8351648351648352,
                     "precision_score": 0.7450980392156863,
@@ -2507,9 +2743,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.7570916666666667,
+                "mean_pr_auc": 0.8005337276728486,
+                "std_roc_auc": 0.009364731413363853,
+                "std_pr_auc": 0.006176457708349645,
                 "roc_auc": 0.7473333333333334,
                 "pr_auc": 0.8036821517629654,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.8126520681265206,
                     "precision_score": 0.7914691943127962,
@@ -2554,9 +2794,13 @@
         "machine_id": "id_06",
         "metrics": [
             {
+                "model_name": "isolation_forest",
+                "mean_roc_auc": 0.4883522410029948,
+                "mean_pr_auc": 0.6055747268263986,
+                "std_roc_auc": 0.019486015546029006,
+                "std_pr_auc": 0.014718285616696981,
                 "roc_auc": 0.522138047138047,
                 "pr_auc": 0.6389096551226924,
-                "model_name": "isolation_forest",
                 "iterative_threshold_method": {
                     "f1_score": 0.7674418604651162,
                     "precision_score": 0.6226415094339622,
@@ -2595,9 +2839,13 @@
                 }
             },
             {
+                "model_name": "one_class_svm",
+                "mean_roc_auc": 0.5471484104021792,
+                "mean_pr_auc": 0.6714386109836247,
+                "std_roc_auc": 0.023976147580343294,
+                "std_pr_auc": 0.016789038527123004,
                 "roc_auc": 0.563594276094276,
                 "pr_auc": 0.6872068019465511,
-                "model_name": "one_class_svm",
                 "iterative_threshold_method": {
                     "f1_score": 0.7674418604651162,
                     "precision_score": 0.6226415094339622,
@@ -2636,9 +2884,13 @@
                 }
             },
             {
+                "model_name": "local_outlier_factor",
+                "mean_roc_auc": 0.5482831666751264,
+                "mean_pr_auc": 0.6346891656041012,
+                "std_roc_auc": 0.029741370019569075,
+                "std_pr_auc": 0.021129586022510652,
                 "roc_auc": 0.5739057239057239,
                 "pr_auc": 0.6555876083720498,
-                "model_name": "local_outlier_factor",
                 "iterative_threshold_method": {
                     "f1_score": 0.7704280155642024,
                     "precision_score": 0.6265822784810127,
@@ -2677,9 +2929,13 @@
                 }
             },
             {
+                "model_name": "gaussian_mixture",
+                "mean_roc_auc": 0.4685628056105443,
+                "mean_pr_auc": 0.5862020210554829,
+                "std_roc_auc": 0.022365892553215132,
+                "std_pr_auc": 0.015787965601087826,
                 "roc_auc": 0.510563973063973,
                 "pr_auc": 0.614973122781203,
-                "model_name": "gaussian_mixture",
                 "iterative_threshold_method": {
                     "f1_score": 0.7734374999999999,
                     "precision_score": 0.6305732484076433,

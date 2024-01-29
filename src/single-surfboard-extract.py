@@ -49,12 +49,6 @@ MACHINE_TYPES = ["fan", "pump", "slider", "valve"]
 MACHINE_IDS = ["id_00", "id_02", "id_04", "id_06"]
 LABELS = ["abnormal", "normal"]
 
-def main():
-    filepath = sys.argv[1]
-    res = process_wavfile(filepath)
-    print(res)
-
-
 def extract(filepath: str):
   features = process_wavfile(filepath)
   return features
@@ -120,8 +114,8 @@ def process(
     mapped = mapping(lstmp, keys)
 
     df = pd.DataFrame(data=mapped, columns=keys)
-    # outname = f"../out/raw/surfboard/w-{mt}-{id}-{label}-({maxdata}).csv"
-    # df.to_csv(outname, index=False)
+    outname = f"../out/raw/surfboard/w-{mt}-{id}-{label}-({maxdata}).csv"
+    df.to_csv(outname, index=False)
 
     return outname
 
@@ -130,7 +124,7 @@ def main():
   # id = MACHINE_IDS[0]
   # label = LABELS[0]
 
-  filepath = sys.argv[1]
+  filepath = "/home/s2316079/dataset/mimii/fan/id_02/abnormal/00000292.wav"
   result = extract(filepath)
   print("result",result)
 

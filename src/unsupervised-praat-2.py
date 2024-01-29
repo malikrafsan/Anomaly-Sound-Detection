@@ -49,7 +49,6 @@ def prepare_data(
     df_normal_dropped = df_normal_dropped.drop(columns=cols_nan)
     df_abnormal_dropped = df_abnormal_dropped.drop(columns=cols_nan)
 
-
     imputer_normal = SimpleImputer(strategy="mean")
     ndarray_normal_imputed = imputer_normal.fit_transform(df_normal_dropped)
     df_normal_imputed = pd.DataFrame(ndarray_normal_imputed, columns=df_normal_dropped.columns)
@@ -58,6 +57,12 @@ def prepare_data(
     ndarray_abnormal_imputed = imputer_abnormal.fit_transform(df_abnormal_dropped)
     df_abnormal_imputed = pd.DataFrame(ndarray_abnormal_imputed, columns=df_abnormal_dropped.columns)
 
+    return df_normal_imputed, df_abnormal_imputed
+
+def split_data(
+    df_normal_imputed: pd.DataFrame,
+    df_abnormal_imputed: pd.DataFrame,
+):
     # unsupervised learning
     # split normal dataset into 80% training and 20% testing
     df_normal_train = df_normal_imputed.sample(frac=0.8, random_state=0)    
@@ -66,6 +71,16 @@ def prepare_data(
     # combine normal test dataset and abnormal dataset
     df_test = pd.concat([df_normal_test, df_abnormal_imputed], ignore_index=True)
     df_train = df_normal_train
+
+    return df_train, df_test
+
+def split_data_kfold(
+    df_normal_imputed_train: pd.DataFrame,
+    df_normal_imputed_test: pd.DataFrame,
+    df_abnormal_imputed: pd.DataFrame,
+):
+    df_test = pd.concat([df_normal_imputed_test, df_abnormal_imputed], ignore_index=True)
+    df_train = df_normal_imputed_train
 
     return df_train, df_test
 
@@ -163,6 +178,42 @@ def calculate_derived_metrics(
         "classification_report": classification_report,
     }
 
+def visualize(
+    machine_type: str,
+    machine_id: str,
+    imgdirpath: str,
+    model_name: str,
+    fpr: np.ndarray,
+    tpr: np.ndarray,
+    roc_auc: float,
+    recall: np.ndarray,
+    precision: np.ndarray,
+    pr_auc: float,
+):
+    import matplotlib.pyplot as plt
+    plt.title('Receiver Operating Characteristic')
+    plt.plot(fpr, tpr, 'b', label = f'AUC = {roc_auc:.2f}')
+    plt.legend(loc = 'lower right')
+    plt.plot([0, 1], [0, 1],'r--')
+    plt.xlim([-0.1, 1.1])
+    plt.ylim([-0.1, 1.1])
+    plt.ylabel('True Positive Rate')
+    plt.xlabel('False Positive Rate')
+    plt.savefig(f"{imgdirpath}/{machine_type}-{machine_id}-{model_name}-roc.png")
+    plt.clf()
+
+    plt.title('Precision-Recall Curve')
+    plt.plot(recall, precision, 'b', label = f'PR AUC = {pr_auc:.2f}')
+    plt.legend(loc = 'lower right')
+    plt.plot([0, 1], [0.5, 0.5],'r--')
+    plt.xlim([-0.1, 1.1])
+    plt.ylim([-0.1, 1.1])
+    plt.ylabel('Precision')
+    plt.xlabel('Recall')
+    plt.savefig(f"{imgdirpath}/{machine_type}-{machine_id}-{model_name}-pr.png")
+    plt.clf()
+
+
 def calculate_metrics(
     y_true: np.ndarray,
     y_pred: np.ndarray,
@@ -171,7 +222,11 @@ def calculate_metrics(
     machine_id: str,
     imgdirpath: str,
     model_name: str,
+    visualize_flag: bool = True,
 ):
+    print(f"Calculating metrics for {machine_type} {machine_id} {model_name}")
+    print(f"y_true: {len(y_true)}")
+    print(f"score_samples: {len(score_samples)}")
     # calculate roc auc
     fpr, tpr, thresholds = metrics.roc_curve(y_true, score_samples)
     roc_auc = metrics.auc(fpr, tpr)
@@ -202,33 +257,22 @@ def calculate_metrics(
     )
     index_metrics["best_threshold"] = best_threshold
 
-
-    import matplotlib.pyplot as plt
-    plt.title('Receiver Operating Characteristic')
-    plt.plot(fpr, tpr, 'b', label = f'AUC = {roc_auc:.2f}')
-    plt.legend(loc = 'lower right')
-    plt.plot([0, 1], [0, 1],'r--')
-    plt.xlim([-0.1, 1.1])
-    plt.ylim([-0.1, 1.1])
-    plt.ylabel('True Positive Rate')
-    plt.xlabel('False Positive Rate')
-    plt.savefig(f"{imgdirpath}/{machine_type}-{machine_id}-{model_name}-roc.png")
-    plt.clf()
-
-    # calculate precision-recall curve
     precision, recall, thresholds = metrics.precision_recall_curve(y_true, score_samples)
     pr_auc = metrics.auc(recall, precision)
 
-    plt.title('Precision-Recall Curve')
-    plt.plot(recall, precision, 'b', label = f'PR AUC = {pr_auc:.2f}')
-    plt.legend(loc = 'lower right')
-    plt.plot([0, 1], [0.5, 0.5],'r--')
-    plt.xlim([-0.1, 1.1])
-    plt.ylim([-0.1, 1.1])
-    plt.ylabel('Precision')
-    plt.xlabel('Recall')
-    plt.savefig(f"{imgdirpath}/{machine_type}-{machine_id}-{model_name}-pr.png")
-    plt.clf()
+    if visualize_flag:
+        visualize(
+            machine_type=machine_type,
+            machine_id=machine_id,
+            imgdirpath=imgdirpath,
+            model_name=model_name,
+            fpr=fpr,
+            tpr=tpr,
+            roc_auc=roc_auc,
+            recall=recall,
+            precision=precision,
+            pr_auc=pr_auc,
+        )
 
     # save metrics
     metricsres = {
@@ -249,13 +293,20 @@ def process(
     dirpath: str,
     outdir: str,
 ):
+    models = {
+        "isolation_forest": isolation_forest,
+        "one_class_svm": one_class_svm,
+        "local_outlier_factor": local_outlier_factor,
+        "gaussian_mixture": gaussian_mixture,
+    }    
+
     # dirpath = f"../out/raw/praat"
     normal_filename = f"w-{machine_type}-{machine_id}-normal-(-1)-(75-4000).csv"
     abnormal_filename = f"w-{machine_type}-{machine_id}-abnormal-(-1)-(75-4000).csv"
     
     # outdir = f"../out/results/praat"
-    imgdirpath = f"{outdir}/images"
-    resultdirpath = f"{outdir}/results"
+    imgdirpath = f"{outdir}/images-2"
+    resultdirpath = f"{outdir}/results-2"
     os.makedirs(outdir, exist_ok=True)
     os.makedirs(imgdirpath, exist_ok=True)
     os.makedirs(resultdirpath, exist_ok=True)
@@ -263,24 +314,62 @@ def process(
     normal_filepath = f"{dirpath}/{normal_filename}"
     abnormal_filepath = f"{dirpath}/{abnormal_filename}"
 
-    df_train, df_test = prepare_data(
+    df_normal_imputed, df_abnormal_imputed = prepare_data(
         normal_filepath=normal_filepath,
         abnormal_filepath=abnormal_filepath,
+    )
+
+    df_train, df_test = split_data(
+        df_normal_imputed=df_normal_imputed,
+        df_abnormal_imputed=df_abnormal_imputed,
     )
 
     y_test = df_test["label"]
     y_true =[1 if x == False else -1 for x in y_test.to_numpy()]
 
-    models = {
-        "isolation_forest": isolation_forest,
-        "one_class_svm": one_class_svm,
-        "local_outlier_factor": local_outlier_factor,
-        "gaussian_mixture": gaussian_mixture,
-    }
+    from sklearn.model_selection import KFold
+    kf = KFold(n_splits=5, shuffle=True, random_state=0)
 
     results = []
     for model_name, model in models.items():
         print(f"Processing {model_name}")
+        kfold_results = []
+        for train_index, test_index in kf.split(df_normal_imputed):
+            df_train_normal_kfold = df_normal_imputed.iloc[train_index]
+            df_test_normal_kfold = df_normal_imputed.iloc[test_index]
+
+            df_test_kfold = pd.concat([df_test_normal_kfold, df_abnormal_imputed], ignore_index=True)
+            df_train_kfold = df_train_normal_kfold
+
+            y_test_kfold = df_test_kfold["label"]
+            y_true_kfold =[1 if x == False else -1 for x in y_test_kfold.to_numpy()]
+
+            y_pred_kfold, score_samples_kfold = model(
+                df_train=df_train_kfold,
+                df_test=df_test_kfold,
+            )
+
+            metricsres_kfold = calculate_metrics(
+                y_true=y_true_kfold,
+                y_pred=y_pred_kfold,
+                score_samples=score_samples_kfold,
+                machine_type=machine_type,
+                machine_id=machine_id,
+                imgdirpath=imgdirpath,
+                model_name=model_name,
+                visualize_flag=False,
+            )
+            kfold_results.append(metricsres_kfold)
+        
+        roc_aucs = [x["roc_auc"] for x in kfold_results]
+        pr_aucs = [x["pr_auc"] for x in kfold_results]
+
+        mean_roc_auc = np.mean(roc_aucs)
+        mean_pr_auc = np.mean(pr_aucs)
+        
+        std_roc_auc = np.std(roc_aucs)
+        std_pr_auc = np.std(pr_aucs)
+
         y_pred, score_samples = model(
             df_train=df_train,
             df_test=df_test,
@@ -294,15 +383,25 @@ def process(
             machine_id=machine_id,
             imgdirpath=imgdirpath,
             model_name=model_name,
+            visualize_flag=True,
         )
-        print(metricsres)
-        results.append(metricsres)
-    
+        # print(metricsres)
+        # results.append(metricsres)
+
+        res = {
+            "model_name": model_name,
+            "mean_roc_auc": mean_roc_auc,
+            "mean_pr_auc": mean_pr_auc,
+            "std_roc_auc": std_roc_auc,
+            "std_pr_auc": std_pr_auc,
+            **metricsres,
+        }
+        results.append(res)
+
     with open(f"{resultdirpath}/{machine_type}-{machine_id}-metrics.json", "w") as outfile:
         json.dump(results, outfile, cls=NpEncoder, indent=4)
 
     return results
-
 
 def main():
     dirpath = f"../out/raw/praat-script"
@@ -335,6 +434,8 @@ def main():
             model_name = metric["model_name"]
             roc_auc = metric["roc_auc"]
             roc_aucs[model_name] = roc_auc
+            roc_aucs[model_name+"_mean"] = metric["mean_roc_auc"]
+            roc_aucs[model_name+"_std"] = metric["std_roc_auc"]
 
         roc_aucs["machine_type"] = machine_type
         roc_aucs["machine_id"] = machine_id

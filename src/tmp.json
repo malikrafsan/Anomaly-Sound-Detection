@@ -1,0 +1,347 @@
+[
+    {
+        "filename": "w-slider-id_06-normal-(-1).csv",
+        "machine_type": "slider",
+        "machine_id": "id_06",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-fan-id_02-normal-(-1).csv",
+        "machine_type": "fan",
+        "machine_id": "id_02",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-pump-id_02-normal-(-1).csv",
+        "machine_type": "pump",
+        "machine_id": "id_02",
+        "label": "normal",
+        "nan_filenames": [
+            "../../../dataset/mimii/pump/id_02/normal/00000469.wav"
+        ]
+    },
+    {
+        "filename": "w-fan-id_02-abnormal-(-1).csv",
+        "machine_type": "fan",
+        "machine_id": "id_02",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-pump-id_00-normal-(-1).csv",
+        "machine_type": "pump",
+        "machine_id": "id_00",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-pump-id_06-normal-(-1).csv",
+        "machine_type": "pump",
+        "machine_id": "id_06",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-valve-id_04-normal-(-1).csv",
+        "machine_type": "valve",
+        "machine_id": "id_04",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-pump-id_00-abnormal-(-1).csv",
+        "machine_type": "pump",
+        "machine_id": "id_00",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-slider-id_04-normal-(-1).csv",
+        "machine_type": "slider",
+        "machine_id": "id_04",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-valve-id_02-abnormal-(-1).csv",
+        "machine_type": "valve",
+        "machine_id": "id_02",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-fan-id_06-abnormal-(-1).csv",
+        "machine_type": "fan",
+        "machine_id": "id_06",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-slider-id_06-abnormal-(-1).csv",
+        "machine_type": "slider",
+        "machine_id": "id_06",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-pump-id_04-normal-(-1).csv",
+        "machine_type": "pump",
+        "machine_id": "id_04",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-valve-id_00-normal-(-1).csv",
+        "machine_type": "valve",
+        "machine_id": "id_00",
+        "label": "normal",
+        "nan_filenames": [
+            "../../../dataset/mimii/valve/id_00/normal/00000154.wav",
+            "../../../dataset/mimii/valve/id_00/normal/00000830.wav",
+            "../../../dataset/mimii/valve/id_00/normal/00000955.wav"
+        ]
+    },
+    {
+        "filename": "w-pump-id_02-abnormal-(-1).csv",
+        "machine_type": "pump",
+        "machine_id": "id_02",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-fan-id_04-abnormal-(-1).csv",
+        "machine_type": "fan",
+        "machine_id": "id_04",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-slider-id_02-abnormal-(-1).csv",
+        "machine_type": "slider",
+        "machine_id": "id_02",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-slider-id_02-normal-(-1).csv",
+        "machine_type": "slider",
+        "machine_id": "id_02",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-slider-id_00-abnormal-(-1).csv",
+        "machine_type": "slider",
+        "machine_id": "id_00",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-valve-id_02-normal-(-1).csv",
+        "machine_type": "valve",
+        "machine_id": "id_02",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-valve-id_00-abnormal-(-1).csv",
+        "machine_type": "valve",
+        "machine_id": "id_00",
+        "label": "abnormal",
+        "nan_filenames": [
+            "../../../dataset/mimii/valve/id_00/abnormal/00000114.wav"
+        ]
+    },
+    {
+        "filename": "w-valve-id_06-abnormal-(-1).csv",
+        "machine_type": "valve",
+        "machine_id": "id_06",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-pump-id_06-abnormal-(-1).csv",
+        "machine_type": "pump",
+        "machine_id": "id_06",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-fan-id_00-normal-(-1).csv",
+        "machine_type": "fan",
+        "machine_id": "id_00",
+        "label": "normal",
+        "nan_filenames": [
+            "../../../dataset/mimii/fan/id_00/normal/00000251.wav",
+            "../../../dataset/mimii/fan/id_00/normal/00000905.wav",
+            "../../../dataset/mimii/fan/id_00/normal/00000985.wav"
+        ]
+    },
+    {
+        "filename": "w-fan-id_06-normal-(-1).csv",
+        "machine_type": "fan",
+        "machine_id": "id_06",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-slider-id_04-abnormal-(-1).csv",
+        "machine_type": "slider",
+        "machine_id": "id_04",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-slider-id_00-normal-(-1).csv",
+        "machine_type": "slider",
+        "machine_id": "id_00",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-valve-id_04-abnormal-(-1).csv",
+        "machine_type": "valve",
+        "machine_id": "id_04",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-valve-id_06-normal-(-1).csv",
+        "machine_type": "valve",
+        "machine_id": "id_06",
+        "label": "normal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-fan-id_00-abnormal-(-1).csv",
+        "machine_type": "fan",
+        "machine_id": "id_00",
+        "label": "abnormal",
+        "nan_filenames": [
+            "../../../dataset/mimii/fan/id_00/abnormal/00000000.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000001.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000002.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000003.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000005.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000006.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000008.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000009.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000010.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000011.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000012.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000013.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000014.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000017.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000018.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000019.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000021.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000022.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000023.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000024.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000025.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000026.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000028.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000029.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000031.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000033.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000034.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000035.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000037.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000039.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000040.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000043.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000044.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000045.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000046.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000047.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000048.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000049.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000051.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000052.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000054.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000057.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000061.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000062.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000063.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000064.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000065.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000066.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000067.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000069.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000070.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000071.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000073.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000076.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000077.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000078.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000082.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000084.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000085.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000086.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000088.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000089.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000092.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000094.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000095.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000097.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000098.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000100.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000102.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000104.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000105.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000106.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000107.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000108.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000109.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000111.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000113.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000114.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000115.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000117.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000118.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000121.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000122.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000127.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000129.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000130.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000131.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000132.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000133.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000134.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000135.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000136.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000137.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000138.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000139.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000140.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000141.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000142.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000143.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000144.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000146.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000147.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000148.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000149.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000150.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000151.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000152.wav",
+            "../../../dataset/mimii/fan/id_00/abnormal/00000178.wav"
+        ]
+    },
+    {
+        "filename": "w-pump-id_04-abnormal-(-1).csv",
+        "machine_type": "pump",
+        "machine_id": "id_04",
+        "label": "abnormal",
+        "nan_filenames": []
+    },
+    {
+        "filename": "w-fan-id_04-normal-(-1).csv",
+        "machine_type": "fan",
+        "machine_id": "id_04",
+        "label": "normal",
+        "nan_filenames": []
+    }
+]

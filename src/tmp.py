@@ -162,6 +162,68 @@ def calculate_nan():
 
    }
 
+def shifted_sequence(sequence, num_sequences):
+    """Given a sequence (say a list) and an integer, returns a zipped iterator
+    of sequence[:-num_sequences + 1], sequence[1:-num_sequences + 2], etc.
+
+    Args:
+        sequence (list or other iteratable): the sequence over which to iterate
+            in various orders
+        num_sequences (int): the number of sequences over which we iterate.
+            Also the number of elements which come out of the output at each call.
+
+    Returns:
+        iterator: zipped shifted sequences.
+    """
+    return zip(
+        *(
+            [list(sequence[i: -num_sequences + 1 + i]) for i in range(
+                num_sequences - 1)] + [sequence[num_sequences - 1:]]
+        )
+    )
+
+def list_dataframe_row_with_nan():
+   def getfilename(df: pd.DataFrame):
+      rows_with_nan = df[df.isnull().any(axis=1)]
+
+      # get column "filename" values from rows with nan
+      nan_filenames = rows_with_nan["filename"].values.tolist()
+
+      return nan_filenames
+   
+   import sys
+   dirpath = sys.argv[1]
+
+   files = os.listdir(dirpath)
+   files = [f for f in files if f.endswith('.csv')]
+
+   all_nan_filenames = []
+   for f in files:
+      filepath = os.path.join(dirpath, f)
+      df = pd.read_csv(filepath)
+
+      nan_filenames = getfilename(df)
+      # print(f, nan_filenames)
+      nan_filenames.sort()
+
+      splitted = f.split("-")
+      machine_type = splitted[1]
+      machine_id = splitted[2]
+      label = splitted[3]
+
+      res = {
+         "filename": f,
+         "machine_type": machine_type,
+         "machine_id": machine_id,
+         "label": label,
+         "nan_filenames": nan_filenames
+      }
+
+      all_nan_filenames.append(res)
+
+   print(all_nan_filenames)
+
+
 def main():
    # check_csv_len()
    # check_dataset_len()
@@ -169,7 +231,15 @@ def main():
    # check_nan()
    # sort_csv()
    # remove_dirpath()
-   calculate_nan()
+   # calculate_nan()
+
+   # res = (shifted_sequence([1,2,3,4,5], 2))
+   # for r in res:
+   #    print(r)
+
+   list_dataframe_row_with_nan()
+
+
 
 if __name__ == '__main__':
   main()
