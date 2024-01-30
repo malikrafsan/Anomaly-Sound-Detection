@@ -1,0 +1,514 @@
+[
+    {
+        "filename": "w-slider-id_06-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_06",
+        "machine_type": "slider",
+        "label": "normal"
+    },
+    {
+        "filename": "w-fan-id_02-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_02",
+        "machine_type": "fan",
+        "label": "normal"
+    },
+    {
+        "filename": "w-pump-id_02-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 1,
+            "jitter_local-absolute": 1,
+            "jitter_rap": 1,
+            "jitter_ppq5": 1,
+            "jitter_ddp": 1
+        },
+        "id_machine": "id_02",
+        "machine_type": "pump",
+        "label": "normal"
+    },
+    {
+        "filename": "w-fan-id_02-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_02",
+        "machine_type": "fan",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-pump-id_00-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_00",
+        "machine_type": "pump",
+        "label": "normal"
+    },
+    {
+        "filename": "w-pump-id_06-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_06",
+        "machine_type": "pump",
+        "label": "normal"
+    },
+    {
+        "filename": "w-valve-id_04-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_04",
+        "machine_type": "valve",
+        "label": "normal"
+    },
+    {
+        "filename": "w-pump-id_00-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_00",
+        "machine_type": "pump",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-slider-id_04-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_04",
+        "machine_type": "slider",
+        "label": "normal"
+    },
+    {
+        "filename": "w-valve-id_02-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_02",
+        "machine_type": "valve",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-fan-id_06-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_06",
+        "machine_type": "fan",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-slider-id_06-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_06",
+        "machine_type": "slider",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-pump-id_04-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_04",
+        "machine_type": "pump",
+        "label": "normal"
+    },
+    {
+        "filename": "w-valve-id_00-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 3,
+            "jitter_local-absolute": 3,
+            "jitter_rap": 3,
+            "jitter_ppq5": 3,
+            "jitter_ddp": 3
+        },
+        "id_machine": "id_00",
+        "machine_type": "valve",
+        "label": "normal"
+    },
+    {
+        "filename": "w-pump-id_02-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_02",
+        "machine_type": "pump",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-fan-id_04-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_04",
+        "machine_type": "fan",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-slider-id_02-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_02",
+        "machine_type": "slider",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-slider-id_02-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_02",
+        "machine_type": "slider",
+        "label": "normal"
+    },
+    {
+        "filename": "w-slider-id_00-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_00",
+        "machine_type": "slider",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-valve-id_02-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_02",
+        "machine_type": "valve",
+        "label": "normal"
+    },
+    {
+        "filename": "w-valve-id_00-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 1,
+            "jitter_local-absolute": 1,
+            "jitter_rap": 1,
+            "jitter_ppq5": 1,
+            "jitter_ddp": 1
+        },
+        "id_machine": "id_00",
+        "machine_type": "valve",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-valve-id_06-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_06",
+        "machine_type": "valve",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-pump-id_06-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_06",
+        "machine_type": "pump",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-fan-id_00-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 3,
+            "jitter_local-absolute": 3,
+            "jitter_rap": 3,
+            "jitter_ppq5": 3,
+            "jitter_ddp": 3
+        },
+        "id_machine": "id_00",
+        "machine_type": "fan",
+        "label": "normal"
+    },
+    {
+        "filename": "w-fan-id_06-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_06",
+        "machine_type": "fan",
+        "label": "normal"
+    },
+    {
+        "filename": "w-slider-id_04-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_04",
+        "machine_type": "slider",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-slider-id_00-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_00",
+        "machine_type": "slider",
+        "label": "normal"
+    },
+    {
+        "filename": "w-valve-id_04-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_04",
+        "machine_type": "valve",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-valve-id_06-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_06",
+        "machine_type": "valve",
+        "label": "normal"
+    },
+    {
+        "filename": "w-fan-id_00-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 61,
+            "jitter_local": 108,
+            "jitter_local-absolute": 108,
+            "jitter_rap": 108,
+            "jitter_ppq5": 108,
+            "jitter_ddp": 108
+        },
+        "id_machine": "id_00",
+        "machine_type": "fan",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-pump-id_04-abnormal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_04",
+        "machine_type": "pump",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-fan-id_04-normal-(-1).csv",
+        "nan_columns_count": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "id_machine": "id_04",
+        "machine_type": "fan",
+        "label": "normal"
+    }
+]

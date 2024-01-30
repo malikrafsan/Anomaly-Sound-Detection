@@ -38,6 +38,11 @@ def prepare_data(
     df_normal_dropped["label"] = False
     df_abnormal_dropped["label"] = True
 
+    # drop columns with a lot of NaN
+    DROPPED_COLUMNS_NAN = ["apq5Shimmer", "apq11Shimmer", "ppq5Jitter"]
+    df_normal_dropped = df_normal_dropped.drop(columns=DROPPED_COLUMNS_NAN)
+    df_abnormal_dropped = df_abnormal_dropped.drop(columns=DROPPED_COLUMNS_NAN)
+
     # get columns with all NaN
     cols_nan_normal = df_normal_dropped.columns[df_normal_dropped.isnull().all()].tolist()
     cols_nan_abnormal = df_abnormal_dropped.columns[df_abnormal_dropped.isnull().all()].tolist()
@@ -305,8 +310,8 @@ def process(
     abnormal_filename = f"w-{machine_type}-{machine_id}-abnormal-(-1).csv"
     
     # outdir = f"../out/results/praat"
-    imgdirpath = f"{outdir}/images-2"
-    resultdirpath = f"{outdir}/results-2"
+    imgdirpath = f"{outdir}/images-3"
+    resultdirpath = f"{outdir}/results-3"
     os.makedirs(outdir, exist_ok=True)
     os.makedirs(imgdirpath, exist_ok=True)
     os.makedirs(resultdirpath, exist_ok=True)
@@ -421,7 +426,7 @@ def main():
 
             all_results.append(append_res)
 
-    with open(f"{outdir}/all-metrics-2.json", "w") as outfile:
+    with open(f"{outdir}/all-metrics-3.json", "w") as outfile:
         json.dump(all_results, outfile, cls=NpEncoder, indent=4)
 
     brief_results = []
@@ -442,7 +447,7 @@ def main():
 
         brief_results.append(roc_aucs)
     
-    with open(f"{outdir}/brief-metrics-2.json", "w") as outfile:
+    with open(f"{outdir}/brief-metrics-3.json", "w") as outfile:
         json.dump(brief_results, outfile, cls=NpEncoder, indent=4)
 
 
