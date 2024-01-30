@@ -1,0 +1,912 @@
+[
+    {
+        "filename": "w-fan-id_00-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 61,
+            "jitter_local": 108,
+            "jitter_local-absolute": 108,
+            "jitter_rap": 108,
+            "jitter_ppq5": 108,
+            "jitter_ddp": 108
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 14.987714987714988,
+            "jitter_local": 26.535626535626534,
+            "jitter_local-absolute": 26.535626535626534,
+            "jitter_rap": 26.535626535626534,
+            "jitter_ppq5": 26.535626535626534,
+            "jitter_ddp": 26.535626535626534
+        },
+        "id_machine": "id_00",
+        "machine_type": "fan",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-fan-id_00-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 3,
+            "jitter_local-absolute": 3,
+            "jitter_rap": 3,
+            "jitter_ppq5": 3,
+            "jitter_ddp": 3
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.2967359050445104,
+            "jitter_local-absolute": 0.2967359050445104,
+            "jitter_rap": 0.2967359050445104,
+            "jitter_ppq5": 0.2967359050445104,
+            "jitter_ddp": 0.2967359050445104
+        },
+        "id_machine": "id_00",
+        "machine_type": "fan",
+        "label": "normal"
+    },
+    {
+        "filename": "w-fan-id_02-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_02",
+        "machine_type": "fan",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-fan-id_02-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_02",
+        "machine_type": "fan",
+        "label": "normal"
+    },
+    {
+        "filename": "w-fan-id_04-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_04",
+        "machine_type": "fan",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-fan-id_04-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_04",
+        "machine_type": "fan",
+        "label": "normal"
+    },
+    {
+        "filename": "w-fan-id_06-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_06",
+        "machine_type": "fan",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-fan-id_06-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_06",
+        "machine_type": "fan",
+        "label": "normal"
+    },
+    {
+        "filename": "w-pump-id_00-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_00",
+        "machine_type": "pump",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-pump-id_00-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_00",
+        "machine_type": "pump",
+        "label": "normal"
+    },
+    {
+        "filename": "w-pump-id_02-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_02",
+        "machine_type": "pump",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-pump-id_02-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 1,
+            "jitter_local-absolute": 1,
+            "jitter_rap": 1,
+            "jitter_ppq5": 1,
+            "jitter_ddp": 1
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.09950248756218905,
+            "jitter_local-absolute": 0.09950248756218905,
+            "jitter_rap": 0.09950248756218905,
+            "jitter_ppq5": 0.09950248756218905,
+            "jitter_ddp": 0.09950248756218905
+        },
+        "id_machine": "id_02",
+        "machine_type": "pump",
+        "label": "normal"
+    },
+    {
+        "filename": "w-pump-id_04-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_04",
+        "machine_type": "pump",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-pump-id_04-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_04",
+        "machine_type": "pump",
+        "label": "normal"
+    },
+    {
+        "filename": "w-pump-id_06-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_06",
+        "machine_type": "pump",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-pump-id_06-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_06",
+        "machine_type": "pump",
+        "label": "normal"
+    },
+    {
+        "filename": "w-slider-id_00-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_00",
+        "machine_type": "slider",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-slider-id_00-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_00",
+        "machine_type": "slider",
+        "label": "normal"
+    },
+    {
+        "filename": "w-slider-id_02-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_02",
+        "machine_type": "slider",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-slider-id_02-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_02",
+        "machine_type": "slider",
+        "label": "normal"
+    },
+    {
+        "filename": "w-slider-id_04-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_04",
+        "machine_type": "slider",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-slider-id_04-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_04",
+        "machine_type": "slider",
+        "label": "normal"
+    },
+    {
+        "filename": "w-slider-id_06-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_06",
+        "machine_type": "slider",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-slider-id_06-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_06",
+        "machine_type": "slider",
+        "label": "normal"
+    },
+    {
+        "filename": "w-valve-id_00-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 1,
+            "jitter_local-absolute": 1,
+            "jitter_rap": 1,
+            "jitter_ppq5": 1,
+            "jitter_ddp": 1
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.8403361344537815,
+            "jitter_local-absolute": 0.8403361344537815,
+            "jitter_rap": 0.8403361344537815,
+            "jitter_ppq5": 0.8403361344537815,
+            "jitter_ddp": 0.8403361344537815
+        },
+        "id_machine": "id_00",
+        "machine_type": "valve",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-valve-id_00-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 3,
+            "jitter_local-absolute": 3,
+            "jitter_rap": 3,
+            "jitter_ppq5": 3,
+            "jitter_ddp": 3
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.30272452068617556,
+            "jitter_local-absolute": 0.30272452068617556,
+            "jitter_rap": 0.30272452068617556,
+            "jitter_ppq5": 0.30272452068617556,
+            "jitter_ddp": 0.30272452068617556
+        },
+        "id_machine": "id_00",
+        "machine_type": "valve",
+        "label": "normal"
+    },
+    {
+        "filename": "w-valve-id_02-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_02",
+        "machine_type": "valve",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-valve-id_02-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_02",
+        "machine_type": "valve",
+        "label": "normal"
+    },
+    {
+        "filename": "w-valve-id_04-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_04",
+        "machine_type": "valve",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-valve-id_04-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_04",
+        "machine_type": "valve",
+        "label": "normal"
+    },
+    {
+        "filename": "w-valve-id_06-abnormal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_06",
+        "machine_type": "valve",
+        "label": "abnormal"
+    },
+    {
+        "filename": "w-valve-id_06-normal-(-1).csv",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 0,
+            "jitter_local-absolute": 0,
+            "jitter_rap": 0,
+            "jitter_ppq5": 0,
+            "jitter_ddp": 0
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.0,
+            "jitter_local-absolute": 0.0,
+            "jitter_rap": 0.0,
+            "jitter_ppq5": 0.0,
+            "jitter_ddp": 0.0
+        },
+        "id_machine": "id_06",
+        "machine_type": "valve",
+        "label": "normal"
+    },
+    {
+        "filename": "normal-total",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 0,
+            "jitter_local": 7,
+            "jitter_local-absolute": 7,
+            "jitter_rap": 7,
+            "jitter_ppq5": 7,
+            "jitter_ddp": 7
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.0,
+            "jitter_local": 0.04755757863985325,
+            "jitter_local-absolute": 0.04755757863985325,
+            "jitter_rap": 0.04755757863985325,
+            "jitter_ppq5": 0.04755757863985325,
+            "jitter_ddp": 0.04755757863985325
+        },
+        "id_machine": "normal-total",
+        "machine_type": "normal-total",
+        "label": "normal-total"
+    },
+    {
+        "filename": "abnormal-total",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 61,
+            "jitter_local": 109,
+            "jitter_local-absolute": 109,
+            "jitter_rap": 109,
+            "jitter_ppq5": 109,
+            "jitter_ddp": 109
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 1.8484848484848486,
+            "jitter_local": 3.3030303030303028,
+            "jitter_local-absolute": 3.3030303030303028,
+            "jitter_rap": 3.3030303030303028,
+            "jitter_ppq5": 3.3030303030303028,
+            "jitter_ddp": 3.3030303030303028
+        },
+        "id_machine": "abnormal-total",
+        "machine_type": "abnormal-total",
+        "label": "abnormal-total"
+    },
+    {
+        "filename": "total",
+        "nan_cnt": {
+            "FundamentalFrequency": 0,
+            "HarmonicstoNoiseRatio": 0,
+            "PulsesPerSec": 61,
+            "jitter_local": 116,
+            "jitter_local-absolute": 116,
+            "jitter_rap": 116,
+            "jitter_ppq5": 116,
+            "jitter_ddp": 116
+        },
+        "nan_percentage": {
+            "FundamentalFrequency": 0.0,
+            "HarmonicstoNoiseRatio": 0.0,
+            "PulsesPerSec": 0.3385315500305233,
+            "jitter_local": 0.6437649148121427,
+            "jitter_local-absolute": 0.6437649148121427,
+            "jitter_rap": 0.6437649148121427,
+            "jitter_ppq5": 0.6437649148121427,
+            "jitter_ddp": 0.6437649148121427
+        },
+        "id_machine": "total",
+        "machine_type": "total",
+        "label": "total"
+    }
+]

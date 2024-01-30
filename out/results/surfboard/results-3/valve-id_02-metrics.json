@@ -1,0 +1,182 @@
+[
+    {
+        "model_name": "isolation_forest",
+        "mean_roc_auc": 0.8224668697765791,
+        "mean_pr_auc": 0.8545985568825316,
+        "std_roc_auc": 0.0235943399465959,
+        "std_pr_auc": 0.02131652326087316,
+        "roc_auc": 0.842781690140845,
+        "pr_auc": 0.8748244727629286,
+        "iterative_threshold_method": {
+            "f1_score": 0.8109965635738832,
+            "precision_score": 0.7919463087248322,
+            "recall_score": 0.8309859154929577,
+            "accuracy_score": 0.7900763358778626,
+            "confusion_matrix": [
+                [
+                    89,
+                    31
+                ],
+                [
+                    24,
+                    118
+                ]
+            ],
+            "classification_report": "              precision    recall  f1-score   support\n\n          -1       0.79      0.74      0.76       120\n           1       0.79      0.83      0.81       142\n\n    accuracy                           0.79       262\n   macro avg       0.79      0.79      0.79       262\nweighted avg       0.79      0.79      0.79       262\n",
+            "best_threshold": -0.44152165132875915
+        },
+        "derive_threshold_method": {
+            "f1_score": 0.7938931297709925,
+            "precision_score": 0.8666666666666667,
+            "recall_score": 0.7323943661971831,
+            "accuracy_score": 0.7938931297709924,
+            "confusion_matrix": [
+                [
+                    104,
+                    16
+                ],
+                [
+                    38,
+                    104
+                ]
+            ],
+            "classification_report": "              precision    recall  f1-score   support\n\n          -1       0.73      0.87      0.79       120\n           1       0.87      0.73      0.79       142\n\n    accuracy                           0.79       262\n   macro avg       0.80      0.80      0.79       262\nweighted avg       0.81      0.79      0.79       262\n",
+            "best_threshold": -0.42174937695969333
+        }
+    },
+    {
+        "model_name": "one_class_svm",
+        "mean_roc_auc": 0.5473029667365898,
+        "mean_pr_auc": 0.7923367475561037,
+        "std_roc_auc": 0.009013061859342246,
+        "std_pr_auc": 0.0043129130074535706,
+        "roc_auc": 0.545774647887324,
+        "pr_auc": 0.7919578539941942,
+        "iterative_threshold_method": {
+            "f1_score": 0.7029702970297029,
+            "precision_score": 0.5419847328244275,
+            "recall_score": 1.0,
+            "accuracy_score": 0.5419847328244275,
+            "confusion_matrix": [
+                [
+                    0,
+                    120
+                ],
+                [
+                    0,
+                    142
+                ]
+            ],
+            "classification_report": "              precision    recall  f1-score   support\n\n          -1       0.00      0.00      0.00       120\n           1       0.54      1.00      0.70       142\n\n    accuracy                           0.54       262\n   macro avg       0.27      0.50      0.35       262\nweighted avg       0.29      0.54      0.38       262\n",
+            "best_threshold": 0.0
+        },
+        "derive_threshold_method": {
+            "f1_score": 0.16774193548387095,
+            "precision_score": 1.0,
+            "recall_score": 0.09154929577464789,
+            "accuracy_score": 0.5076335877862596,
+            "confusion_matrix": [
+                [
+                    120,
+                    0
+                ],
+                [
+                    129,
+                    13
+                ]
+            ],
+            "classification_report": "              precision    recall  f1-score   support\n\n          -1       0.48      1.00      0.65       120\n           1       1.00      0.09      0.17       142\n\n    accuracy                           0.51       262\n   macro avg       0.74      0.55      0.41       262\nweighted avg       0.76      0.51      0.39       262\n",
+            "best_threshold": 2.7755575615628914e-17
+        }
+    },
+    {
+        "model_name": "local_outlier_factor",
+        "mean_roc_auc": 0.82830299170912,
+        "mean_pr_auc": 0.8041737728287242,
+        "std_roc_auc": 0.0265036110455805,
+        "std_pr_auc": 0.03921418936019404,
+        "roc_auc": 0.8247359154929578,
+        "pr_auc": 0.8063552881610743,
+        "iterative_threshold_method": {
+            "f1_score": 0.8184615384615386,
+            "precision_score": 0.726775956284153,
+            "recall_score": 0.9366197183098591,
+            "accuracy_score": 0.7748091603053435,
+            "confusion_matrix": [
+                [
+                    70,
+                    50
+                ],
+                [
+                    9,
+                    133
+                ]
+            ],
+            "classification_report": "              precision    recall  f1-score   support\n\n          -1       0.89      0.58      0.70       120\n           1       0.73      0.94      0.82       142\n\n    accuracy                           0.77       262\n   macro avg       0.81      0.76      0.76       262\nweighted avg       0.80      0.77      0.77       262\n",
+            "best_threshold": -1.640723708726572
+        },
+        "derive_threshold_method": {
+            "f1_score": 0.8164556962025317,
+            "precision_score": 0.7413793103448276,
+            "recall_score": 0.9084507042253521,
+            "accuracy_score": 0.7786259541984732,
+            "confusion_matrix": [
+                [
+                    75,
+                    45
+                ],
+                [
+                    13,
+                    129
+                ]
+            ],
+            "classification_report": "              precision    recall  f1-score   support\n\n          -1       0.85      0.62      0.72       120\n           1       0.74      0.91      0.82       142\n\n    accuracy                           0.78       262\n   macro avg       0.80      0.77      0.77       262\nweighted avg       0.79      0.78      0.77       262\n",
+            "best_threshold": -1.5631898062518814
+        }
+    },
+    {
+        "model_name": "gaussian_mixture",
+        "mean_roc_auc": 0.8516115606166549,
+        "mean_pr_auc": 0.8920647967546298,
+        "std_roc_auc": 0.012272878074989663,
+        "std_pr_auc": 0.006648040802532913,
+        "roc_auc": 0.8484741784037559,
+        "pr_auc": 0.8913591715186173,
+        "iterative_threshold_method": {
+            "f1_score": 0.8127208480565371,
+            "precision_score": 0.8156028368794326,
+            "recall_score": 0.8098591549295775,
+            "accuracy_score": 0.7977099236641222,
+            "confusion_matrix": [
+                [
+                    94,
+                    26
+                ],
+                [
+                    27,
+                    115
+                ]
+            ],
+            "classification_report": "              precision    recall  f1-score   support\n\n          -1       0.78      0.78      0.78       120\n           1       0.82      0.81      0.81       142\n\n    accuracy                           0.80       262\n   macro avg       0.80      0.80      0.80       262\nweighted avg       0.80      0.80      0.80       262\n",
+            "best_threshold": -12.185300179380688
+        },
+        "derive_threshold_method": {
+            "f1_score": 0.8089887640449438,
+            "precision_score": 0.864,
+            "recall_score": 0.7605633802816901,
+            "accuracy_score": 0.8053435114503816,
+            "confusion_matrix": [
+                [
+                    103,
+                    17
+                ],
+                [
+                    34,
+                    108
+                ]
+            ],
+            "classification_report": "              precision    recall  f1-score   support\n\n          -1       0.75      0.86      0.80       120\n           1       0.86      0.76      0.81       142\n\n    accuracy                           0.81       262\n   macro avg       0.81      0.81      0.81       262\nweighted avg       0.81      0.81      0.81       262\n",
+            "best_threshold": -10.979082131060165
+        }
+    }
+]

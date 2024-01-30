@@ -1,0 +1,52 @@
+{
+    "abnormal": {
+        "FundamentalFrequency": 0,
+        "HarmonicstoNoiseRatio": 0,
+        "PulsesPerSec": 61,
+        "jitter_local": 109,
+        "jitter_local-absolute": 109,
+        "jitter_rap": 109,
+        "jitter_ppq5": 109,
+        "jitter_ddp": 109
+    },
+    "abnormal_percentage": {
+        "FundamentalFrequency": 0.0,
+        "HarmonicstoNoiseRatio": 0.0,
+        "PulsesPerSec": 1.8484848484848486,
+        "jitter_local": 3.3030303030303028,
+        "jitter_local-absolute": 3.3030303030303028,
+        "jitter_rap": 3.3030303030303028,
+        "jitter_ppq5": 3.3030303030303028,
+        "jitter_ddp": 3.3030303030303028
+    },
+    "normal": {
+        "FundamentalFrequency": 0,
+        "HarmonicstoNoiseRatio": 0,
+        "PulsesPerSec": 0,
+        "jitter_local": 7,
+        "jitter_local-absolute": 7,
+        "jitter_rap": 7,
+        "jitter_ppq5": 7,
+        "jitter_ddp": 7
+    },
+    "normal_percentage": {
+        "FundamentalFrequency": 0.0,
+        "HarmonicstoNoiseRatio": 0.0,
+        "PulsesPerSec": 0.0,
+        "jitter_local": 0.04755757863985325,
+        "jitter_local-absolute": 0.04755757863985325,
+        "jitter_rap": 0.04755757863985325,
+        "jitter_ppq5": 0.04755757863985325,
+        "jitter_ddp": 0.04755757863985325
+    },
+    "all": {
+        "FundamentalFrequency": 0,
+        "HarmonicstoNoiseRatio": 0,
+        "PulsesPerSec": 61,
+        "jitter_local": 116,
+        "jitter_local-absolute": 116,
+        "jitter_rap": 116,
+        "jitter_ppq5": 116,
+        "jitter_ddp": 116
+    }
+}
