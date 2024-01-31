@@ -233,7 +233,8 @@ def calc_nan_columns():
    files = [f for f in files if f.endswith('.csv')]
    files.sort()
 
-   EXCLUDED_COLUMNS = ["filename", "label", "id_machine", "machine_type"]
+   # EXCLUDED_COLUMNS = ["filename", "label", "id_machine", "machine_type"]
+   EXCLUDED_COLUMNS = ["filename"]
 
    results = []
    total_normal_rows = 0
@@ -243,9 +244,14 @@ def calc_nan_columns():
       filepath = os.path.join(dirpath, file)
       df = pd.read_csv(filepath)
 
-      id_machine = df["id_machine"].values[0]
-      machine_type = df["machine_type"].values[0]
-      label = df["label"].values[0]
+      # id_machine = df["id_machine"].values[0]
+      # machine_type = df["machine_type"].values[0]
+      # label = df["label"].values[0]
+
+      splitted = file.split("-")
+      id_machine = splitted[2]
+      machine_type = splitted[1]
+      label = splitted[3].split(".")[0]
 
       df = df.drop(EXCLUDED_COLUMNS, axis=1)
 
@@ -321,6 +327,7 @@ def calc_nan_columns():
    }
 
    outdir = sys.argv[2]
+   os.makedirs(outdir, exist_ok=True)
 
    # save summary to json file
    with open(os.path.join(outdir, "nan-summary.json"), "w") as f:
@@ -394,6 +401,71 @@ def heatmap():
    outdir = sys.argv[2]
    plt.savefig(os.path.join(outdir, "heatmap-nan-values.png"))
 
+def heatmap_opensmile():
+   import matplotlib.pyplot as plt
+   import seaborn as sns
+   import pandas as pd
+   import numpy as np
+   import sys
+
+   filepath = sys.argv[1]
+   df = pd.read_csv(filepath)
+
+   # drop column that startswith "nan_cnt"
+   df = df.loc[:, ~df.columns.str.startswith('all.')]
+
+   heatmap_data = df.T  # df.set_index("machine-identifier").T
+
+   plt.figure(figsize=(20, 10))
+
+   # fmt float with 2 decimal places
+   sns.heatmap(heatmap_data, annot=True, fmt='.1f', cmap='viridis')
+
+   plt.xticks(rotation=45)
+
+   # add padding to figure
+   plt.tight_layout()
+
+   # save figure
+   outdir = sys.argv[2]
+   plt.savefig(os.path.join(outdir, "heatmap-nan-values.png"))
+
+def heatmap_opensmile_json():
+   import matplotlib.pyplot as plt
+   import seaborn as sns
+   import pandas as pd
+   import numpy as np
+   import sys
+
+   filepath = sys.argv[1]
+   outdir = sys.argv[2]
+
+   # parse json
+   import json
+   with open(filepath) as f:
+      data = json.load(f)
+
+   data = [{
+      "machine-identifier": f"{x['machine_type']}-{x['id_machine']}-{x['label']}",
+      **x["nan_percentage"]
+   } for x in data]
+
+   df = pd.DataFrame(data)
+   df = df.set_index("machine-identifier").T
+
+
+   plt.figure(figsize=(20, 10))
+
+   # fmt float with 2 decimal places
+   sns.heatmap(df, annot=True, fmt='.1f', cmap='viridis')
+
+   plt.xticks(rotation=45)
+
+   # add padding to figure
+   plt.tight_layout()
+
+   plt.savefig(os.path.join(outdir, "heatmap-nan-values.png"))
+
 
 def main():
    # check_csv_len()
@@ -410,7 +482,8 @@ def main():
 
    # list_dataframe_row_with_nan()
    # calc_nan_columns()
-   heatmap()
+   # heatmap_opensmile()
+   heatmap_opensmile_json()
 
 
 if __name__ == '__main__':

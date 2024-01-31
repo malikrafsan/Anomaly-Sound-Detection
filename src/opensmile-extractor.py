@@ -20,7 +20,9 @@ def process(
     label,
   )
 
-  outdir = f"../out/raw/opensmile"
+  feature_set = opensmile.FeatureSet.eGeMAPSv02
+
+  outdir = f"../out/raw/opensmile-{feature_set}"
   os.makedirs(outdir, exist_ok=True)
 
   files = os.listdir(dirpath)
@@ -28,7 +30,7 @@ def process(
   files.sort()
 
   smile = opensmile.Smile(
-    feature_set=opensmile.FeatureSet.ComParE_2016,
+    feature_set=feature_set,
     feature_level=opensmile.FeatureLevel.Functionals,
   )
 
@@ -41,22 +43,23 @@ def process(
     results.append(res)
 
   df = pd.concat(results)
-  outname = f"{outdir}/opensmile-{machine_type}-{machine_id}-{label}.csv"
+  outname = f"{outdir}/opensmile{feature_set}-{machine_type}-{machine_id}-{label}.csv"
 
   df.to_csv(outname, index=False)
 
 def main():
-  # machine_type = sys.argv[1]
-  # machine_id = sys.argv[2]
+  machine_type = sys.argv[1]
+  machine_id = sys.argv[2]
   # label = sys.argv[3]
 
   # process(machine_type, machine_id, label)
+  for label in LABELS:
+    process(machine_type, machine_id, label)
 
-  for machine_type in MACHINE_TYPES:
-    for machine_id in MACHINE_IDS:
-      for label in LABELS:
-        print(machine_type, machine_id, label)
-        process(machine_type, machine_id, label)
+  # for machine_type in MACHINE_TYPES:
+  #   for machine_id in MACHINE_IDS:
+  #     for label in LABELS:
+  #       process(machine_type, machine_id, label)
 
 if __name__ == "__main__":
   main()

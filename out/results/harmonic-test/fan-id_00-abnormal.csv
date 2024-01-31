@@ -1,0 +1,2 @@
+harmonic_test_rfft.is_harmonic,harmonic_test_rfft.fundamental_freq,harmonic_test_fft.is_harmonic,harmonic_test_fft.fundamental_freq,filename,machine_type,machine_id,label
+True,66.3,True,66.3,00000000.wav,fan,id_00,abnormal
