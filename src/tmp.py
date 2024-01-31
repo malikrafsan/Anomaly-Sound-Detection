@@ -466,6 +466,68 @@ def heatmap_opensmile_json():
 
    plt.savefig(os.path.join(outdir, "heatmap-nan-values.png"))
 
+def add_label_csv():
+   import sys
+   import os
+   import pandas as pd
+   
+   dirpath = sys.argv[1]
+   outdir = sys.argv[2]
+   os.makedirs(outdir, exist_ok=True)   
+   
+   files = os.listdir(dirpath)
+   csvfiles = [f for f in files if f.endswith('.csv')]
+   
+   for f in csvfiles:
+      filepath = os.path.join(dirpath, f)
+      df = pd.read_csv(filepath)
+      
+      splitted = f.split("-")
+      machine_type = splitted[0]
+      machine_id = splitted[1]
+      label = splitted[2].split(".")[0]
+      
+      df["machine_type"] = machine_type
+      df["machine_id"] = machine_id
+      df["label"] = label
+      
+      outpath = os.path.join(outdir, f)
+      df.to_csv(outpath, index=False)
+   
+   print("done")
+
+def add_label_json():
+   import sys
+   import os
+   import json
+   
+   dirpath = sys.argv[1]
+   outdir = sys.argv[2]
+   os.makedirs(outdir, exist_ok=True)   
+   
+   files = os.listdir(dirpath)
+   jsonfiles = [f for f in files if f.endswith('.json')]
+   
+   for file in jsonfiles:
+      filepath = os.path.join(dirpath, file)
+      with open(filepath) as f:
+         data = json.load(f)
+      
+      splitted = file.split("-")
+      machine_type = splitted[0]
+      machine_id = splitted[1]
+      label = splitted[2].split(".")[0]
+      
+      for d in data:         
+         data[d]["machine_type"] = machine_type
+         data[d]["machine_id"] = machine_id
+         data[d]["label"] = label
+      
+      outpath = os.path.join(outdir, file)
+      with open(outpath, "w") as f:
+         json.dump(data, f, indent=4)
+   
+   print("done")   
 
 def main():
    # check_csv_len()
@@ -483,7 +545,9 @@ def main():
    # list_dataframe_row_with_nan()
    # calc_nan_columns()
    # heatmap_opensmile()
-   heatmap_opensmile_json()
+   # heatmap_opensmile_json()
+   # add_label_csv()
+   add_label_json()
 
 
 if __name__ == '__main__':
