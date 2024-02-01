@@ -22,50 +22,32 @@ class NpEncoder(json.JSONEncoder):
 
 
 def harmonic_test_rfft(audio_file, tolerance=0.1):
-    # Load audio file
     y, sr = librosa.load(audio_file, sr=None)
 
-    # Apply FFT to the signal
     fft_result = np.fft.rfft(y)
     freqs = np.fft.rfftfreq(len(y), d=1/sr)
 
-    # Find the peak frequency (fundamental frequency)
     fundamental_freq = freqs[np.argmax(np.abs(fft_result))]
+    harmonic_frequencies = [fundamental_freq * (n + 1) for n in range(1, 6)]
 
-    # Analyze harmonics
-    harmonic_frequencies = [fundamental_freq * (n + 1) for n in range(1, 5)] # checking first 5 harmonics
-
-    # Check if these harmonics exist within a tolerance
     for harmonic in harmonic_frequencies:
         if not any(abs(freqs - harmonic) < tolerance):
-            return False, fundamental_freq
+            return False, fundamental_freq, harmonic_frequencies
 
     return True, fundamental_freq, harmonic_frequencies
 
 def harmonic_test_fft(filename:str):
     signal, sampling_rate = librosa.load(filename, sr=None)
     
-    # Perform FFT to get the frequency spectrum
     fft_result = np.fft.fft(signal)
-    print( "\nfft_result", len(fft_result), fft_result)
-    with open("fft_result.json", "w") as f:
-        json.dump(fft_result, f, cls=NpEncoder)
-    
-    # Get the corresponding frequencies
     frequencies = np.fft.fftfreq(len(signal), 1/sampling_rate)
-    print( "frequencies", len(frequencies), frequencies)
-    with open("frequencies.json", "w") as f:
-        json.dump(frequencies, f, cls=NpEncoder)
-    
-    # Find the peak frequency (fundamental frequency)
+
     fundamental_freq = np.abs(frequencies[np.argmax(np.abs(fft_result))])
+    harmonics = [fundamental_freq * i for i in range(2, 6)]
     
-    # Calculate the harmonics
-    harmonics = [fundamental_freq * i for i in range(2, 6)]  # You can adjust the range as needed
-    
-    # Check if harmonics are present in the signal
-    is_harmonic = all(np.any(np.isclose(frequencies, harmonic, atol=5)) for harmonic in harmonics)
-    
+    is_harmonic = all(np.any(np.isclose(frequencies, harmonic, atol=5)) 
+                        for harmonic in harmonics)
+
     return is_harmonic, fundamental_freq, harmonics
 
 
@@ -119,9 +101,6 @@ def handle(
     results = []
     # for file in files:
     for i in range(len(files)):
-        if i >= 1:
-            break
-
         file = files[i]
 
         path_to_file = f"{dirpath}/{file}"
@@ -146,6 +125,8 @@ def main():
     #     for machine_id in machine_ids:
     #         for label in labels:
     #             handle(outdir, machine_type, machine_id, label)
+    
+    
     machine_type = sys.argv[1]
     machine_id = sys.argv[2]
     

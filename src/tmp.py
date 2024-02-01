@@ -529,9 +529,41 @@ def add_label_json():
    
    print("done")   
 
+def check_df_len():
+   import sys
+   import os
+   
+   dirpath = sys.argv[1]
+   files = os.listdir(dirpath)
+   csvfiles = [f for f in files if f.endswith('.csv')]
+   csvfiles.sort()
+   
+   for f in csvfiles:
+      filepath = os.path.join(dirpath, f)
+      df = pd.read_csv(filepath)
+      print(f.replace(".csv","").split("-"), len(df))
+   
+def check_false():
+   import sys
+   import os
+   
+   dirpath = sys.argv[1]
+   
+   files = os.listdir(dirpath)
+   files = [f for f in files if f.endswith('.csv')]
+   files.sort()
+   
+   for f in files:
+      filepath = os.path.join(dirpath, f)
+      df = pd.read_csv(filepath)
+      
+      false1 = df[df["harmonic_test_rfft.is_harmonic"] == False]
+      false2 = df[df["harmonic_test_fft.is_harmonic"] == False]
+      print(f, len(false1), len(false2))   
+
 def main():
    # check_csv_len()
-   # check_dataset_len()
+   check_dataset_len()
    # check_freq_range()
    # check_nan()
    # sort_csv()
@@ -547,8 +579,9 @@ def main():
    # heatmap_opensmile()
    # heatmap_opensmile_json()
    # add_label_csv()
-   add_label_json()
-
+   # add_label_json()
+   # check_df_len()
+   # check_false()
 
 if __name__ == '__main__':
   main()
