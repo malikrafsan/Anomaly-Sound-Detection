@@ -2,7 +2,7 @@ MACHINE_TYPES = ["fan", "pump", "slider", "valve"]
 MACHINE_IDS = ["id_00", "id_02", "id_04", "id_06"]
 LABELS = ["normal", "abnormal"]
 DROPPED_COLUMNS = [
-    "filename","id_machine","machine_type","label"
+    "filename","machine_id","machine_type","label"
 ]
 
 import sys
@@ -38,26 +38,7 @@ def prepare_data(
     df_normal_dropped["label"] = False
     df_abnormal_dropped["label"] = True
 
-    # get columns with all NaN
-    cols_nan_normal = df_normal_dropped.columns[df_normal_dropped.isnull().all()].tolist()
-    cols_nan_abnormal = df_abnormal_dropped.columns[df_abnormal_dropped.isnull().all()].tolist()
-
-    # concat
-    cols_nan = list(set(cols_nan_normal + cols_nan_abnormal))
-
-    # drop columns with all NaN
-    df_normal_dropped = df_normal_dropped.drop(columns=cols_nan)
-    df_abnormal_dropped = df_abnormal_dropped.drop(columns=cols_nan)
-
-    imputer_normal = SimpleImputer(strategy="mean")
-    ndarray_normal_imputed = imputer_normal.fit_transform(df_normal_dropped)
-    df_normal_imputed = pd.DataFrame(ndarray_normal_imputed, columns=df_normal_dropped.columns)
-
-    imputer_abnormal = SimpleImputer(strategy="mean")
-    ndarray_abnormal_imputed = imputer_abnormal.fit_transform(df_abnormal_dropped)
-    df_abnormal_imputed = pd.DataFrame(ndarray_abnormal_imputed, columns=df_abnormal_dropped.columns)
-
-    return df_normal_imputed, df_abnormal_imputed
+    return df_normal_dropped, df_abnormal_dropped
 
 def split_data(
     df_normal_imputed: pd.DataFrame,
@@ -301,12 +282,11 @@ def process(
     }    
 
     # dirpath = f"../out/raw/praat"
-    normal_filename = f"w-{machine_type}-{machine_id}-normal-(-1).csv"
-    abnormal_filename = f"w-{machine_type}-{machine_id}-abnormal-(-1).csv"
+    normal_filename = f"{machine_type}-{machine_id}-normal.csv"
+    abnormal_filename = f"{machine_type}-{machine_id}-abnormal.csv"
     
-    # outdir = f"../out/results/praat"
-    imgdirpath = f"{outdir}/images-3"
-    resultdirpath = f"{outdir}/results-3"
+    imgdirpath = f"{outdir}/images"
+    resultdirpath = f"{outdir}/results"
     os.makedirs(outdir, exist_ok=True)
     os.makedirs(imgdirpath, exist_ok=True)
     os.makedirs(resultdirpath, exist_ok=True)
@@ -385,8 +365,6 @@ def process(
             model_name=model_name,
             visualize_flag=True,
         )
-        # print(metricsres)
-        # results.append(metricsres)
 
         res = {
             "model_name": model_name,
@@ -404,8 +382,8 @@ def process(
     return results
 
 def main():
-    dirpath = f"../out/raw/surfboard"
-    outdir = f"../out/results/surfboard"
+    dirpath = f"../out/raw/troparion-labeled"
+    outdir = f"../out/results/troparion"
 
     all_results = []
     for machine_type in MACHINE_TYPES:
@@ -442,7 +420,7 @@ def main():
 
         brief_results.append(roc_aucs)
     
-    with open(f"{outdir}/brief-metrics-3.json", "w") as outfile:
+    with open(f"{outdir}/brief-metrics.json", "w") as outfile:
         json.dump(brief_results, outfile, cls=NpEncoder, indent=4)
 
 
